@@ -1,0 +1,26 @@
+{
+    "queries": {
+        "285626a9-d4ce-41d5-ad3f-3437c07bdebc": "What is the file path of the document?",
+        "62fa375a-e154-4ed0-8e34-dd96376349ba": "What is the file name of the document?",
+        "979f1dcc-aed4-4950-9e07-17a8cc298992": "What is the file type of the document?",
+        "ae37f720-4ded-4db3-a762-b99664d918bc": "What is the creation date of the document?",
+        "55b9374e-c4ef-4c9e-b434-e8faeefa2e4e": "What is the last modified date of the document?",
+        "03b0f405-9357-40a0-b280-23fd42f60e1d": "What is the last accessed date of the document?",
+        "4fee0aac-3739-4960-93e4-a0e37ff14e0e": "What is the document title?",
+        "441bdec1-1726-4615-98c1-eccf7f33e49e": "What is the document about?",
+        "c6c46e2c-21cb-42fb-94fd-c6e81a890837": "How many questions can this excerpt answer?",
+        "fa25f346-713e-4b76-8983-81cf21122de4": "What is the size of the document in bytes?"
+    },
+    "responses": {
+        "285626a9-d4ce-41d5-ad3f-3437c07bdebc": "The file path of the document is \"necrovox_docs\\gangs copy.md\".",
+        "62fa375a-e154-4ed0-8e34-dd96376349ba": "The file name of the document is \"gangs copy.md\".",
+        "979f1dcc-aed4-4950-9e07-17a8cc298992": "The file type of the document is None.",
+        "ae37f720-4ded-4db3-a762-b99664d918bc": "The creation date of the document is 2024-01-12.",
+        "55b9374e-c4ef-4c9e-b434-e8faeefa2e4e": "The last modified date of the document is 2024-01-12.",
+        "03b0f405-9357-40a0-b280-23fd42f60e1d": "The last accessed date of the document is 2024-01-15.",
+        "4fee0aac-3739-4960-93e4-a0e37ff14e0e": "The document title is \"Necromunda Gangs: Unleashing Unique Entities, Titles, and Themes\".",
+        "441bdec1-1726-4615-98c1-eccf7f33e49e": "The document is about Necromunda Gangs.",
+        "c6c46e2c-21cb-42fb-94fd-c6e81a890837": "This excerpt can answer three questions.",
+        "fa25f346-713e-4b76-8983-81cf21122de4": "The size of the document is 476802 bytes."
+    }
+}
