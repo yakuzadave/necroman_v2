@@ -1,0 +1,264 @@
+openapi: 3.0.0
+info:
+  title: Necromunda Armoury API
+  description: API for accessing various categories of equipment and weapons in Necromunda.
+  version: "1.0.0"
+
+servers:
+  - url: https://fetchnecrodocs-627g0vp5hbkp.runkit.sh
+    description: Main server for Necromunda Armoury API
+
+paths:
+  /basic-weapons:
+    get:
+      operationId: getBasicWeapons
+      summary: Get basic weapons for Necromunda
+      responses:
+        '200':
+          description: A list of basic weapons for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching basic weapons
+
+  /pistols:
+    get:
+      operationId: getPistols
+      summary: Get pistols for Necromunda
+      responses:
+        '200':
+          description: A list of pistols for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching pistols
+
+  # Continue similarly for other endpoints like /special-weapons, /heavy-weapons, etc.
+  
+  /special-weapons:
+    get:
+      operationId: getSpecialWeapons
+      summary: Get special weapons for Necromunda
+      responses:
+        '200':
+          description: A list of special weapons for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching special weapons
+  
+  /heavy-weapons:
+    get:
+      operationId: getHeavyWeapons
+      summary: Get heavy weapons information for Necromunda
+      responses:
+        '200':
+          description: A list of special weapons
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching special weapons
+
+  /close-combat:
+    get:
+      operationId: getCloseCombatWeapons
+      summary: Get close-combat weapons information for Necromunda
+      responses:
+        '200':
+          description: A list of close-combat weapons
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching close-combat weapons
+  
+  /grenades:
+    get:
+      operationId: getGrenadeWeapons
+      summary: Get grenade weapons information for Necromunda
+      responses:
+        '200':
+          description: A list of grenade weapons
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching grenade weapons
+
+  /booby-traps:
+    get:
+      operationId: getBoobyTraps
+      summary: Get booby-traps information for Necromunda
+      responses:
+        '200':
+          description: A list of booby-traps for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching booby-traps
+  
+  /special-terrain-features:
+    get:
+      operationId: getSpecialTerrainFeatures
+      summary: Get special-terrain-features information for Necromunda
+      responses:
+        '200':
+          description: A list of special-terrain-features for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching special-terrain-features
+  
+  /armor:
+    get:
+      operationId: getArmor
+      summary: Get armor information for Necromunda
+      responses:
+        '200':
+          description: A list of armor for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching armor
+
+  /field-armor:
+    get:
+      operationId: getFieldArmor
+      summary: Get field-armor information for Necromunda
+      responses:
+        '200':
+          description: A list of field-armor for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching field-armor
+
+  /bionics:
+    get:
+      operationId: getBionics
+      summary: Get bionics information for Necromunda
+      responses:
+        '200':
+          description: A list of bionics for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching bionics
+
+  /gang-equipment:
+    get:
+      operationId: getGangEquipment
+      summary: Get gang-equipment information for Necromunda
+      responses:
+        '200':
+          description: A list of gang-equipment for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching gang-equipment
+
+  /personal-equipment:
+    get:
+      operationId: getPersonalEquipment
+      summary: Get personal-equipment information for Necromunda
+      responses:
+        '200':
+          description: A list of personal-equipment for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching personal-equipment
+
+  /chems:
+    get:
+      operationId: getChems
+      summary: Get chem information for Necromunda
+      responses:
+        '200':
+          description: A list of chems for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching chems
+
+  /weapon-accessories:
+    get:
+      operationId: getWeaponAccessories
+      summary: Get weapon-accessories information for Necromunda
+      responses:
+        '200':
+          description: A list of weapon-accessories for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching weapon-accessories
+
+  /status-items:
+    get:
+      operationId: getStatusItems
+      summary: Get status-items information for Necromunda
+      responses:
+        '200':
+          description: A list of status-items for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching status-items
+
+  /vehicle-upgrades:
+    get:
+      operationId: getVehicleUpgrades
+      summary: Get vehicle-upgrades information for Necromunda
+      responses:
+        '200':
+          description: A list of vehicle-upgrades for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error vehicle-upgrades
+
+  /mounts:
+    get:
+      operationId: getMounts
+      summary: Get mounts information for Necromunda
+      responses:
+        '200':
+          description: A list of mounts for Necromunda
+          content:
+            text/html:
+              schema:
+                type: string
+        '500':
+          description: Error fetching mounts

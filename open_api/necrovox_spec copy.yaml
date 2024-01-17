@@ -293,7 +293,7 @@ paths:
             text/html:
               schema:
                 type: string
-  /gangs/gang-lists/palanite-enforcers/eqipment-list:
+  /gangs/gang-lists/palanite-enforcers/equipment-list:
     get:
       operationId: getPalaniteEnforcersEquipmentList
       summary: Retrieve detailed HTML page about Palanite Enforcers equipment list
