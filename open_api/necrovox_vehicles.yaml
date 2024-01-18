@@ -1,0 +1,108 @@
+openapi: 3.0.0
+info:
+  title: Necro-vox API
+  description: API for accessing detailed information about various gangs, including House Delaque, from Necro-vox.
+  version: 1.0.0
+servers:
+  - url: https://necrovox.org/docs
+    description: Main API server for Necro-vox documentation
+paths:
+  /gangs/gang-additions/vehicles:
+    get:
+      operationId: getGangAdditionsVehicles
+      summary: Retrieve detailed HTML page about gang additions vehicles
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/wasteland-workshop:
+    get:
+      operationId: getGangAdditionsVehiclesWastelandWorkshop
+      summary: Retrieve detailed HTML page about gang additions vehicles wasteland workshop
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles wasteland workshop
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/cargo-8-ridgehauler:
+    get:
+      operationId: getGangAdditionsVehiclesCargo8Ridgehauler
+      summary: Retrieve detailed HTML page about gang additions vehicles cargo 8 ridgehauler
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles cargo 8 ridgehauler
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/chronos-pattern-ironcrawler:
+    get:
+      operationId: getGangAdditionsVehiclesChronosPatternIroncrawler
+      summary: Retrieve detailed HTML page about gang additions vehicles chronos pattern ironcrawler
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles chronos pattern ironcrawler
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/ridgerunner:
+    get:
+      operationId: getGangAdditionsVehiclesRidgerunner
+      summary: Retrieve detailed HTML page about gang additions vehicles ridgerunner
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles ridgerunner
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/rockgrinder:
+    get:
+      operationId: getGangAdditionsVehiclesRockgrinder
+      summary: Retrieve detailed HTML page about gang additions vehicles rockgrinder
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles rockgrinder
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/scrap-skiff:
+    get:
+      operationId: getGangAdditionsVehiclesScrapSkiff
+      summary: Retrieve detailed HTML page about gang additions vehicles scrap skiff
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles scrap skiff
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/sludge-barge:
+    get:
+      operationId: getGangAdditionsVehiclesSludgeBarge
+      summary: Retrieve detailed HTML page about gang additions vehicles sludge barge
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles sludge barge
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/vehicles/wolfquad:
+    get:
+      operationId: getGangAdditionsVehiclesWolfquad
+      summary: Retrieve detailed HTML page about gang additions vehicles wolfquad
+      responses:
+        '200':
+          description: HTML content about gang additions vehicles wolfquad
+          content:
+            text/html:
+              schema:
+                type: string

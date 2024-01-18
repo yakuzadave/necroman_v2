@@ -1,0 +1,909 @@
+{
+    "queries": {
+        "ec75b06e-0151-45e1-9a39-03a8df70332b": "How has the Necromunda game evolved since its 2017 version, and what challenges does this evolution pose for players and the community?",
+        "0dd671ee-8994-4c7e-8f9a-d893553f62cb": "In what ways does the website aim to make the rules of Necromunda clear and accessible, and why is it important for players to support the game by purchasing gangs and their corresponding House/Books?",
+        "a3f0cb8e-56c3-4a86-a4f3-e20e916c6567": "How does the Necromunda Core Rulebook define the essential elements required for playing the game? Provide at least three examples of these elements.",
+        "baaeddec-cd5a-4249-979a-94cd40613df6": "In the context of Necromunda, what are the three main components that players need to have in order to engage in gameplay? Explain the significance of each component in the overall gaming experience.",
+        "2b01d945-3b06-4213-a413-aedba67cac88": "What is the purpose of using \"Ready markers\" in the game? How do they indicate the status of a model?",
+        "8a3592b2-0415-40d3-8df6-584e5039a449": "Explain the significance of \"Blaze markers\" in the game. How do they represent the condition of a model?",
+        "e2388adc-43c8-45d5-89f0-03a282a066b8": "How does the process of photosynthesis contribute to the growth and development of plants?",
+        "0e85233b-4eac-4ae9-bcb9-1178aa514936": "Explain the role of DNA replication in the transmission of genetic information from one generation to the next.",
+        "fda30053-4d36-4e1e-bb4c-51a1a628a8cd": "How are blast markers used in weapons with the Blast trait? Provide a brief explanation of their purpose and the sizes available.",
+        "ef85fda4-1af5-4a5a-b57f-f3fb3a3c591a": "In what shape are blast markers typically designed? Describe the two size options commonly used for these circular templates.",
+        "3ab73296-91de-48d2-b208-84bb7b5be80c": "How would you describe the shape of flame templates used for weapons with the Template trait?",
+        "e240314c-eded-4ecc-b01d-1d7c2b01f9c1": "What is the approximate length of teardrop-shaped flame templates used for weapons with the Template trait?",
+        "26eb0323-8449-4833-91cc-50bde3b629ef": "How are distances measured in Necromunda and what unit of measurement is used?",
+        "09b81832-e723-4343-bbfe-2add5bc207d0": "What is the rule regarding pre-measuring distances in Necromunda and when are ranges measured according to the rules?",
+        "ac70fdee-123e-485d-9a61-89f8876ba896": "How does the triangular template mentioned in the context help in determining a model's vision arc? Explain its purpose and benefits.",
+        "2cec6c6e-4b53-4822-80af-592ef13cb9bd": "As a teacher, how would you use the triangular template to teach students about vision arcs? Provide an example of how you would incorporate it into a lesson plan.",
+        "5814baf7-cb60-44d7-85c2-bc71099710d6": "How do fighter and vehicle cards contribute to maintaining an uncluttered battlefield during battle?",
+        "6e642977-e255-467c-b159-219da6954bba": "In what ways do fighter and vehicle cards serve as a reference during battle?",
+        "f6b52ebf-8e6b-425b-82cc-ce974beb4510": "How does Yaktribe.games facilitate campaign arbitration and digital record-keeping of fighters in gang battles?",
+        "9ad94238-7197-499d-bd90-3809b72d88ce": "What are the main features of Yaktribe.games that make it widely used for managing campaigns and building gangs in the context of digital record-keeping?",
+        "7211d542-f8d8-4b5e-9015-402ad233da62": "How are the Firepower Dice used in Necromunda? Provide an example of a situation where the Firepower Dice would be rolled and explain the possible outcomes.",
+        "6c406ae3-b87b-4327-9d5d-36648fe461ea": "Explain the purpose and function of the Injury Dice in Necromunda. How are the severity of injuries determined using these dice? Provide an example of a scenario where the Injury Dice would be rolled and describe the potential results.",
+        "ebd3ad8f-378a-4028-a0e0-71229fdea476": "How does the hierarchy within a gang in Necromunda work, and what are the different ranks or types of models that can be found within a gang?",
+        "1761581f-cdd9-42fb-a35c-535161635939": "In the game of Necromunda, what is the significance of the terms 'fighter', 'vehicle', and 'model', and how do they relate to the rules of the game?",
+        "5e3f4b66-d7a0-4aac-a326-60e826b8d6ee": "In the context of the Necromunda Core Rulebook, what are the key components of a fighter profile and why are they important for gameplay?",
+        "7e8e9b20-3531-43eb-abdf-c4d7a702d059": "How does the inclusion of fighter profiles in the Necromunda Core Rulebook enhance the overall gaming experience and contribute to the strategic elements of the game?",
+        "c55792fd-b1ab-438a-b68f-ff318cf8f115": "How does the Orlock Gunner's Ballistic Skill (BS) compare to their Weapon Skill (WS)? Explain the significance of these characteristics in a battle scenario.",
+        "fa65906c-d611-4d5d-8dba-5ca223b50419": "What is the maximum and minimum value for the Orlock Gunner's Initiative (I)? How does this characteristic affect the fighter's performance in combat?",
+        "f213de45-7887-4cd5-968e-eee22b6c3ea3": "In a game scenario, a fighter with a Movement characteristic of 6 inches wants to move towards an enemy. What is the minimum number on a D6 roll that the fighter needs to achieve in order to successfully move towards the enemy?",
+        "637f055b-b32a-4dfc-8979-b548dd201123": "A fighter with a Ballistic Skill characteristic of 3 wants to shoot a ranged weapon at an opponent. What is the minimum number on a D6 roll that the fighter needs to achieve in order to successfully hit the opponent?",
+        "e1f9a5e7-a199-4d46-8a70-9aa6647df0df": "What information is typically included on a Fighter card in the game? How does this information contribute to the gameplay experience?",
+        "869e8751-6e6d-4715-af2f-a3488d04937f": "How can Gang Tactics card packs be utilized in the game? Explain their role in relation to Fighter cards and the overall gameplay.",
+        "dedd7eb6-5eb7-4364-af28-1398f9be81ab": "How does the use of weaponry by gang fighters contribute to the escalation of violence in their conflicts?",
+        "fe688b3a-53ba-4221-9f97-caa0ed35f920": "In what ways can the knowledge of gang fighters' weaponry help law enforcement agencies in combating gang-related crimes?",
+        "1a50b9f9-4bc2-4210-a5a2-98f8d9dc1ec2": "What are the key areas included in each Fighter card?",
+        "91c0daaa-7d26-4ec1-a76c-21bb988c86ca": "How are the psychological characteristics indicated on the Fighter card?",
+        "180db7f0-fb52-4f3a-aee3-e03217b3e35a": "How does the Necromunda Core Rulebook categorize weapon profiles? Provide an example of a weapon profile and explain its significance in the game.",
+        "a3e93990-4f90-4995-a7df-594087249ee8": "In the context of the Necromunda Core Rulebook, what is the purpose of weapon profiles? Discuss how weapon profiles contribute to the overall gameplay experience in Necromunda.",
+        "90fd7ab4-6356-462b-99dd-879672adf9cd": "How does the Accuracy (ACC) of a weapon affect hit rolls within Short and Long range? Provide an example using the Heavy stubber profile.",
+        "23b9b0d2-e894-4fc1-a5e5-445c4c6e06be": "Explain the significance of the Ammo (AM) stat in determining the chance of running Out of Ammo for a weapon. How does the Ammo stat of the Heavy stubber profile contribute to its effectiveness in combat?",
+        "e1808c46-fbf7-49c5-b125-e5fd7b37f91b": "How does the Necromunda Core Rulebook define vehicle profiles and what purpose do they serve in the game?",
+        "ddeb4d86-47ba-4632-8fcd-df015c051aae": "In the context of the Necromunda Core Rulebook, what sources are cited for the vehicle profiles and how does this contribute to the credibility and accuracy of the information provided?",
+        "7e127a90-da65-4182-b8b0-a8e85705ee3f": "In the given vehicle characteristics table, what does the abbreviation \"HP\" stand for? How does the Goliath Road Thug's HP compare to its other characteristics?",
+        "8fec32e9-b4d6-43c2-9897-de4a662818c2": "Based on the information provided, what is the maximum movement range (in inches) of the Goliath Road Thug in the game? How does this compare to its handling and saving characteristics?",
+        "336ffafb-a79b-4fd3-bf44-20bcdd4e5808": "In the context of the Necromunda Core Rulebook, what is the purpose of including vehicle profiles? How do these profiles enhance the gameplay experience for players?",
+        "6ca644aa-d1d2-4b8e-a077-b287b32632d3": "How does the inclusion of vehicle profiles in the Necromunda Core Rulebook contribute to the overall immersion and world-building of the game? Discuss the significance of these profiles in creating a dynamic and engaging gaming environment.",
+        "097c196c-14c1-418c-a889-e9b8d11ce3a2": "In the context of vehicle characteristics, explain the significance of the \"Save\" (Sv) characteristic. How does a lower target number for the \"Save\" characteristic benefit a vehicle?",
+        "14b7f90f-3059-4be9-9d6b-390c03af9d06": "Compare and contrast the maximum and minimum values for the \"Hull Points\" (HP) characteristic in vehicles. How does a higher number for \"Hull Points\" contribute to a vehicle's durability and survivability in combat?",
+        "5700dd85-1b9d-4d34-90ba-5d67463d26f5": "In a vehicle characteristic test for toughness, what is the target number for success? How does a natural 6 affect the outcome?",
+        "d88a194e-1a60-4b37-8ae6-24f2cf06caff": "How are characteristic tests for handling, leadership, coolness, willpower, and intelligence different from ballistic skill tests?",
+        "3f3749e1-2f7c-487a-ada3-646c908e169c": "What information is included on a vehicle card in the game? Provide a brief description of each element mentioned.",
+        "c81b1285-4280-48f9-8403-e70145e31e24": "How are crew traits represented on a vehicle card? Explain the significance of these shaded characteristics.",
+        "081bc651-911d-4595-b327-8ffe50b6c5bf": "Which skill sets are available for models in Necromunda, according to the provided context information?",
+        "9bb5c4ea-e06f-4ffa-aff4-9865b4b8f1b9": "Which skill sets can crew members gain skills from in Necromunda, as mentioned in the given context?",
+        "8e3a3b4f-71a4-4a4c-be1c-05dfa8b74acf": "In the context of gang-specific skills, what are the possible skills that can be randomly determined for the Agility attribute? Provide two examples of these skills.",
+        "cf9eb895-fd6c-4558-b48a-af2cccf49c71": "How do gang-specific skills differ from universal skills? Provide an example of a gang-specific skill and a universal skill, and explain their differences.",
+        "84ef402a-76aa-4ab0-8109-3a612e228912": "How does the Catfall skill benefit a fighter in combat situations? Provide an example scenario where this skill could be advantageous.",
+        "01b0d09a-2fa3-443e-819b-7d44d141c212": "Explain the purpose and effect of the Dodge skill. How does it contribute to a fighter's agility and survivability in battle?",
+        "1b6818df-9387-44e6-8b93-151d1b108040": "How does the Brawn skill \"Bulging Biceps\" allow a character to wield Unwieldy weapons?",
+        "a82c0f01-5cd6-4b97-97ce-d918f5e721ac": "What is the effect of the Brawn skill \"Iron Jaw\" on a character's Toughness when facing close combat weapons with AP?",
+        "5c4a30af-2228-4985-8667-86f1a15c3f17": "How does the Combat Master skill benefit a character in combat? Provide an example of a situation where this skill would be particularly useful.",
+        "307b113a-900f-4d2e-8a50-6932769e6a50": "Explain the Disarm trait and how it enhances the effectiveness of melee weapons. Give an example of a scenario where using the Disarm trait would give a character an advantage in combat.",
+        "d8b75176-2646-4332-8da2-71a91db47b92": "How does the \"Backstab\" skill enhance melee weapons? Are there any additional benefits if the Backstab trait is already present?",
+        "4cdcfa2d-9344-49df-9f3f-1f53aab9a1ef": "Explain the benefits of the \"Escape Artist\" skill in both Initiative tests and escape rolls. How does the presence of a skinblade affect this skill in Rescue Missions?",
+        "e24f5969-af66-4368-a32e-7b3c871630fc": "How does the \"Jink\" skill benefit a driver during combat situations? Provide an example scenario where this skill could be useful.",
+        "fc6a61f0-d4b2-4f59-ab8b-a5b48fe40c54": "Explain the effect of the \"Running Repairs\" skill and how it can help a driver maintain their vehicle's functionality during a race or battle.",
+        "7128b988-638c-4ea1-a5e6-ecbc1315c4b2": "How does the Fearsome skill affect enemy actions in combat?",
+        "793017a8-4628-471f-8b33-713e4bd9af39": "What is the benefit of the True Grit skill when facing Damage 1 attacks?",
+        "4fc3a824-9d1e-49ab-8230-a8b20c22c05b": "How does the \"Commanding Presence\" leadership skill enhance group activations in combat?",
+        "76a18c5b-5486-4712-a648-1dc6073b3cfe": "Explain how the \"Mentor\" leadership skill works and how it can benefit nearby fighters in terms of experience points.",
+        "56f0f506-b488-4ccb-9ba7-4253cb922cdd": "How does the \"Ballistics Expert\" skill enhance a character's aim action in the game?",
+        "a310d92a-43bc-4cba-b212-6fd55ead80f6": "What advantage does the \"Savvy Trader\" skill provide during Trade actions in the post-battle sequence?",
+        "387b168a-fe1d-489d-bb98-33e8d3c59efd": "How does the Fast Shot skill affect the Shoot and Fire All actions? Are there any exceptions to this rule?",
+        "776d5c91-e40b-45d4-80b4-afe1cf9f83e4": "Explain the Gunfighter skill and how it allows a character to attack with two Sidearm weapons. Can they target different enemies?",
+        "6d01514f-9e7e-4a9c-ade9-b5dcc229b6f5": "How do gang-specific skills differ from general skills? Provide examples to support your answer.",
+        "1b783c4b-9445-42c5-81f9-175b92157ace": "Discuss the importance of gang-specific skills in the context of criminal activities. How do these skills contribute to the functioning and success of a gang?",
+        "ddbfbc8c-277e-413a-a18a-529d7ef3946b": "How does the ability \"Lord of the Rats\" contribute to the overall gameplay strategy of House Cawdor in the context of the game?",
+        "f4b7f391-49c4-4f64-848f-b432ead36e7c": "Explain the significance of the ability \"Devotional Frenzy\" in the context of House Cawdor's religious beliefs and practices.",
+        "b0a0f49f-cffb-4091-abec-4715acf4ba68": "How does the House Delaque ability \"Doppelganger\" contribute to their obfuscation tactics? Provide an example of how this ability can be used to deceive opponents.",
+        "2f79b64d-ba17-4e2a-9e2e-cd034993826f": "In what ways do the House Delaque abilities \"Rumour-monger\" and \"Fake Out\" enhance their obfuscation strategies? Explain how these abilities can be utilized effectively in a covert operation.",
+        "6f2a8308-8961-43f9-be78-2bac1236f19e": "How does the Finesse skill \"Acrobatic\" enhance the House Escher's combat abilities?",
+        "855ca894-bae3-456f-9789-ad0f64b2b5af": "Explain the significance of the Finesse skill \"Hit & Run\" in the House Escher's combat strategy.",
+        "9e1d502d-299d-4c3f-82da-d5e1f7173642": "How do the abilities \"Fists of Steel\" and \"Unleash the Beast\" demonstrate the strength and power of the Muscle House Goliath?",
+        "c0fe4650-098c-4324-94b6-b19d14e08849": "Explain the significance of the ability \"Walk It Off\" in the context of the Muscle House Goliath's resilience and endurance.",
+        "1a96a14f-40e2-4010-a287-19c31b00f8d1": "How does the Bravado skill \"Big Brother\" enhance the House Orlock's capabilities in the game?",
+        "3d6f043f-e935-42bb-8e48-ed6e8c9ac497": "Explain the significance of the skill \"Shotgun Savant\" in the context of House Orlock and its gameplay strategy.",
+        "36c3ea34-6797-4527-be7c-3eb69889b456": "How does the Tech House Van Saar's \"Mental Mastery\" trait contribute to their overall effectiveness in combat and strategy?",
+        "0d08b8a0-b182-4fdb-be57-6f7ed247cfd9": "Explain the role of a \"Gadgeteer\" within the Tech House Van Saar and how their skills and inventions enhance the capabilities of the gang.",
+        "5371f349-7c0c-444f-8462-0bed89e16d17": "How does the concept of \"Non-verbal Communication\" apply to the Palanite Enforcers' training and operations? Provide examples to support your answer.",
+        "0a504e71-a55a-452e-af77-0820bf126fbb": "Explain the importance of \"Team Work\" in the Palanite Enforcers' drill. How does this principle contribute to their effectiveness in maintaining law and order?",
+        "eb9a4696-4b9e-41f1-bd25-80afc4e57d9c": "How do the abilities \"Avatar of Blood\" and \"Bloodlust\" contribute to the overall theme of savagery in the Corpse Grinder Cult?",
+        "d0acd3f5-8ede-4a69-88bd-2fab7a09c570": "Compare and contrast the abilities \"Killing Blow\" and \"Slaughterborn\" in terms of their impact on the cult's ability to engage in frenzied combat.",
+        "0644f7ec-902a-4bb6-b733-bd2272bc2019": "In the context of the Ash Wastes Nomads, what does it mean to be a \"Stormwalker\"? How does this role contribute to the survival of the nomadic community?",
+        "2a10ae4c-0a24-4cc7-b4fb-93355095cad0": "Explain the significance of the title \"Eyes of the Wasteland\" within the context of the Wastelands. How does this role play a crucial part in the nomads' ability to navigate and thrive in their harsh environment?",
+        "1d0665de-e322-4b0a-bf2e-42af01534d7c": "How does the belief \"Where There's Scrap, There's Creds!\" reflect the mindset of the Ironhead Squat Prospectors? Provide examples from the context information to support your answer.",
+        "0119bec0-2437-4637-afac-08693a3bd4b2": "Discuss the significance of the statement \"Chemical Bonds Never Break\" in the context of the Ironhead Squat Prospectors. How does this belief contribute to their reputation and success?",
+        "137f4097-2ad6-4515-bc55-285e51d39ecc": "How does the \"Got Your Six\" ability of the Palanite Drill allow the Palanite Enforcers to interrupt an enemy's Charge action and potentially end their activation?",
+        "602cebe0-0410-4bb0-b6a0-0af7d10f28d6": "Explain the \"Non-Verbal Communication\" ability of the Palanite Drill and how it enables a friend within 6\" to have a 360\u00b0 vision arc after passing a Cool test.",
+        "5d31af76-57d3-4231-b545-20ac1c5660eb": "How does the ability \"Bloodlust\" enhance the mobility of the Corpse Grinder Cult in close combat situations?",
+        "b50eceda-93b0-474a-85a3-b06775630682": "Explain the benefits of the ability \"Killing Blow\" and how it can be strategically advantageous for the Corpse Grinder Cult in battle.",
+        "d5174323-e179-4cc8-b6e3-74e4deb4dc8e": "How does the \"Born of the Wastes\" ability allow Ash Wastes Nomads to ignore Battlefield Surface effects and become Hidden?",
+        "b2e092e2-61df-4f1d-95cb-8a4d749bfabc": "What advantage does the \"Eyes of the Wasteland\" ability provide to Ash Wastes Nomads in terms of visibility and seeing in Pitch Black conditions?",
+        "340d663a-9053-4cc6-8b68-48980fc2755b": "How does the \"Nobody Pushes Kin Around\" skill benefit the Ironhead Squat Prospectors in combat situations?",
+        "6861a266-3074-431c-bb67-815c01f4456c": "Explain the advantage provided by the \"Dependable Like Kin\" skill in terms of weapon stability and ammunition testing for the Ironhead Squat Prospectors.",
+        "498dff05-dc3e-4ff1-86c3-4895e4ff5cc3": "How does the Assault Shield/Energy Shield provide protection against melee and ranged attacks?",
+        "f59ffac4-c9b8-4b32-a253-8483a59e1cc8": "What is the effect of the Blaze weapon trait if the target is hit but not taken out?",
+        "75c3e6ec-d90f-4276-98fd-a0e3d325dfde": "How does the \"Limited\" weapon trait affect the availability of special ammo types in Necromunda? Provide an example of how this trait can impact gameplay.",
+        "cd34181a-957a-4c58-bb12-a6f8414e865b": "Explain the significance of the \"Melta\" weapon trait in Necromunda. How does it affect fighters and vehicles at short range?",
+        "7cc71404-f325-408f-bf55-102d9a69528a": "How does the Unstable weapon trait affect fighters and vehicles in Necromunda? Provide examples of the potential consequences for both fighters and vehicles when the weapon malfunctions.",
+        "65ae22ad-b059-42d7-a583-ebe221b0920f": "Explain the effects of the Versatile weapon trait in Necromunda. How does it allow fighters to engage and attack enemies in melee without needing base contact? Additionally, clarify the distinction between being engaged and Engaging in relation to the Versatile weapon trait.",
+        "4a730f65-879c-47fe-b013-de234fa83fd8": "Explain the importance of understanding basic game concepts according to the general principles outlined in the document. Provide examples to support your answer.",
+        "d7b3e92e-6172-492b-8a1f-b67f18ce2ba5": "How does the document establish conventions and clarify terms to ensure consistent rule interpretation in the game? Discuss the significance of these conventions and terms in promoting smooth gameplay.",
+        "195ab5e3-68fc-435b-a857-dfcbac6c9627": "How does solid terrain affect the measurement rules in Necromunda? Provide an example to illustrate your answer.",
+        "68b3efee-53ca-4ebd-9734-853be82b1f01": "Explain the concept of line of sight in Necromunda and how it is determined. How are disagreements regarding line of sight resolved in the game?",
+        "f9ff6cad-f31b-440f-b646-9324533b9b4e": "How do solid terrain features affect line of sight?",
+        "b97924a9-fc10-4da5-bf34-a49096b4cead": "Can a line of sight be drawn through solid terrain features?",
+        "80799521-39d1-4d22-b199-6051da038208": "How does adopting a more permissive approach to line of sight and cover enhance gameplay smoothness and satisfaction in the context of the game?",
+        "026bf866-d05f-43f1-bb59-4af03570f420": "Why is it important for players to be lenient with opponent's line of sight claims unless obviously impossible in the game?",
+        "03221427-bd5e-4164-ab70-62e6c1eabba8": "How does determining cover from the attacker's perspective differ from considering friendly fighters in base contact with the attacker? Explain the impact this has on resolving disputes during gameplay.",
+        "0c612673-63ea-46be-94b6-52274c01f74a": "Provide a detailed explanation of the three cover categories mentioned in the context information: \"In the Open,\" \"Partial Cover,\" and \"Full Cover.\" Include examples of each category and discuss their impact on shooting in the game.",
+        "8d5b479a-c1ce-4845-8005-fb6aa37a56a2": "How does terrain impact gameplay in a strategic sense? Provide examples of different types of terrain and explain how they can pose challenges for characters.",
+        "8047b948-83ce-4651-a5b3-eb4afd05623f": "Discuss the role of obstacles and structures in a battle setting. How do they affect line of sight, cover, and movement for characters? Provide specific examples to support your answer.",
+        "6e8ce93f-b856-4771-a9ff-eda8e72b4cde": "In a game of rolling dice, what is the difference between single dice rolls and multiple dice rolls? Provide an example for each.",
+        "7aa72dc3-2110-49dc-ba9d-54ca45801703": "How does the concept of dice pools differ from target number rolls? Explain with examples.",
+        "36cc523a-c83e-4841-b4f3-0a4c4bcaf955": "How does fighter status in Necromunda affect a fighter's actions during their activation?",
+        "3ff69b7c-ebc9-4ade-88c3-9210689b9f75": "What factors can cause a fighter's status to change in Necromunda?",
+        "28a247cc-4a28-47b2-bb01-8ff425615693": "What is the definition of a fighter being 'Standing' in the context of the battlefield?",
+        "a09f7978-c3cb-4e20-b9bf-b9d095d6d8a5": "What are the secondary statuses that a Standing fighter can have, and what are the limitations of an Engaged fighter?",
+        "f8f5f577-045b-4393-8b81-9190472b228b": "How does a fighter become 'Prone' on the battlefield, and what is the significance of this status?",
+        "1bfe456d-e2ff-4e8f-8608-ba63db7d5429": "Explain the secondary status of being 'Pinned' and how it affects a fighter who is already 'Prone'.",
+        "31042690-bebd-4910-a805-dbc2eda64be5": "What is the significance of vehicle status in determining its actions and degree of mobility?",
+        "e955da12-a23c-4a27-aa60-610d02846bd7": "How does vehicle status impact the functionality and capabilities of a vehicle?",
+        "3d56a4da-3827-4bf2-9669-1b1ca5a466a2": "How does the ability of a vehicle to move freely and perform various actions define it as a 'Mobile' vehicle?",
+        "4bb0d113-202c-4bac-b3f1-c443cc1da810": "Can you provide an example of a mobile vehicle and explain how it demonstrates the characteristics of being able to move freely and perform various actions?",
+        "c89d5115-1300-4437-92a4-0fdc24fa7857": "What is the difference between a vehicle that is stalled and a vehicle that is wrecked?",
+        "6deb89fc-2c50-4169-8954-2a9e2fdf91d6": "How does a stationary vehicle differ from a moving vehicle in terms of its ability to engage in combat?",
+        "7b18a33c-857d-46d2-aa44-b94eb627b146": "How can a model's status change during its activation or due to other models' actions?",
+        "a840758f-f904-478b-bb74-117e6a07f2dc": "Why is it important to confirm the Primary and Secondary Status at the end of each activation?",
+        "40396ecd-f7b1-440e-a7f4-983f28fdf351": "What are some examples of conditions that can affect fighters in combat? How are these conditions typically denoted?",
+        "86aa7add-6e2e-4dbf-9f2f-79f1c2f5e174": "How do markers indicate the presence of conditions in fighters? Can you provide an example of a marker used to denote a specific condition?",
+        "4350321c-48b4-4402-a0b1-697f7ebb72e3": "How does the \"Ready\" condition differ from the \"Broken\" condition in terms of its impact on a model's abilities in the game?",
+        "9874c6c9-dcdd-46d1-a4ce-6cd47d065998": "What is the consequence of failing an Ammo test in the game, and how does it affect a model's weapon usability?",
+        "a490ae5e-22e2-450b-a3ce-a831b56cbe14": "How does the condition \"Blaze\" affect fighters and vehicles differently? Provide examples for each model type.",
+        "3755a888-9171-4f0c-8899-db1bf0c7633a": "Explain the impact of the \"Concussion\" condition on Initiative and Handling tests. How does it affect a fighter's performance in these tests?",
+        "95d461f4-642d-4949-8985-51582fa797ac": "In the context of gang creation, what factors are considered when selecting fighters, weapons, Wargear, and vehicles?",
+        "df72b5dd-549f-4553-ac46-e990a2cd514f": "How do the credit budgets differ between Campaign and Skirmish play when founding a gang?",
+        "8c389bdc-45fc-49c2-8df8-8c3eea29cabf": "In the context of gang composition, what are the requirements for a gang to have a balanced number of models with the Gang Fighter (X) special rule and models without this rule? How can an imbalance be corrected during a campaign?",
+        "19671ea2-1292-4266-bcd1-cdbd5952ac93": "How can existing fighters, crew, and vehicles from a previous campaign be added to a new gang? What aspects of these models are retained when they are added to the new gang?",
+        "4ec32dea-6c55-4161-908d-b6a2de4ec12a": "In the context of creating a skirmish gang, what is the recommended range for the number of fighters and vehicles? How does this range vary for larger gangs?",
+        "0c0207d4-2ee8-4bd3-923c-fec311f7963d": "How do leaders and champions in a skirmish gang benefit from a free starting skill or ability? How should this information be recorded for each fighter?",
+        "8bc452e9-3d7a-42c9-90e4-b90a0d52964c": "How does the Reputation of a skirmish gang affect the number of Hangers-on and Brutes allowed? Provide examples of the possible Reputation values and the corresponding limits on Hangers-on and Brutes.",
+        "5458feaa-326f-427f-9c1a-6f74cdc84f8e": "In the context of gang attributes, what are the three possible starting Reputation values for skirmish gangs? Explain how the starting Reputation value determines the number of Hangers-on and Brutes that can be part of the gang.",
+        "c3612cda-80a7-4529-9758-fc40d56af7d4": "In the context of the model attributes, explain how the number of additional skills a fighter can start with is determined based on the gang's credits value. Provide examples for each credit range mentioned.",
+        "792a3986-6986-4e1f-9d33-8c95a8e0a46f": "How are characteristic increases determined for the models in this context? Explain the relationship between the number of extra skills and the number of characteristic increases, and provide an example to illustrate this relationship.",
+        "ddeb9b18-c0c4-41e7-b22a-02360987702e": "How does the Gang Rating differ from the Wealth of a gang? Provide an example to illustrate the distinction between these two metrics.",
+        "507e1f5f-3e7e-4167-b4d1-7175c52dbecc": "In a campaign, how can the Reputation of a gang change over time? Discuss at least two factors that can influence the Reputation of a gang and explain their impact.",
+        "b8e4c84a-0ddd-4a37-80bd-45bb2961eab3": "How does the Experience (XP) attribute in the campaign system of Necromunda affect the purchasing of Advancements? Explain the relationship between XP and the cost of future Advancements.",
+        "59db235b-e013-46d0-9ab3-0619f630aabf": "In the context of the Necromunda campaign, what are the potential consequences for models that are Out of Action? Discuss the possibilities of Lasting Injuries, recovery time, and the impact on the overall gameplay.",
+        "c4321fc2-8e0b-43a9-8535-3ca204398639": "In the game of Necromunda, what are the steps involved in the pre-battle sequence? Provide a brief explanation of each step.",
+        "205cca26-627a-4765-b3f1-39cc6a3eb1cb": "Describe the three phases of a round in the game of Necromunda. What actions are taken during each phase?",
+        "93be6270-78bf-4890-af78-f8f2b80a6736": "What are the different statuses that fighters can have in Necromunda, and what actions are they able to perform in each status?",
+        "28fd838d-46ac-4a2c-a157-6445528538cd": "Explain the significance of a fighter's status in Necromunda and how it affects their ability to perform actions.",
+        "44d36697-87ec-4a4e-85fc-3436a0f670a5": "In a tabletop game, what action allows a fighter to move through ductways while avoiding enemies? Explain the purpose of this action in the game.",
+        "67dba0a4-5cbd-41db-96b4-5f0aa074a04f": "How does the \"Aim\" action in the game provide a bonus for a subsequent \"Shoot\" action? Provide an example of how this action can be strategically used during gameplay.",
+        "44d8b981-a55a-4444-8626-c804f286d6c6": "In a combat situation, what is the primary objective of a fighter who chooses to \"retreat\"? How does this differ from the objective of a fighter who chooses to \"fight\"?",
+        "0896edb6-0fc9-4958-9992-5411abd302d0": "Explain the difference between a \"standing\" fighter and an \"engaged\" fighter. How does the action of \"fighting\" relate to these two types of fighters?",
+        "89c4fc8a-b946-4ed9-879a-c2a8ce0d8a9a": "What is the significance of prone fighters in combat situations?",
+        "c92ffecd-680a-48fe-b5f4-d1247c468c7a": "How do prone fighters differ from other types of fighters in terms of their tactics and strategies?",
+        "b4474620-af6b-4410-8a1a-18771ef96e9c": "In a tactical situation where a person is prone and pinned, what action can they take to become active again?",
+        "08dfb6a9-3e89-4d5b-8c14-0ac256865aa5": "What are two double actions that a person can perform while crawling in a tactical situation?",
+        "0f854a36-68c2-402a-baf5-697be7002b58": "In the context of being prone and seriously injured, what is the significance of the \"Crawl (Double)\" action? How does it compare to being prone and pinned?",
+        "a234d9d1-00a4-4373-9b03-81e04aa01edd": "As a teacher, how would you explain the concept of being prone and seriously injured to your students? Provide an example of a situation where a character might find themselves in this state and how it would affect their actions.",
+        "8dd27116-eb1f-4920-b701-b7c130ed4143": "In the context of \"Broken Fighters,\" explain the concept of \"Running for Cover (Double)\" and discuss the factors that dictate the movement away from danger.",
+        "9bc18f4e-0d87-4d5c-9962-33de8740b8b0": "How does the concept of \"Running for Cover (Double)\" in \"Broken Fighters\" contribute to the overall strategy of the fighters? Provide examples of situations where this move would be advantageous.",
+        "dccf1d8c-6f7b-426c-9836-86b28962f6f3": "How does the Necromunda Core Rulebook define \"Vehicle Actions\" and what is their significance in the game?",
+        "fb23c730-73d0-4bc6-854d-598fc84d37fd": "Can you provide an example of a specific Vehicle Action mentioned in the Necromunda Core Rulebook and explain how it can be utilized strategically during gameplay?",
+        "8a690a1a-756d-44f8-8b44-4f69e95bf129": "In the context of mobile vehicles, what is the difference between the \"Move & Shoot\" action and the \"Fire All\" action? Provide examples to support your answer.",
+        "2cc5da83-91bf-4093-8d77-6d5f1e2ff4d2": "Explain the purpose and effect of the \"Aim\" action in the context of mobile vehicles. How does it enhance the subsequent \"Fire All\" action?",
+        "3b47706c-f15f-4fa4-a9a5-65df5ba0f3d2": "How does the presence of stationary vehicles on the road affect traffic flow and congestion?",
+        "85e4c8f6-bf2e-4ec4-9480-808cf8ed4ff1": "What are some potential safety hazards associated with stationary vehicles on the road?",
+        "fb37616b-9b37-4d7a-bbb0-4e2fcc2b856b": "In the context of vehicle issues, what is the difference between a \"Jump Start (Simple)\" and a \"Turn-Over (Basic)\"?",
+        "362e97cf-e6e4-4cfc-a2a0-5deb8e4d7c45": "How does the action of \"Free Wheel (Basic)\" differ from the action of \"Fire All (Basic)\" in the given context?",
+        "6a56c56b-0a4b-48ac-8259-055a322b8859": "How does the presence of \"Stationary & Wrecked\" objects affect the gameplay? Explain in detail.",
+        "f8ad52e0-ddcc-4705-a51c-4ee2e49e5f93": "In what way are \"Stationary & Wrecked\" objects treated differently compared to other terrain features? Provide examples to support your answer.",
+        "0cb7cc21-aec7-4fe2-92c7-96f883b97f77": "In the context of broken vehicles, explain the purpose and potential benefits of performing a \"Break for Air\" maneuver during a battle.",
+        "1bf605ba-4a85-4e77-8def-eec31b9e59ac": "How does the \"Burn Out\" action in broken vehicles serve as a tactical advantage in a battle scenario? Provide examples of how creating smoke screens can benefit the vehicle and its occupants.",
+        "449dbc5c-9751-4693-a83f-91047d291c84": "How does the \"1\" Rule\" in Necromunda restrict the movement of fighters in relation to their enemies? Provide examples of situations where fighters can move within 1\" of an enemy.",
+        "6c3f688a-0183-4355-9e8b-5be394b81ce6": "Explain the concept of \"Directly Towards & Directly Away From\" movement in Necromunda. How does this specific movement direction impact the maneuvering and engagement of fighters and vehicles in the game?",
+        "48e74692-c165-448e-88cd-07f9a12919f3": "How do vehicles in Necromunda interact with different types of terrain based on their locomotion method? Provide examples of locomotion methods and the corresponding terrain types they interact with.",
+        "1fbdaaba-4788-42b7-a6f8-3a7c9233ca34": "Explain the significance of the Locomotion special rules in Necromunda for vehicles. How do these rules impact the movement and interaction of vehicles with different types of terrain?",
+        "36b282ae-f2ac-444e-ae61-9419908ffb26": "How does the \"Wheeled\" locomotion type differ from the other types in terms of movement through difficult terrain?",
+        "87708bba-bbc5-456d-9425-bdaf7c70edf5": "What is the consequence of a Skimmer vehicle failing a Handling test when ending on difficult or dangerous terrain?",
+        "20fc9de4-7a84-47b2-acac-b024a5aa1db6": "How does a vehicle crossing dangerous terrain avoid a Catastrophic Hit to the Drive?",
+        "438370b5-d41e-4e92-a801-5ba0805771c3": "What happens if a vehicle fails the Handling check while crossing dangerous terrain?",
+        "7412cbc5-585b-4392-8a2f-7b2940df6a05": "How does the movement of fighters on vehicles differ from their movement on regular terrain? Explain the challenges they face and the consequences of falling off a moving vehicle.",
+        "ac9362a5-f889-466f-82bf-88dc3bc19dee": "What factors determine the direction in which a fighter falls off a moving vehicle if they fail their Initiative check? How does the presence of impassable terrain or edges affect this process? Additionally, how can fighters secure objects like Loot caskets to prevent them from falling off the vehicle?",
+        "a772bd70-16b7-4cfa-b7b4-a92a538e4aa7": "How does the Necromunda Core Rulebook define vehicle impacts and what role do they play in the game?",
+        "59837d49-91c6-4478-952f-35d852096fba": "Can you provide an example of a vehicle impact scenario in the Necromunda Core Rulebook and explain how it affects gameplay?",
+        "9b6ab374-3692-49cd-a3cd-53c5054e8aa2": "How does the rule of \"Running Over Fighters\" affect fighters who are moved by a vehicle?",
+        "e04ab0f0-052a-43f6-93a5-e321e400ce8f": "What is the probability of a seriously injured fighter passing the Initiative test to avoid suffering a hit when being moved by a vehicle?"
+    },
+    "corpus": {
+        "09a4352a-a67f-4666-9138-e94763de1d79": "**INTRODUCTION**\n\n**Necromunda** is a sprawling, evolving game, with numerous rules published since its 2017 version. These rules vary across publications, with some contradictions. The community has created compilations to keep the game playable. The goal of this website is to make the rules clear and accessible, consolidating all content from the 2017 release onwards. Initially based on the Necrodamus rules compilation, the 2023 Core Rules are now used verbatim (RAW), covering both these and previous publications.\n\n**Note:** All original content is owned by Games Workshop and published here without permission. Supporting the game by purchasing gangs and their corresponding House/Books is encouraged, as Necromunda is narrative-rich with extensive backstories.",
+        "b6937662-b993-4e3e-8177-2f3731fac370": "**WEAPONS OF (GANG) WAR**\n\n*Source: Necromunda Core Rulebook (2023)*\n\nThe essential elements for playing Necromunda include models for fighters and vehicles, and terrain for the battlefield. Other necessary items include:",
+        "3fdaffbf-642d-484a-9646-d74d3019fa6a": "**MARKERS**\n\nMarkers represent various model statuses and conditions, track lost Wounds or Hull Points, and can be placed on the battlefield or on Fighter/Vehicle cards. Examples include:\n\n- **Ready markers**: Indicate a model is ready for activation.\n- **Out of Ammo markers**: Show a weapon is out of ammunition or malfunctioned.\n- **Blaze markers**: Signify a model is on fire or \u2018subject to the Blaze condition\u2019.",
+        "b644d3d9-e4ea-4b5c-be8a-ccb9eb42afef": "**TEMPLATES**",
+        "6963897b-1961-4f29-aba1-cc7084d288f9": "**BLAST MARKERS**\n\nA circular template, 3\" or 5\" in diameter, used for weapons with the Blast trait.",
+        "d84ce110-2c2b-4331-97b8-58c07eb7697c": "**FLAME TEMPLATES**\n\nTeardrop-shaped, approximately 8\" long, used for weapons with the Template trait.",
+        "35b29795-ec74-449b-ab0f-3dc32adb2e7e": "**RULER/TAPE MEASURE**\n\nAll distances in Necromunda are measured in inches. Pre-measuring is not allowed, and ranges are measured only when required by the rules.",
+        "0cee2af6-8c7c-4547-bcaa-66b016e4d429": "**VISION ARC TEMPLATE**\n\nA triangular template to determine a model\u2019s vision arc quickly and easily.",
+        "8453d716-6c67-4909-8b68-95565abbc3a5": "**FIGHTER AND VEHICLE CARDS**\n\nEach fighter and vehicle is represented by a card filled with their characteristics and equipment. These cards provide a reference during battle and can be used to place markers, keeping the battlefield uncluttered.",
+        "3faf4c65-4a31-4282-8d60-fbe49bf00b26": "**YAKTRIBE**\n\nYaktribe.games is widely used for arbitrating campaigns, featuring a gang builder for digital record-keeping of fighters.",
+        "c4d6c8a7-de14-4d7f-9187-ae7a4865bd30": "**NECROMUNDA DICE**\n\nNecromunda uses several dice types, including:\n\n- **D6**: A regular six-sided dice, often with a special logo on the '6'.\n- **D3**: Rolled by halving the result of a D6, rounding up.\n- **Firepower Dice**: Used for ranged attacks to determine ammunition depletion or malfunction.\n- **Scatter Dice**: Used for determining random directions, especially for Blast weapons.\n- **Injury Dice**: Determine the severity of injuries.\n- **Location Dice**: Determine where a vehicle is hit.\n- **Damage Dice**: Determine the severity of vehicle damage.\n- **Control Dice**: Determine outcomes when a vehicle loses control.\n\n!https://necrovox.org/assets/images/dice-8298eae729c3e9634c0b2d80f995005f.jpg",
+        "2c3855b3-82f6-4bd8-92de-2d812704e176": "**GANG FIGHTERS & THEIR WEAPONRY**\n\nIn Necromunda, players control a \u2018gang\u2019 composed of models referred to as \u2018fighters\u2019 or \u2018vehicles\u2019. Each model is of a named type, representing a rank within the gang\u2019s hierarchy (e.g., Leader, Ganger, Underhive Scum, Brute). The terms \u2018fighter\u2019, \u2018vehicle\u2019, or \u2018model\u2019 encompass all within the rules.",
+        "ec0822d5-70bb-40ab-aeef-ab865576b5f9": "**FIGHTER PROFILES**\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "cddfc71b-773e-43ba-bbc7-2850bd240f6c": "**FIGHTER CHARACTERISTICS PROFILES**\n\nEach fighter has a characteristics profile detailing their battle capabilities. For instance, the profile for an Orlock Gunner is:\n\n| M | WS | BS | S | T | W | I | A | Ld | Cl | Wil | Int |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 5\" | 4+ | 4+ | 3 | 3 | 1 | 4+ | 1 | 6+ | 7+ | 7+ | 7+ |\n\nCharacteristics represent various traits or attributes:\n\n- **Movement (M), Strength (S), Toughness (T), Wounds (W), Attacks (A)**: Higher numbers are better.\n- **Weapon Skill (WS), Ballistic Skill (BS), Initiative (I)**: Shown as target numbers (e.g., 4+), where lower numbers are better.\n- **Psychology characteristics (Leadership (Ld), Cool (Cl), Willpower (Wil), Intelligence (Int))**: Also target numbers, with lower being better.\n\n**Maximum and Minimum Characteristic Values:**\n\n| M | WS | BS | S | T | W | I | A | Ld | Cl | Wil | Int |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Max 8\" | 2+ | 2+ | 6 | 6 | 6 | 2+ | 10 | 3+ | 3+ | 3+ | 3+ |\n| Min 1\" | 6+ | 6+ | 1 | 1 | 1 | 6+ | 1 | 10+ | 10+ | 10+ | 10+ |\n\n**Note**: Movement, Strength, Toughness can be improved twice, and Wounds, Attacks once beyond their basic profile.",
+        "50fdb51f-1069-4600-847f-af8295062478": "**FIGHTER CHARACTERISTICS & CHARACTERISTIC TESTS**\n\nA fighter\u2019s characteristics are defined as follows:\n\n- **Movement (M)**: Distance in inches the fighter can move with a standard Move action.\n- **Weapon Skill (WS)**: Proficiency in close combat using Melee or Sidearm trait weapons.\n- **Ballistic Skill (BS)**: Proficiency with ranged weapons.\n- **Strength (S)**: Likelihood of inflicting damage in close combat.\n- **Toughness (T)**: Resistance to being wounded by attacks.\n- **Wounds (W)**: How much damage the fighter can endure before succumbing.\n- **Initiative (I)**: Agility, dexterity, and reflexes measure.\n- **Attacks (A)**: Speed and ability in melee.\n- **Leadership (LD)**: Ability to issue or follow commands in battle.\n- **Cool (CL)**: Capacity for keeping calm under fire.\n- **Willpower (WIL)**: Mental fortitude and resilience.\n- **Intelligence (INT)**: Mental acuity and knowledge application.\n\n**Modifying Characteristics**:\n\n- Simple numbers: Apply modifiers as written.\n- Target numbers: Apply modifiers to the dice roll, not the characteristic.\n\n**Characteristic Tests**:\n\n- **WS, BS, I tests**: Roll a D6; success if equal to or higher than the characteristic.\n- **Ld, Cl, Wil, Int tests**: Roll 2D6; success if equal to or higher than the characteristic.\n- **Strength/Toughness checks**: Roll a D6; success if equal to or lower than the characteristic.",
+        "83371d61-92cb-408d-8df1-8efa9a2cf754": "**FIGHTER CARDS**\n\nFighters are represented by models on the battlefield and Fighter cards, detailing characteristics, equipment, and other information. Blank Fighter cards for each House are available in the Gang Tactics cards packs.",
+        "d1e8eff8-cb9c-415f-9f09-d31fd463ac4c": "**GANG FIGHTERS & THEIR WEAPONRY (CONTINUED)**",
+        "e796eeaa-304f-4bd2-8576-a971a196dbdc": "**FIGHTER CARDS**\n\nEach Fighter card includes several key areas:\n\n- **Fighter\u2019s Name**: Including rank if they are a Leader or Champion.\n- **Cost in Credits**: The value of the fighter.\n- **Characteristics**: Last four (Ld, Cl, Wil, Int) are shaded for psychological characteristics.\n- **Weapons**: Carried by the fighter.\n- **Skills**: Possessed by the fighter.\n- **Equipment**: Including armor, carried by the fighter.\n\n!https://necrovox.org/assets/images/fighter-card-numbered-40334e6ebe314cd294bb8a19fb1e845c.jpg",
+        "f43ef9aa-e975-4d80-b557-581ae468b716": "**WEAPON PROFILES**\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "fab22723-2ad6-436b-b9a4-3024b5d342d0": "**EXAMPLE: HEAVY STUBBER PROFILE**\n\n| Weapon | Range S/L | Accuracy S/L | Strength | AP | Damage | Ammo | Traits | AL | Credit Cost |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| Heavy stubber | 20\"/40\" | -/-1 | 4 | -1 | 1 | 4+ | Rapid Fire (2), Unwieldy | R7 | 130 |\n\n**Key Characteristics of Weapons:**\n\n- **Range (RNG)**: Short (S) and Long (L), in inches.\n- **Accuracy (ACC)**: Modifiers for hit rolls within Short or Long range.\n- **Strength (STR)**: Used for wound rolls.\n- **Armour Piercing (AP)**: Modifier applied to armor saves.\n- **Damage (D)**: Indicates how much damage the weapon inflicts.\n- **Ammo (AM)**: Determines the chance of running Out of Ammo.\n- **Traits**: Unique bonuses or changes in weapon functionality.\n- **Availability Level (AL)**: Indicates availability from the Trading Post.\n- **Credit Cost**: Cost of the weapon from the Trading Post.",
+        "5cd4cfc0-38d2-4fb6-9063-ffe82988ada6": "**VEHICLE PROFILES**\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "1ed352f8-b506-4171-bd02-81953198292a": "**EXAMPLE: GOLIATH ROAD THUG IN A GOLIATH MAULER**\n\n**Vehicle Characteristics**\n\n| M | Front | Side | Rear | HP | Hnd | Sv | BS | Ld | Cl | Wil | Int |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| 7\" | 5 | 4 | 4 | 3 | 5+ | 5+ | 4+ | 8+ | 5+ | 9+ | 8+ |\n\n**INFO**: Vehicle profiles may vary slightly in format for brevity on Necrodamus.",
+        "61725653-481e-4513-8da6-69013526a990": "**VEHICLE PROFILES**\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "7dd55aeb-3a14-4f90-a1b0-9b79c987af8c": "**EXAMPLE VEHICLE CHARACTERISTICS**\n\n| M | Front | Side | Rear | HP | Hnd | Sv |\n| --- | --- | --- | --- | --- | --- | --- |\n| 7\" | 5 | 4 | 4 | 3 | 5+ | 5+ |\n\nEach characteristic represents a different trait of the vehicle or its crew:\n\n- **Movement (M), Toughness (Front, Side, Rear), Hull Points (HP)**: Higher numbers are better.\n- **Save (Sv), Ballistic Skill (BS), Handling (Hnd)**: Lower numbers (target numbers) are better.\n- **Psychology Characteristics (Leadership (Ld), Cool (Cl), Willpower (Wil), Intelligence (Int))**: Lower target numbers are better.\n\n**Maximum and Minimum Characteristic Values:**\n\n**Vehicle Characteristics**\n\n| M | Front | Side | Rear | HP | Hnd | Sv |\n| --- | --- | --- | --- | --- | --- | --- |\n| Max 12\" | 10 | 10 | 10 | 8 | 3+ | 2+ |\n| Min 1\" | 3 | 3 | 3 | 1 | 10+ | 6+ |\n\n**Crew Characteristics**\n\n| BS | Ld | Cl | Wil | Int |\n| --- | --- | --- | --- | --- |\n| Max 2+ | 3+ | 3+ | 3+ | 3+ |\n| Min 6+ | 10+ | 10+ | 10+ | 10+ |",
+        "278e0c9d-5bbc-48d5-987a-cbc67aade1c6": "**VEHICLE CHARACTERISTICS & CHARACTERISTIC TESTS**\n\n- **MOVEMENT (M)**: Distance in inches the vehicle can move.\n- **TOUGHNESS (Front, Side, Rear)**: Measures vehicle's resilience.\n- **HULL POINTS (HP)**: Endurance before being Wrecked.\n- **HANDLING (Hnd)**: Manoeuvrability and responsiveness.\n- **SAVE (Sv)**: Armor level of the vehicle.\n- **BALLISTIC SKILL (BS)**: Crew's proficiency with ranged weapons.\n- **LEADERSHIP (Ld)**: Crew's command ability in battle.\n- **COOL (Cl)**: Crew's calmness under fire.\n- **WILLPOWER (Wil)**: Crew's mental fortitude.\n- **INTELLIGENCE (Int)**: Crew's mental acuity and knowledge.\n\n**Modifying Characteristics**: Apply modifiers as written for simple numbers, and to dice rolls for target numbers.\n\n**Characteristic Tests**:\n\n- **BS tests**: Roll a D6; success if equal to or higher than the characteristic.\n- **Hnd, Ld, Cl, Wil, Int tests**: Roll 2D6; success if equal to or higher than the characteristic.\n- **Toughness checks**: Roll a D6; success if less than or equal to the characteristic, but a natural 6 always fails.",
+        "8bb44dd0-d979-4947-85e0-642aea8f76d1": "**VEHICLE CARDS**\n\nVehicle cards represent each vehicle with their characteristics, upgrades, special rules, and other information. Each card includes:\n\n- **Vehicle\u2019s Name**\n- **Vehicle\u2019s Type**\n- **Cost in Credits**\n- **Characteristics**: Last five shaded for crew traits.\n- **Equipped Weapons**\n- **Special Rules**\n- **Upgrades and Wargear**\n\n!https://necrovox.org/assets/images/vehicle-card-numbered-85c7700257b3ddf5b6f8a04bd44c69c3.jpg",
+        "3b631715-1fc8-4db3-a41e-5385aa68523c": "**SKILLS**\n\n*Source: Necromunda Core Rulebook (2023)*\n\nThis section lists universal skills available to models, split into nine Skill Sets. Skills are listed by name with their rules. Note that crew can only gain skills from the Driving, Leadership, Shooting, and Savant sets.",
+        "353ddacd-860c-4aec-b963-a25de18c6ea8": "**UNIVERSAL SKILLS AND GANG SPECIFIC SKILLS**\n\nGangs have access to unique skill sets. These are detailed in Gang-Specific Skills.\n\n**Random Skill Determination Tables:**\n\n| D6 | Agility | Brawn | Combat | Cunning | Driving |\n| --- | --- | --- | --- | --- | --- |\n| 1 | Catfall | Bull Charge | Combat Master | Backstab | Jink |\n| 2 | Clamber | Bulging Biceps | Combat Master | Escape Artist | Expert Driver |\n| 3 | Dodge | Crushing Blow | Disarm | Evade | Heavy Foot |\n| 4 | Mighty Leap | Headbutt | Parry | Infiltrate | Slalom |\n| 5 | Spring Up | Hurl | Rain of Blows | Lie Low | T-Bone |\n| 6 | Sprint | Iron Jaw | Step Aside | Overwatch | Running Repairs |\n\n| D6 | Ferocity | Leadership | Savant | Shooting |\n| --- | --- | --- | --- | --- |\n| 1 | Berserker | Commanding Presence | Ballistics Expert | Fast Shot |\n| 2 | Fearsome | Inspirational | Connected | Gunfighter |\n| 3 | Impetuous | Iron Will | Fixer | Hip Shooting |\n| 4 | Nerves of Steel | Mentor | Medicae | Marksman |\n| 5 | True Grit | Overseer | Munitioneer | Precision Shot |\n| 6 | Unstoppable | Regroup | Savvy Trader | Trick Shot |",
+        "910a32ce-d8db-4627-bd8b-229851d4126b": "**AGILITY SKILLS**\n\n1. **Catfall**: Reduces fall/jump distance by half, rounded up. If not Seriously Injured or Out of Action, make an Initiative test to remain Standing.\n    - *Optional House Rule*: 4+ to place fighter next to a pitfall at round end.\n2. **Clamber**: Moves full distance when climbing.\n    - *Optional House Rule*: Move freely through ductways without spending an action.\n3. **Dodge**: Roll a D6 on being wounded. On a 6, the attack is dodged.\n4. **Mighty Leap**: Ignore first 2\" when leaping gaps.\n5. **Spring Up**: Initiative test to stand up for free if Prone and Pinned.\n6. **Sprint**: Double Movement characteristic on second Move action.",
+        "1a9bed8c-8aa5-47d0-a635-54ddcc778289": "**BRAWN SKILLS**\n\n1. **Bull Charge**: +1 Strength and Knockback trait on Charge.\n2. **Bulging Biceps**: Wield Unwieldy weapons in one hand.\n3. **Crushing Blow**: Nominate one dice to increase Strength and Damage by one.\n4. **Headbutt**: Basic action for Strength +2 hit, or self-damage if failed.\n5. **Hurl**: Move enemy D3\" and cause hit; usable after Charge.\n6. **Iron Jaw**: +2 Toughness against AP - close combat weapons.",
+        "bb926038-255f-448b-b7dc-ca5c57cb340b": "**COMBAT SKILLS**\n\n1. **Combat Master**: No hit roll penalties for interference; always grants assists.\n2. **Counter-Attack**: Additional Attack dice for each missed enemy attack.\n3. **Disarm**: Melee weapons gain Disarm trait.\n4. **Parry**: Parry attacks without a Parry trait weapon.\n5. **Rain of Blows**: Fight action counts as Simple.\n    - *Optional House Rule*: Allow 2 consecutive Fight actions on Charge.\n6. **Step Aside**: Initiative test to avoid a hit in close combat.",
+        "ac90e340-7842-4515-96ba-c4f023bdd121": "**CUNNING SKILLS**\n\n1. **Backstab**: Melee weapons gain Backstab trait. If already present, +2 Strength when used.\n    - *Optional House Rule*: -1 AP when benefiting from this skill.\n2. **Escape Artist**: +2 to Initiative tests on Retreat actions. +1 to escape rolls if equipped with a skinblade in Rescue Missions.\n3. **Evade**: -1 modifier on enemy ranged attacks, -2 at Long range.\n4. **Infiltrate**: Set up hidden, then deploy anywhere not visible to enemies and not within 6\".\n    - *Optional House Rule*: Make 2 move actions before the 1st round instead.\n5. **Lie Low**: Cannot be targeted by ranged attacks beyond Short range while Prone.\n6. **Overwatch**: Interrupt enemy action with a Shoot action if Ready.",
+        "08f67f89-dde9-4e12-83dd-2a2384de24fb": "**DRIVING SKILLS**\n\n1. **Jink**: Special save once per round on a 6+ when vehicle is hit.\n2. **Expert Driver**: +1 on Loss of Control tests.\n3. **Heavy Foot**: Increase Movement by D3\" once per round, risking a Glancing Hit on a natural 1.\n4. **Slalom**: Additional 45\u00b0 turn once per round during Move action.\n5. **T-Bone**: Add D3 to Front Toughness during Head-on Collisions.\n6. **Running Repairs**: On a natural 6 on a Restart test, regain one Hull Point.",
+        "595ae9a6-eeaf-4729-b8d9-0d50244626f0": "**FEROCITY SKILLS**\n\n1. **Berserker**: Additional Attack dice on Charge actions.\n2. **Fearsome**: Enemies must pass a Willpower test to Charge.\n3. **Impetuous**: Move up to 4\" when consolidating.\n    - *Optional House Rule*: Coup de Grace and Consolidate after a Fight action.\n4. **Nerves of Steel**: Cool test to avoid being Prone and Pinned when hit.\n5. **True Grit**: Roll one less Injury dice, or choose which to apply for Damage 1 attacks.\n6. **Unstoppable**: Discard a Flesh Wound on a 4+ before a Recovery test.",
+        "ba16a2bd-7ef4-44d6-8b1f-21b570fb5b15": "**LEADERSHIP SKILLS**\n\n1. **Commanding Presence**: Include one extra fighter in group activations.\n2. **Inspirational**: Leadership test to pass a Cool test for a nearby friendly model.\n3. **Iron Will**: -1 on Bottle checks.\n4. **Mentor**: Leadership test to grant additional XP to a nearby fighter.\n5. **Overseer**: Order another fighter to make two actions immediately.\n6. **Regroup**: Leadership test to recover nearby fighters from being Broken.",
+        "9f04d3d8-dc97-42df-a6dd-475b64786287": "**SAVANT SKILLS**\n\n1. **Ballistics Expert**: Intelligence test for an additional +1 hit modifier on Aim action.\n    - *Optional House Rule*: Pre-measure distance to one enemy when aiming.\n2. **Connected**: Additional Trade action in post-battle sequence.\n3. **Fixer**: Extra D3x10 credits in post-battle sequence.\n4. **Medicae**: Treat Wounds action to regain Wound or lose Flesh Wound on a 3+.\n5. **Munitioneer**: Reroll failed Ammo tests for self or nearby gang members.\n6. **Savvy Trader**: +1 on rarity dice roll and 20 credits off one item in Trade actions.",
+        "a1e753fc-c297-46ac-bfae-54d45ecf8386": "**SHOOTING SKILLS**\n\n1. **Fast Shot**: Treats Shoot and Fire All actions as (Simple), except with Unwieldy weapons.\n    - *Optional House Rule*: Apply -1 hit modifier when using this skill.\n2. **Gunfighter**: No penalty when attacking with two Sidearm weapons and can target different enemies.\n3. **Hip Shooting**: For vehicles, Move & Shoot as (Simple) without Unwieldy weapons. For fighters: Run and Gun (Double) to move double Movement and then attack with an additional -1 hit modifier.\n    - *Optional House Rule*: Apply -1 hit modifier when using this skill.\n4. **Marksman**: Ignores Target Priority rules and scores a critical hit on a natural 6, doubling weapon's Damage.\n5. **Precision Shot**: Natural 6 on a ranged attack ignores enemy armor.\n6. **Trick Shot**: No penalty for target engagement or partial cover; reduced penalty for full cover.\n    - *Optional House Rule*: +1 modifier to ammo tests.",
+        "41a19973-a62d-4091-82d4-05578ceba8ce": "**GANG-SPECIFIC SKILLS**",
+        "6dfa7bd0-7b7b-417e-a576-2c2878f7445a": "Piety (House Cawdor)\n\n1. Lord of the Rats\n2. Scavenger's Eye\n3. Blazing Faith\n4. Unshakable Conviction\n5. Devotional Frenzy\n6. Restless Faith",
+        "5ff5f7c8-2d0a-4835-917f-5ba4b667d960": "Obfuscation (House Delaque)\n\n1. Faceless\n2. Psi-touched\n3. Take Down\n4. Rumour-monger\n5. Fake Out\n6. Doppelganger",
+        "73730f8e-e6f1-4436-824f-f896d9723f97": "Finesse (House Escher)\n\n1. Acrobatic\n2. Combat Focus\n3. Combat Virtuoso\n4. Hit & Run\n5. Lightning Reflexes\n6. Somersault",
+        "90c5a321-d16c-4b3b-8e3d-ca434aeb4c49": "Muscle (House Goliath)\n\n1. Fists of Steel\n2. Iron Man\n3. Immovable Stance\n4. Naaargah!\n5. Unleash the Beast\n6. Walk It Off",
+        "bb2752ab-551a-4eca-9e08-cb90c1fce5c6": "Bravado (House Orlock)\n\n1. Big Brother\n2. Bring it on!\n3. Guilder Contacts\n4. King Hit\n5. Shotgun Savant\n6. Steady Hands",
+        "8b9095b5-e9c3-4cb3-a006-e3502478f2cf": "Tech (House Van Saar)\n\n1. Cold & Calculating\n2. Gadgeteer\n3. Mental Mastery\n4. Photonic Engineer\n5. Rad-phaged\n6. Weaponsmith",
+        "3725bada-fba1-4282-be0f-451eae1a3e74": "Palanite Drill (Palanite Enforcers)\n\n1. Got Your Six\n2. Helmar's Justice\n3. Non-verbal Communication\n4. Restraint Protocols\n5. Team Work\n6. Threat Response",
+        "7e293604-bb06-4e2f-acd6-748b5af6f97e": "Savagery (Corpse Grinder Cult)\n\n1. Avatar of Blood\n2. Bloodlust\n3. Crimson Haze\n4. Frenzy\n5. Killing Blow\n6. Slaughterborn",
+        "dcc2b428-0bb6-4115-9b4e-a3cdc9567621": "Wastelands (Ash Wastes Nomads)\n\n1. Born of the Wastes\n2. Stormwalker\n3. Eyes of the Wasteland\n4. Beast Handler\n5. Ever Vigilant\n6. Bring it Down",
+        "89ccd60a-0ed6-4974-aabc-26f37ee3fba5": "Wisdom of the Ancients (Ironhead Squat Prospectors)\n\n1. Where There's Scrap, There's Creds!\n2. Nobody Pushes Kin Around\n3. Chemical Bonds Never Break\n4. Dependable Like Kin\n5. Stubborn to the Last\n6. There's Always Another Secret",
+        "588c408b-3f00-49df-9a4e-d1751579fd1f": "**Palanite Enforcers: Palanite Drill (Source: Book of Judgement)**\n\n1. **Got Your Six**: Interrupt an enemy's Charge with a Shoot action; if they get Pinned or Seriously Injured, their activation ends.\n2. **Helmar's Justice**: Inflict double Lasting Injury rolls on a Coup de Grace and choose which to apply.\n3. **Non-Verbal Communication**: Use a Double action (Comms) to grant a friend within 6\u201d 360\u00b0 vision arc after passing a Cool test.\n4. **Restraint Protocols**: +1 to Capturing an enemy for each Out of Action taken by Coup de Grace.\n5. **Team Work**: Enable Group Activation for fighters who don\u2019t already have it.\n6. **Threat Response**: Charge an enemy who ends a Charge within 6\", including making Fight action.",
+        "fc24aadd-964e-47ed-b9ed-8566511f7182": "**Corpse Grinder Cult: Savagery (Source: Book of Ruin)**\n\n1. **Avatar of Blood**: Discard a Flesh Wound for each unsaved wound inflicted in Melee.\n2. **Bloodlust**: Consolidate 2\u201d after a Coup de Grace.\n3. **Crimson Haze**: Automatically pass Nerve tests when Engaged.\n4. **Frenzy**: +D3 Attacks with -1 hit modifier when charging.\n5. **Killing Blow**: Opt for a single, powerful attack with double Strength and Damage; no Armour Save allowed.\n6. **Slaughterborn**: +1\u201d Move for each unsaved wound inflicted in Melee, lasting the battle.",
+        "d2e45dde-94b3-4032-bfcd-e9f84e6a6675": "**Ash Wastes Nomads: Wastelands (Source: Book of the Outlands)**\n\n1. **Born of the Wastes**: Ignore Battlefield Surface effects, perform Hide in Wastes action to become Hidden.\n2. **Stormwalker**: +2\" Movement if starting on the Battlefield Surface.\n3. **Eyes of the Wasteland**: Increased Visibility (+6\") and see 9\" in Pitch Black.\n4. **Beast Handler**: If Mounted, add an attack with S3 and AP-1 in Melee.\n5. **Ever Vigilant**: +1 Attack and no turn penalty in Reaction Attacks.\n6. **Bring It Down**: Spend Basic action to make an enemy easier to hit for all friendly fighters.",
+        "8591efcb-e495-458b-b496-134aeeb322a6": "**Ironhead Squat Prospectors: Wisdom of the Ancients (Source: Book of the Outlands)**\n\n1. **Where There's Scrap, There's Creds!**: Gain additional D6x10 credits per wrecked enemy vehicle.\n2. **Nobody Pushes Kin Around**: Immunity to movement from traits/skills and auto-pass Initiative tests near edges.\n3. **Chemical Bonds Never Break**: Use a Chem twice.\n4. **Dependable Like Kin**: Ignore Unstable on weapons and re-roll ammo tests.\n5. **Stubborn to the Last**: Make a Shoot/Fight action before being taken Out of Action.\n6. **There's Always Another Secret**: Gain D6x10 credits when opening a Loot casket.\n\nThese skills highlight the tactical and combat advantages specific to each faction, enhancing their battlefield effectiveness in unique ways.",
+        "e1c04ab3-434f-4b08-8a3b-88928cf32d91": "**Necromunda Core Rulebook (2023) - Weapon Traits**\n\n**Assault Shield/Energy Shield**\n\n- +2 armor save against melee attacks from the front.\n- +1 armor save against ranged attacks from the front.\n- Uses Vision Arc to determine if the shield is effective.\n\n**Backstab**\n\n- +1 to attack\u2019s Strength if attacker is not in the target's vision arc.\n\n**Blast (3\"/5\"/*)**\n\n- Uses a Blast marker.\n\n**Blaze**\n\n- If hit but not out, roll a D6; on a 4+, target catches fire.\n\n**Burrowing**\n\n- Fire at targets outside of line of sight; use a 3\" Blast marker and scatter it.\n\n**Chem Delivery**\n\n- Choose a chem to fire; affected like taking a dose of the chem, bypassing Wound roll.\n\n**Combi**\n\n- Two profiles; pick one when firing. Ammo tests roll twice, take the worst.\n\n**Concussion**\n\n- Reduces Initiative by 2 or imposes -2 penalty to Handling tests for vehicles.\n\n**Crew Operated**\n\n- Used by vehicle crew, using their BS characteristic. Unwieldy trait doesn't apply.\n\n**Cursed**\n\n- Target must pass a Willpower test or gain the Insane condition.\n\n**Demolitions**\n\n- Grenades can be used against scenery targets in close combat.\n\n**Digi**\n\n- Additional close combat attack, not counted towards weapon limit.\n\n**Disarm**\n\n- Natural 6 hit roll prevents target from using weapons for Reaction attacks.\n\n**Drag**\n\n- Drag a hit target closer, if Strength roll is successful.\n\n**Entangle**\n\n- Negates Parry trait; natural 6 hit roll imposes additional -2 hit modifier on Reaction attacks.\n\n**Esoteric**\n\n- Cannot be upgraded or modified.\n\n**Exclusive**\n\n- Cannot be purchased from the Trading Post; gang specific.\n\n**Fear**\n\n- Target takes a Nerve test with -2 modifier if hit, potentially becoming Broken.\n\n**Flare**\n\n- Reveals models in darkness; leaves Blast marker in place for illumination.\n\n**Flash**\n\n- Causes Blind condition on failed Initiative or Handling test.\n\n**Force**\n\n- Normal in non-psyker hands; gains Power and Sever traits for Psykers.\n\n**Gas**\n\n- No wound roll; affected by gas on Toughness roll.\n\n**Graviton Pulse**\n\n- Affects Strength or Toughness instead of normal wounding, creates difficult terrain.\n\n**Grenade**\n\n- Thrown as a Shoot action, limited number, automatically Out of Ammo after use.\n\n**Hexagrammatic**\n\n- Ignores saves from psychic powers, double damage against Psykers.\n\n**Impale**\n\n- Projectile can hit multiple models in line, reducing Strength each time.\n\n**Knockback**\n\n- Moves hit fighter 1\" away; increased damage if movement is blocked.",
+        "38b2c23b-c8f7-4fe3-bca8-96323cf43b2a": "**Necromunda Core Rulebook (2023) - Weapon Traits (Continued)**\n\n**Limited**\n\n- Special ammo types that run out after a failed Ammo test.\n- Ammo type is deleted from Fighter or Vehicle card until repurchased.\n- Weapon can be reloaded normally with remaining profiles.\n- Only one 'dose' of ammo can be carried per weapon.\n\n**Master-Crafted**\n\n- Once per battle, allows re-rolling a single failed hit roll.\n\n**Melee**\n\n- Weapon can be used in close combat attacks.\n\n**Melta**\n\n- At Short range, reduces fighter to 0 wounds = automatic Out of Action.\n- At Short range against a vehicle, roll an additional Damage dice.\n- If no Short range, applies to all attacks.\n\n**Paired**\n\n- Missing from the 2023 Core Rules.\n- Counts as dual weapons for Attack dice calculation.\n- Charge action doubles Attacks characteristic.\n- No benefit if Mounted.\n\n**Parry**\n\n- Force re-roll of one successful enemy hit in close combat.\n- If armed with two Parry weapons, re-roll two hits.\n\n**Phase**\n\n- Missing from the 2023 Core Rules.\n- Ignores armor and field armor saves.\n- Vehicles can't make armor saves against it.\n\n**Plentiful**\n\n- Ammo is common, automatically reloaded without Ammo test.\n\n**Power**\n\n- Attacks cannot be Parried except by other Power weapons.\n- Natural 6 hit = no save (except Field armor) and +1 Damage.\n\n**Pulverise**\n\n- After Injury roll, roll D6; on target's Toughness or 6, change Flesh Wound to Serious Injury.\n- Against vehicles, roll an additional Damage dice.\n\n**Rad-Phage**\n\n- After successful hits, roll D6; on 4+, cause an additional Flesh Wound.\n\n**Rapid Fire (X)**\n\n- Multiple hits equal to Firepower dice bullet holes.\n- Can roll up to X Firepower dice, allocate hits within 3\" of target.\n\n**Reckless**\n\n- Randomly determine target including friendly models.\n- For Rapid Fire weapons, distribute hits among maximum eligible targets.\n\n**Rending**\n\n- Wound roll of 6 = +1 Damage (fighters) or extra Damage dice (vehicles).\n\n**Scarce**\n\n- Ammo hard to find; once Out of Ammo, can't be used again in battle.\n\n**Scattershot**\n\n- D6 wound rolls instead of 1 when a target is hit.\n\n**Seismic**\n\n- Hits always cause Prone and Pinned.\n- Vehicles must make Loss of Control test.\n- Natural 6 wound roll = no save.\n\n**Sever**\n\n- Reduces fighter to 0 wounds = automatic Out of Action.\n\n**Shield Breaker**\n\n- Ignores Assault/Energy Shield effects.\n- Against Field Armour, roll two dice for save, choose lower.\n\n**Shock**\n\n- Natural 6 hit roll = automatic wound success.\n\n**Sidearm**\n\n- Can be used for ranged and single close combat attacks.\n\n**Silent**\n\n- No alarm raised in Sneak Attack scenarios.\n- Hidden shooter doesn't become Revealed.\n\n**Single Shot**\n\n- One use per battle; counts as Out of Ammo after use.\n\n**Smoke**\n\n- Marks location with smoke, blocks line of sight.\n- Dissipates on roll of 4 or less in End phase.\n\n**Template**\n\n- Uses Flame template to determine hit targets.\n\n**Toxin**\n\n- Roll D6 against target's Toughness; on success, make Injury roll.\n- No effect on vehicles.\n\n**Twin-Linked**\n\n- Missing from the 2023 Core Rules.\n- Re-roll any number of Ammo dice, must accept re-roll result.",
+        "c7e1cf43-2b4b-4708-83d6-450be943b55f": "**Necromunda Core Rulebook (2023) - Weapon Traits (Continued)**\n\n**Unstable**\n\n- If Ammo symbol is rolled on Firepower dice, roll a D6.\n- On 1, 2, or 3, the weapon malfunctions, potentially causing harm to the user.\n- For fighters: Taken Out of Action.\n- For vehicles: Suffers a Catastrophic Hit and the weapon can't be used for the rest of the battle.\n- The attack is still resolved against the target.\n\n**Unwieldy**\n\n- A Shoot action with this weapon is a Double action, not Basic.\n- Fighters using Unwieldy and Melee weapons in close combat cannot use a second weapon.\n- House Rule (Necrodamus, A&A): Apply -1 hit modifier if shooting Unwieldy weapons as anything other than Double action.\n\n**Versatile**\n\n- Engage and attack enemies in melee without needing base contact, up to Long range of the weapon.\n- Enemy considered engaged but not Engaging unless they have a Versatile weapon.\n- No effect outside of the fighter\u2019s activation.\n\n**Web**\n\n- Successful wound roll = automatic Webbed condition, no injury inflicted.\n- Webbed status significantly restricts the target's actions.",
+        "5b26654a-8fac-4acf-94f9-1165b3465084": "**General Principles & First Principles**\n\n**General Principles**\n\n- Covers measurement, line of sight, cover, terrain, dice usage, fighter and vehicle statuses.\n- Emphasizes the importance of understanding basic game concepts for smooth gameplay.\n\n**First Principles**\n\n- Establishes conventions like measurement rules, changing decisions, and understanding game terms.\n- Clarifies terms such as 'fighter', 'vehicle', and 'model' for consistent rule interpretation.\n- Encourages tolerance among players for occasional indecision, with finality once actions are measured or dice are rolled.",
+        "e3e06218-499d-477a-aa53-25736450bf3f": "**Measurement & Line of Sight**\n\n**Measuring Distances**\n\n- Distances measured in inches, only when rules call for it.\n- Measurement from closest points of bases or models.\n- Solid terrain features affect measurement rules.\n\n**Line of Sight & Cover**\n\n- Vision arcs and line of sight are key for targeting and shooting.\n- Fighters have a 90\u00b0 vision arc to their front.\n- Vehicles may have up to four vision arcs.\n- Line of sight determined by terrain and model placement.\n- Disagreements resolved by rolling off if necessary.\n\nIn summary, these detailed rules and principles from the Necromunda Core Rulebook (2023) lay out the foundation for understanding and engaging with the game's mechanics, ensuring players have a clear guide for fair and enjoyable gameplay.",
+        "e1d72bb2-b0d4-4c27-8f7e-15aa92c8270f": "**Line of Sight & Solid Terrain Features**\n\n- **Solid Terrain:** Impossible to see through, e.g., walls, rock formations.\n- **Line of Sight:** Cannot be drawn through solid terrain features.",
+        "66131053-14c8-4542-912a-5030721f95d2": "**Designer's Note on Line of Sight**\n\n- **Gracious Play:** Be lenient with opponent's line of sight claims unless obviously impossible.\n- **Game Flow:** Adopting a more permissive approach to line of sight and cover enhances gameplay smoothness and satisfaction.",
+        "a0195010-68aa-461c-8bf8-e73076235dbf": "**Cover**\n\n- **Determining Cover:** Check from the attacker's perspective, ignoring friendly fighters in base contact with the attacker.\n- **Cover Categories:**\n    - **In the Open:** Fully visible, no cover.\n    - **Partial Cover:** Less than half obscured.\n    - **Full Cover:** At least half obscured.\n- **Resolving Disputes:** Roll off if players can't agree.\n- **Impact on Shooting:** Benefits detailed under Shooting rules.\n- **Images:** Illustrative examples provided.",
+        "cad8240e-d29e-4f1a-bf01-cdfef38a13d7": "**Terrain**\n\n- **Importance in Gameplay:** Provides character and strategic challenges.\n- **Types of Terrain:**\n    - **Impassable Terrain:** Cannot be moved through/over.\n    - **Walls:** Usually impassable, may be scalable in multi-level battlefields.\n    - **Solid Terrain Features:** Treated as impassable.\n    - **Doors:** Initially closed, considered impassable until opened.\n    - **Locked Doors & Terminals:** Require specific actions to unlock and open.\n    - **Obstacles & Structures:** Affect line of sight and cover, may impact movement.",
+        "2172e8c4-e97d-446a-a805-5d93c4ab3411": "**Rolling Dice**\n\n- **Single Dice Rolls:** Roll a D6 as instructed, consider each result separately.\n- **Multiple Dice Rolls:** Sum up results, e.g., rolling 2D6.\n- **Dice Pools:** Roll multiple dice, select one result.\n- **Target Number Rolls:** Succeed on rolling a specified number or higher.\n- **Modifying Dice Rolls:** Add or subtract modifiers to the roll.\n- **Rolling Off:** Both players roll, highest score wins.\n- **Natural Rolls:** Actual number rolled, unaffected by modifiers.\n- **Re-Rolls:** Limited to once, must accept the second result.",
+        "18746505-305a-4cd4-b1d7-ddd8d647e551": "**Fighter Status in Necromunda**\n\n**Overview:** Fighter status in Necromunda determines what actions a fighter can or cannot do during their activation. The status changes based on battlefield positioning and other factors.",
+        "014ad389-6c9a-4710-95f1-bcca70d9ffbb": "Standing\n\n- **Definition:** A fighter is 'Standing' when they are upright on the battlefield.\n- **Secondary Statuses:**\n    - **Active:** Default status for a Standing fighter; not engaged with enemy fighters.\n    - **Engaged:** A Standing fighter in base to base contact with an enemy fighter or within 1\" of an enemy vehicle. Engaged fighters are limited to actions related to combat or retreat.",
+        "8001656e-e3ef-4577-8e4e-10452f179fa5": "Prone\n\n- **Definition:** A fighter is 'Prone' when laid down on the battlefield.\n- **Secondary Statuses:**\n    - **Pinned:** Commonly occurs when hit by enemy fire. Prone and Pinned fighters need an action to stand up. If engaged by an enemy, they stand up for free.\n    - **Seriously Injured:** Occurs from a Serious Injury result on an Injury dice. Prone and Seriously Injured fighters are vulnerable and have limited movement.",
+        "e30e4911-7267-43fa-a81d-1a5ccb9b673a": "**Vehicle Status**\n\n**Overview:** Vehicle status indicates the degree of mobility and determines the actions a vehicle can perform.",
+        "49043927-7b15-4856-b9dd-dc88597e3baf": "Mobile\n\n- **Definition:** A 'Mobile' vehicle can move freely and perform various actions.",
+        "4efb9066-51b4-45f9-b75c-9c0f27bf0dd0": "Stationary\n\n- **Definition:** A 'Stationary' vehicle is unable to move.\n- **Secondary Statuses:**\n    - **Stalled:** The vehicle has stopped due to an enemy attack or other in-game effect. It can often still fire weapons but needs to 'Restart' to move.\n    - **Wrecked:** Indicates a vehicle is damaged to the point of inaction. Treated as terrain once Wrecked.",
+        "68fd9924-ad2c-4cfa-9ab5-ddf24cf7c8a3": "**Determining Status**\n\n- Status can change during a model\u2019s activation or due to other models' actions.\n- Confirm the Primary and Secondary Status at the end of each activation.",
+        "4a882056-e210-4ad6-97ff-5002f57bace2": "**Conditions**\n\n- Fighters can have various conditions affecting them, denoted by markers.",
+        "f44c9d6e-65c6-4b0c-99ce-1600bf115b82": "Common Conditions\n\n- **Ready:** Indicates a model can be activated.\n- **Broken:** Results from trauma; limited to Running for Cover or Reaction attacks.\n- **Out of Ammo:** Occurs when failing an Ammo test. Affects weapon usability.\n- **Fleshwound(s):** Reduces Toughness; multiple Flesh Wounds can lead to being Out of Action.",
+        "b66eb2e9-1f75-4b87-8e70-8ede472b84c5": "Other Conditions\n\n- **Blaze:** Affects differently based on model type (fighter or vehicle).\n- **Blind:** Restricts attacks.\n- **Concussion:** Reduces Initiative or Handling tests.\n- **Hidden/Revealed:** Used in specific scenarios or with terrain rules.\n- **Intoxicated:** Varies based on cause.\n- **Insane:** Results in erratic behavior.\n- **Webbed:** Similar to Seriously Injured.\n- **Mounted:** Specific rules for fighters on mounts.",
+        "acd5910a-63ae-49ab-a9e4-2a062a983092": "**Founding a Gang**\n\n- Gang creation involves selecting fighters, weapons, Wargear, and vehicles within a credit budget.\n- Budgets differ for Campaign and Skirmish play.\n- Additional credits for vehicles and Mounted condition Wargear in campaigns.",
+        "242e76d7-9589-4703-9338-7339c78665d7": "**Model Names, Categories & Types**\n\n- Each model type indicates rank within a House's hierarchy.\n- Rules often refer to model categories (e.g., Leader, Ganger) or specific types (e.g., Orlock Gunner).\n\n**Gang Composition:**\n\n1. There must be one model with the Leader special rule.\n2. The total number of models with the Gang Fighter (X) special rule must always be equal to or higher than the total number of models without this rule, excluding Hangers-on or Hired Guns.\n3. To correct an imbalance during a campaign, retire models without the Gang Fighter (X) special rule or recruit new models with this rule.\n\n**Hiring Existing Fighters and Vehicles:**\n\n1. Existing fighters, crew, and vehicles from a previous campaign can be added to a new gang by deducting their credits value from the budget.\n2. When added, they retain all weapons, Wargear, skills, advancements, and Lasting Injuries.\n\n**Equipping Fighters and Crew:**\n\n1. Fighters on foot can have up to three weapons; those with the Mounted condition can have two.\n2. Weapons marked with an asterisk (*) count as two weapons.\n3. Fighters can purchase Wargear listed in their entry.\n4. Weapon accessories marked with a dagger (\u2020) cannot be combined on the same weapon.\n5. Crew can equip two weapons, and weapons gain the Arc (Front) trait.\n6. Equipment limitations for campaign and skirmish play may vary.\n\n**Equipping Vehicles:**\n\n1. Vehicles can be equipped with various weapons, Wargear, and upgrades.\n2. No limit on the amount of Wargear; however, some Wargear cannot be combined.\n3. Vehicles have a set number of Upgrade slots divided into Body, Drive, and Engine categories.\n\n**Vehicle Upgrades:**\n\n1. Upgrades can be added during a campaign from either the Trading Post or equipment list.\n2. Upgrades can be discarded in favor of new ones in the same slot.\n3. Discarded upgrades can either be trashed or kept in the gang\u2019s Stash.\n\n**Fighter and Vehicle Cards:**\n\n1. Complete a blank Fighter card or Vehicle card for each model added to the gang.\n2. Record the model\u2019s characteristics and equipment on their respective card.\n\n**Equipment Sets:**\n\n1. Fighters or Crew with the Tools of the Trade special rule can have multiple equipment sets represented by different Fighter or Vehicle cards.\n2. There's no additional cost for multiple equipment sets.\n\n**Death of a Leader:**\n\n1. If a gang\u2019s Leader is killed, a new leader is nominated based on specific criteria.",
+        "0f27cb0a-367d-4389-990a-baae7155ee79": "**Creating a Skirmish Gang**\n\n**Founding a Gang:**\n\n- For Skirmish battles, gangs should have 1,250 to 2,000 credits, with flexibility for larger gangs.\n- Recommended minimum: 10 fighters and one vehicle; maximum: 20 fighters and four vehicles.\n- Gang composition rules apply as in a campaign.\n- Unspent credits are not added to the gang\u2019s Stash.\n\n**Leaders and Champions:**\n\n- Get a free starting skill or ability.\n- Record this on the fighter\u2019s Fighter card.\n\n**Equipment:**\n\n- Follow standard equipment rules.\n- May include rare and/or illegal items from the Trading Post.\n- Pre-determine the Rare (X) and Illegal (X) level, e.g., up to Rare (10).\n\n**Hired Guns, Brutes, and Hangers-on:**\n\n- Do not count towards the minimum number of fighters.\n- Count towards the maximum number of fighters.\n- Number allowed is detailed in the Reputation section.\n- Must be represented by appropriate models.",
+        "5b39fe8c-c47b-4505-b8b1-f41d9bdf8e6f": "**Gang Attributes**\n\n**Reputation:**\n\n- Skirmish gangs may start with a Reputation of 5, 10, or 15.\n- Determines the number of Hangers-on and Brutes allowed.",
+        "83ab145e-0200-4cd0-a72b-64d280a26df7": "**Model Attributes**\n\n**Additional Skills:**\n\n- Allow certain fighters to start with free additional skills.\n- Number of additional skills based on gang's credits value:\n    - Up to 1,300 credits: Five Primary skills.\n    - 1,301 to 1,500 credits: Six Primary skills.\n    - 1,501 credits or above: Five Primary skills and one Secondary skill.\n- Distribute skills among Leaders, Champions, Prospects, Juves, and Specialists.\n\n**Characteristic Increases:**\n\n- Allow a number of free characteristic increases.\n- The number of increases should be half the number of extra skills rounded down.\n- No model should have more than one characteristic increase.",
+        "c9a3fc34-49ec-4aea-a9d0-0f03a7f3b152": "**The Gang Roster**\n\n- Complete a Fighter card or Vehicle card for each gang member and vehicle.\n- The roster includes gang's name, type, Gang Rating, Reputation, Wealth, Territories, Stash, and individual fighter details.\n- Gang Rating is the total cost of all fighters, vehicles, and their equipment.\n- Wealth includes the total cost of fighters, vehicles, and Stash contents.\n- Reputation starts at 1 and varies in campaigns.",
+        "dd09b2a9-ff53-43ae-8081-f27a240be193": "**Model Campaign Attributes**\n\n- **Experience (XP):** Used to purchase Advancements.\n- **Advancements:** Increases the cost of future Advancements.\n- **Captured By, In Recovery & In Repair:**\n    - Models Out of Action may suffer Lasting Injuries leading to recovery time.\n    - Models can be Captured by enemy gangs.\n    - Wrecked vehicles may require repairs.\n\nFor detailed guidance and rules, refer to the specific Necromunda supplements and campaign rules.",
+        "0387bb03-f1c0-417a-aa0a-1e510ae6a20a": "**The Rules**\n\n**Pre-Battle Sequence***Source: Necromunda Core Rulebook (2023)*\n\n1. **Make a Challenge & Stake Territory**: Challenges are issued and accepted between players. In Campaign play, this involves nominating a territory as the stake.\n2. **Recruit Hired Guns**: Players can recruit Hired Guns using credits. The lower Gang Rating player recruits first.\n3. **Determine Scenario**: Choose or roll for a scenario. The attacker and defender are determined, considering the Home Turf Advantage and specific scenarios like Rescue Missions.\n4. **Set Up the Battlefield**: Follow scenario instructions or default methods for terrain setup.\n5. **Choose Crews**: Select the starting crew as detailed in the scenario.\n6. **Announce Territory Boons**: In Campaign play, announce any Territory Boons affecting the battle.\n7. **Gang Tactics**: Determine gang tactics based on the scenario instructions.\n8. **Deployment**: Set up gangs on the battlefield as per scenario deployment zones.\n\n**Game Structure***Source: Necromunda Core Rulebook (2023)*\n\n- **Round Sequence**: The game is split into rounds, each consisting of three phases: Priority Phase, Action Phase, and End Phase.\n\n**Priority Phase**\n\n1. **Roll For Priority**: Determine who gets the Priority marker, giving them a significant advantage.\n2. **Ready Gang**: Place Ready markers on each model (fighter or vehicle) in the gang.\n\n**Action Phase**\n\n- **Activate Gang**: Players alternate activating models, performing actions with them.\n\n**End Phase**\n\n- **Bottle Checks**: Check if gangs hold their nerve or flee.\n- **Recover & Restart**: Recovery tests for injured fighters and restart tests for stalled vehicles.\n- **Rally Tests**: Rally broken models.\n\n**Priority Phase***Source: Necromunda Core Rulebook (2023)*\n\n1. **Roll For Priority**: Determines the round's Priority holder.\n2. **Ready Gang**: Apply Ready markers to models for activation.\n\n**Action Phase***Source: Necromunda Core Rulebook (2023)*\n\n1. **Activate Gang**: Take turns activating individual models or groups of fighters.\n\n**Types of Action***Source: Necromunda Core Rulebook (2023)*\n\n- **Simple Action**: Can be performed more than once per activation.\n- **Basic Actions**: Only performed once per activation.\n- **Double Actions**: Counts as two actions.\n- **Free Actions**: Do not count towards action limit.\n- **Changing Facing**: Adjusting model's facing during activation.\n\nThis section provides a comprehensive overview of the rules and phases involved in a game of Necromunda, guiding players through the pre-battle preparations and the flow of the game rounds.",
+        "97e38e3a-4c6b-4da0-bd08-59d8cbaeb1f1": "**Fighter Actions**\n\n*Source: Necromunda Core Rulebook (2023)*\n\nFighters in Necromunda can perform a variety of actions based on their status - Standing (Active or Engaged) or Prone (Pinned or Seriously Injured).",
+        "30231e45-9798-411a-bfd4-f51baadf7626": "**Standing & Active Fighters**\n\n- **Move (Simple)**: Move up to their Movement characteristic, climb, cross gaps, leap, or jump down.\n- **Charge (Double)**: Move with additional distance, potentially engage in combat.\n- **Crawl Through Ductway (Double)**: Move through ductways avoiding enemies.\n- **Take Cover (Basic)**: Move and then become Prone and Pinned.\n- **Shoot (Basic)**: Make a ranged attack.\n- **Aim (Basic)**: Gain a bonus for a subsequent Shoot action.\n- **Fire Through Ductway (Basic)**: Shoot through ductways with specific hit chances.\n- **Reload (Simple)**: Reload a weapon that's Out of Ammo.\n- **Reload Vehicle Weapon (Simple)**: Reload a vehicle weapon that's Out of Ammo.\n- **Coup De Grace (Simple)**: Take out a Prone and Seriously Injured enemy fighter.\n- **Operate Door (Simple)**: Open or close a door.\n- **Access Terminal (Basic)**: Use intelligence to operate a door remotely.\n- **Force Door (Basic)**: Force open a locked door.\n- **Smash Open Loot Casket (Basic)**: Open a loot casket by force.\n- **Bypass Loot Casket Lock (Basic)**: Open a loot casket using intelligence.\n- **Carry Loot Casket (Simple)**: Move while carrying a loot casket.",
+        "eec7dd90-3edb-439d-b7f6-14c92579f23e": "**Standing & Engaged Fighters**\n\n- **Fight (Basic)**: Engage in close combat.\n- **Retreat (Basic)**: Attempt to disengage and move away.",
+        "162b4ed5-1b4d-4713-ab49-17baba307a65": "**Prone Fighters**",
+        "0c4b3daa-0549-4cac-85b0-a9d2d26335e5": "Prone & Pinned\n\n- **Stand Up (Basic)**: Stand up to become Active.\n- **Crawl (Double)**: Move while staying low.\n- **Blind Fire (Double)**: Shoot blindly at enemies.",
+        "ef1c383a-1cbf-4d95-9019-ad616d1fa29b": "Prone & Seriously Injured\n\n- **Crawl (Double)**: Same as for Prone & Pinned.",
+        "b720068d-3e0b-49c5-b01d-d8d9edadf84d": "**Broken Fighters**\n\n- **Running for Cover (Double)**: Move away from danger, dictated by several factors.",
+        "ab40c2b2-a89c-4178-806f-eaaffc9c27a5": "**Vehicle Actions**\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "7cc16816-2555-401c-8307-5b912545ae3e": "Mobile Vehicles\n\n- **Move (Simple)**: Standard movement for vehicles.\n- **Manoeuvre (Simple)**: Move with more flexibility.\n- **Move & Shoot (Basic)**: Move and fire one weapon.\n- **Fire All (Basic)**: Fire all Crew Operated weapons.\n- **Reload (Simple)**: Reload a vehicle weapon.\n- **Aim (Basic)**: Gain a bonus for subsequent Fire All action.\n- **Drift (Basic)**: Move half the distance and take a control test.\n- **Ram (Double)**: Move with added distance, possibly colliding with objects.\n- **Spin (Basic)**: Turn up to 180\u00b0 and test for control.\n- **Full Throttle (Double)**: Move up to three times the distance, with control test on turn.",
+        "64f37f0f-cc76-4007-b522-034494d7b0f1": "Stationary Vehicles",
+        "68161bd5-ed74-4f13-9e15-03aa032ae861": "**Stationary & Stalled**\n\n- **Jump Start (Simple)**: Attempt to restart the vehicle.\n- **Turn-Over (Basic)**: Small movements while trying to restart.\n- **Free Wheel (Basic)**: Move due to gravity.\n- **Fire All (Basic)**: Fire all weapons.",
+        "3e437c8b-8959-4b9c-a685-7e2d8de90e3d": "**Stationary & Wrecked**\n\n- No actions available; treated as a terrain feature.",
+        "bc22dd6a-5704-4c24-93fa-6e6795e6d823": "**Broken Vehicles**\n\n- **Break for Air (Double)**: Desperate movement to escape battle.\n- **Burn Out (Double)**: Attempt to restart and create smoke screens.",
+        "f91e7b09-ce24-454f-9acc-c0e80b4e83c1": "**Movement**\n\n*Source: Necromunda Core Rulebook (2023)*\n\n- **Moving Models**: Models move by performing actions, with restrictions based on their type (fighter or vehicle).\n- **The 1\" Rule**: Fighters cannot voluntarily move within 1\" of an enemy, except when charging or if the enemy is Prone and Seriously Injured.\n- **Directly Towards & Directly Away From**: Specific movement directions, following a straight line between models.\n\nThese rules cover a comprehensive range of actions for both fighters and vehicles, guiding players on how to maneuver and engage in combat in the diverse and dangerous environments of Necromunda.",
+        "cad512de-977c-465a-94b0-929c38a67363": "**Vehicles and Difficult Terrain**\n\n*Source: Necromunda Core Rulebook (2023)*\n\nVehicles in Necromunda interact with different terrain types based on their locomotion method. These methods are defined under the Locomotion special rules.",
+        "2f048e72-21ed-4631-af81-6ff5f080b508": "Locomotion Special Rules\n\n1. **Wheeled**: Counts as moving 2\" for every 1\" in difficult terrain.\n2. **Tracked**: Ignores movement penalties over difficult terrain.\n3. **Skimmers**: Skips all difficult and dangerous terrain but requires a Handling test if ending on such terrain; failure leads to a Catastrophic hit to the Drive.\n4. **Walker**: Can turn freely and counts as moving 2\" for every 1\" in difficult terrain.",
+        "b15355a1-42d2-432b-9aea-74a3842c55da": "Vehicles and Dangerous Terrain\n\nVehicles crossing dangerous terrain must pass a Handling check to avoid a Catastrophic Hit to the Drive. Failing this check results in immediate damage.",
+        "007b7772-d9af-4394-8fa3-928ce57157e4": "Fighter Movement on Vehicles\n\nFighters interact with vehicles like terrain, climbing and jumping on them. Balancing on a moving vehicle is challenging:\n\n- Fighters (excluding those in transport spaces) on moving vehicles must pass an Initiative check or fall off.\n- If they fall, they are placed 1\" away in a direction determined by the Scatter dice.\n- Falling near impassable terrain or edges requires additional checks.\n- Objects like Loot caskets fall off unless secured by a successful Initiative check.",
+        "875e6906-f774-41a3-af1c-8b60e8786085": "Vehicle Impacts\n\n*Source: Necromunda Core Rulebook (2023)*",
+        "f09ecd82-bc72-43ba-bdb1-e982debdcb2f": "**Running Over Fighters**\n\n- Fighters moved by a vehicle must pass an Initiative test or suffer a hit.\n- Seriously Injured fighters pass only on a natural 6."
+    },
+    "relevant_docs": {
+        "ec75b06e-0151-45e1-9a39-03a8df70332b": [
+            "09a4352a-a67f-4666-9138-e94763de1d79"
+        ],
+        "0dd671ee-8994-4c7e-8f9a-d893553f62cb": [
+            "09a4352a-a67f-4666-9138-e94763de1d79"
+        ],
+        "a3f0cb8e-56c3-4a86-a4f3-e20e916c6567": [
+            "b6937662-b993-4e3e-8177-2f3731fac370"
+        ],
+        "baaeddec-cd5a-4249-979a-94cd40613df6": [
+            "b6937662-b993-4e3e-8177-2f3731fac370"
+        ],
+        "2b01d945-3b06-4213-a413-aedba67cac88": [
+            "3fdaffbf-642d-484a-9646-d74d3019fa6a"
+        ],
+        "8a3592b2-0415-40d3-8df6-584e5039a449": [
+            "3fdaffbf-642d-484a-9646-d74d3019fa6a"
+        ],
+        "e2388adc-43c8-45d5-89f0-03a282a066b8": [
+            "b644d3d9-e4ea-4b5c-be8a-ccb9eb42afef"
+        ],
+        "0e85233b-4eac-4ae9-bcb9-1178aa514936": [
+            "b644d3d9-e4ea-4b5c-be8a-ccb9eb42afef"
+        ],
+        "fda30053-4d36-4e1e-bb4c-51a1a628a8cd": [
+            "6963897b-1961-4f29-aba1-cc7084d288f9"
+        ],
+        "ef85fda4-1af5-4a5a-b57f-f3fb3a3c591a": [
+            "6963897b-1961-4f29-aba1-cc7084d288f9"
+        ],
+        "3ab73296-91de-48d2-b208-84bb7b5be80c": [
+            "d84ce110-2c2b-4331-97b8-58c07eb7697c"
+        ],
+        "e240314c-eded-4ecc-b01d-1d7c2b01f9c1": [
+            "d84ce110-2c2b-4331-97b8-58c07eb7697c"
+        ],
+        "26eb0323-8449-4833-91cc-50bde3b629ef": [
+            "35b29795-ec74-449b-ab0f-3dc32adb2e7e"
+        ],
+        "09b81832-e723-4343-bbfe-2add5bc207d0": [
+            "35b29795-ec74-449b-ab0f-3dc32adb2e7e"
+        ],
+        "ac70fdee-123e-485d-9a61-89f8876ba896": [
+            "0cee2af6-8c7c-4547-bcaa-66b016e4d429"
+        ],
+        "2cec6c6e-4b53-4822-80af-592ef13cb9bd": [
+            "0cee2af6-8c7c-4547-bcaa-66b016e4d429"
+        ],
+        "5814baf7-cb60-44d7-85c2-bc71099710d6": [
+            "8453d716-6c67-4909-8b68-95565abbc3a5"
+        ],
+        "6e642977-e255-467c-b159-219da6954bba": [
+            "8453d716-6c67-4909-8b68-95565abbc3a5"
+        ],
+        "f6b52ebf-8e6b-425b-82cc-ce974beb4510": [
+            "3faf4c65-4a31-4282-8d60-fbe49bf00b26"
+        ],
+        "9ad94238-7197-499d-bd90-3809b72d88ce": [
+            "3faf4c65-4a31-4282-8d60-fbe49bf00b26"
+        ],
+        "7211d542-f8d8-4b5e-9015-402ad233da62": [
+            "c4d6c8a7-de14-4d7f-9187-ae7a4865bd30"
+        ],
+        "6c406ae3-b87b-4327-9d5d-36648fe461ea": [
+            "c4d6c8a7-de14-4d7f-9187-ae7a4865bd30"
+        ],
+        "ebd3ad8f-378a-4028-a0e0-71229fdea476": [
+            "2c3855b3-82f6-4bd8-92de-2d812704e176"
+        ],
+        "1761581f-cdd9-42fb-a35c-535161635939": [
+            "2c3855b3-82f6-4bd8-92de-2d812704e176"
+        ],
+        "5e3f4b66-d7a0-4aac-a326-60e826b8d6ee": [
+            "ec0822d5-70bb-40ab-aeef-ab865576b5f9"
+        ],
+        "7e8e9b20-3531-43eb-abdf-c4d7a702d059": [
+            "ec0822d5-70bb-40ab-aeef-ab865576b5f9"
+        ],
+        "c55792fd-b1ab-438a-b68f-ff318cf8f115": [
+            "cddfc71b-773e-43ba-bbc7-2850bd240f6c"
+        ],
+        "fa65906c-d611-4d5d-8dba-5ca223b50419": [
+            "cddfc71b-773e-43ba-bbc7-2850bd240f6c"
+        ],
+        "f213de45-7887-4cd5-968e-eee22b6c3ea3": [
+            "50fdb51f-1069-4600-847f-af8295062478"
+        ],
+        "637f055b-b32a-4dfc-8979-b548dd201123": [
+            "50fdb51f-1069-4600-847f-af8295062478"
+        ],
+        "e1f9a5e7-a199-4d46-8a70-9aa6647df0df": [
+            "83371d61-92cb-408d-8df1-8efa9a2cf754"
+        ],
+        "869e8751-6e6d-4715-af2f-a3488d04937f": [
+            "83371d61-92cb-408d-8df1-8efa9a2cf754"
+        ],
+        "dedd7eb6-5eb7-4364-af28-1398f9be81ab": [
+            "d1e8eff8-cb9c-415f-9f09-d31fd463ac4c"
+        ],
+        "fe688b3a-53ba-4221-9f97-caa0ed35f920": [
+            "d1e8eff8-cb9c-415f-9f09-d31fd463ac4c"
+        ],
+        "1a50b9f9-4bc2-4210-a5a2-98f8d9dc1ec2": [
+            "e796eeaa-304f-4bd2-8576-a971a196dbdc"
+        ],
+        "91c0daaa-7d26-4ec1-a76c-21bb988c86ca": [
+            "e796eeaa-304f-4bd2-8576-a971a196dbdc"
+        ],
+        "180db7f0-fb52-4f3a-aee3-e03217b3e35a": [
+            "f43ef9aa-e975-4d80-b557-581ae468b716"
+        ],
+        "a3e93990-4f90-4995-a7df-594087249ee8": [
+            "f43ef9aa-e975-4d80-b557-581ae468b716"
+        ],
+        "90fd7ab4-6356-462b-99dd-879672adf9cd": [
+            "fab22723-2ad6-436b-b9a4-3024b5d342d0"
+        ],
+        "23b9b0d2-e894-4fc1-a5e5-445c4c6e06be": [
+            "fab22723-2ad6-436b-b9a4-3024b5d342d0"
+        ],
+        "e1808c46-fbf7-49c5-b125-e5fd7b37f91b": [
+            "5cd4cfc0-38d2-4fb6-9063-ffe82988ada6"
+        ],
+        "ddeb4d86-47ba-4632-8fcd-df015c051aae": [
+            "5cd4cfc0-38d2-4fb6-9063-ffe82988ada6"
+        ],
+        "7e127a90-da65-4182-b8b0-a8e85705ee3f": [
+            "1ed352f8-b506-4171-bd02-81953198292a"
+        ],
+        "8fec32e9-b4d6-43c2-9897-de4a662818c2": [
+            "1ed352f8-b506-4171-bd02-81953198292a"
+        ],
+        "336ffafb-a79b-4fd3-bf44-20bcdd4e5808": [
+            "61725653-481e-4513-8da6-69013526a990"
+        ],
+        "6ca644aa-d1d2-4b8e-a077-b287b32632d3": [
+            "61725653-481e-4513-8da6-69013526a990"
+        ],
+        "097c196c-14c1-418c-a889-e9b8d11ce3a2": [
+            "7dd55aeb-3a14-4f90-a1b0-9b79c987af8c"
+        ],
+        "14b7f90f-3059-4be9-9d6b-390c03af9d06": [
+            "7dd55aeb-3a14-4f90-a1b0-9b79c987af8c"
+        ],
+        "5700dd85-1b9d-4d34-90ba-5d67463d26f5": [
+            "278e0c9d-5bbc-48d5-987a-cbc67aade1c6"
+        ],
+        "d88a194e-1a60-4b37-8ae6-24f2cf06caff": [
+            "278e0c9d-5bbc-48d5-987a-cbc67aade1c6"
+        ],
+        "3f3749e1-2f7c-487a-ada3-646c908e169c": [
+            "8bb44dd0-d979-4947-85e0-642aea8f76d1"
+        ],
+        "c81b1285-4280-48f9-8403-e70145e31e24": [
+            "8bb44dd0-d979-4947-85e0-642aea8f76d1"
+        ],
+        "081bc651-911d-4595-b327-8ffe50b6c5bf": [
+            "3b631715-1fc8-4db3-a41e-5385aa68523c"
+        ],
+        "9bb5c4ea-e06f-4ffa-aff4-9865b4b8f1b9": [
+            "3b631715-1fc8-4db3-a41e-5385aa68523c"
+        ],
+        "8e3a3b4f-71a4-4a4c-be1c-05dfa8b74acf": [
+            "353ddacd-860c-4aec-b963-a25de18c6ea8"
+        ],
+        "cf9eb895-fd6c-4558-b48a-af2cccf49c71": [
+            "353ddacd-860c-4aec-b963-a25de18c6ea8"
+        ],
+        "84ef402a-76aa-4ab0-8109-3a612e228912": [
+            "910a32ce-d8db-4627-bd8b-229851d4126b"
+        ],
+        "01b0d09a-2fa3-443e-819b-7d44d141c212": [
+            "910a32ce-d8db-4627-bd8b-229851d4126b"
+        ],
+        "1b6818df-9387-44e6-8b93-151d1b108040": [
+            "1a9bed8c-8aa5-47d0-a635-54ddcc778289"
+        ],
+        "a82c0f01-5cd6-4b97-97ce-d918f5e721ac": [
+            "1a9bed8c-8aa5-47d0-a635-54ddcc778289"
+        ],
+        "5c4a30af-2228-4985-8667-86f1a15c3f17": [
+            "bb926038-255f-448b-b7dc-ca5c57cb340b"
+        ],
+        "307b113a-900f-4d2e-8a50-6932769e6a50": [
+            "bb926038-255f-448b-b7dc-ca5c57cb340b"
+        ],
+        "d8b75176-2646-4332-8da2-71a91db47b92": [
+            "ac90e340-7842-4515-96ba-c4f023bdd121"
+        ],
+        "4cdcfa2d-9344-49df-9f3f-1f53aab9a1ef": [
+            "ac90e340-7842-4515-96ba-c4f023bdd121"
+        ],
+        "e24f5969-af66-4368-a32e-7b3c871630fc": [
+            "08f67f89-dde9-4e12-83dd-2a2384de24fb"
+        ],
+        "fc6a61f0-d4b2-4f59-ab8b-a5b48fe40c54": [
+            "08f67f89-dde9-4e12-83dd-2a2384de24fb"
+        ],
+        "7128b988-638c-4ea1-a5e6-ecbc1315c4b2": [
+            "595ae9a6-eeaf-4729-b8d9-0d50244626f0"
+        ],
+        "793017a8-4628-471f-8b33-713e4bd9af39": [
+            "595ae9a6-eeaf-4729-b8d9-0d50244626f0"
+        ],
+        "4fc3a824-9d1e-49ab-8230-a8b20c22c05b": [
+            "ba16a2bd-7ef4-44d6-8b1f-21b570fb5b15"
+        ],
+        "76a18c5b-5486-4712-a648-1dc6073b3cfe": [
+            "ba16a2bd-7ef4-44d6-8b1f-21b570fb5b15"
+        ],
+        "56f0f506-b488-4ccb-9ba7-4253cb922cdd": [
+            "9f04d3d8-dc97-42df-a6dd-475b64786287"
+        ],
+        "a310d92a-43bc-4cba-b212-6fd55ead80f6": [
+            "9f04d3d8-dc97-42df-a6dd-475b64786287"
+        ],
+        "387b168a-fe1d-489d-bb98-33e8d3c59efd": [
+            "a1e753fc-c297-46ac-bfae-54d45ecf8386"
+        ],
+        "776d5c91-e40b-45d4-80b4-afe1cf9f83e4": [
+            "a1e753fc-c297-46ac-bfae-54d45ecf8386"
+        ],
+        "6d01514f-9e7e-4a9c-ade9-b5dcc229b6f5": [
+            "41a19973-a62d-4091-82d4-05578ceba8ce"
+        ],
+        "1b783c4b-9445-42c5-81f9-175b92157ace": [
+            "41a19973-a62d-4091-82d4-05578ceba8ce"
+        ],
+        "ddbfbc8c-277e-413a-a18a-529d7ef3946b": [
+            "6dfa7bd0-7b7b-417e-a576-2c2878f7445a"
+        ],
+        "f4b7f391-49c4-4f64-848f-b432ead36e7c": [
+            "6dfa7bd0-7b7b-417e-a576-2c2878f7445a"
+        ],
+        "b0a0f49f-cffb-4091-abec-4715acf4ba68": [
+            "5ff5f7c8-2d0a-4835-917f-5ba4b667d960"
+        ],
+        "2f79b64d-ba17-4e2a-9e2e-cd034993826f": [
+            "5ff5f7c8-2d0a-4835-917f-5ba4b667d960"
+        ],
+        "6f2a8308-8961-43f9-be78-2bac1236f19e": [
+            "73730f8e-e6f1-4436-824f-f896d9723f97"
+        ],
+        "855ca894-bae3-456f-9789-ad0f64b2b5af": [
+            "73730f8e-e6f1-4436-824f-f896d9723f97"
+        ],
+        "9e1d502d-299d-4c3f-82da-d5e1f7173642": [
+            "90c5a321-d16c-4b3b-8e3d-ca434aeb4c49"
+        ],
+        "c0fe4650-098c-4324-94b6-b19d14e08849": [
+            "90c5a321-d16c-4b3b-8e3d-ca434aeb4c49"
+        ],
+        "1a96a14f-40e2-4010-a287-19c31b00f8d1": [
+            "bb2752ab-551a-4eca-9e08-cb90c1fce5c6"
+        ],
+        "3d6f043f-e935-42bb-8e48-ed6e8c9ac497": [
+            "bb2752ab-551a-4eca-9e08-cb90c1fce5c6"
+        ],
+        "36c3ea34-6797-4527-be7c-3eb69889b456": [
+            "8b9095b5-e9c3-4cb3-a006-e3502478f2cf"
+        ],
+        "0d08b8a0-b182-4fdb-be57-6f7ed247cfd9": [
+            "8b9095b5-e9c3-4cb3-a006-e3502478f2cf"
+        ],
+        "5371f349-7c0c-444f-8462-0bed89e16d17": [
+            "3725bada-fba1-4282-be0f-451eae1a3e74"
+        ],
+        "0a504e71-a55a-452e-af77-0820bf126fbb": [
+            "3725bada-fba1-4282-be0f-451eae1a3e74"
+        ],
+        "eb9a4696-4b9e-41f1-bd25-80afc4e57d9c": [
+            "7e293604-bb06-4e2f-acd6-748b5af6f97e"
+        ],
+        "d0acd3f5-8ede-4a69-88bd-2fab7a09c570": [
+            "7e293604-bb06-4e2f-acd6-748b5af6f97e"
+        ],
+        "0644f7ec-902a-4bb6-b733-bd2272bc2019": [
+            "dcc2b428-0bb6-4115-9b4e-a3cdc9567621"
+        ],
+        "2a10ae4c-0a24-4cc7-b4fb-93355095cad0": [
+            "dcc2b428-0bb6-4115-9b4e-a3cdc9567621"
+        ],
+        "1d0665de-e322-4b0a-bf2e-42af01534d7c": [
+            "89ccd60a-0ed6-4974-aabc-26f37ee3fba5"
+        ],
+        "0119bec0-2437-4637-afac-08693a3bd4b2": [
+            "89ccd60a-0ed6-4974-aabc-26f37ee3fba5"
+        ],
+        "137f4097-2ad6-4515-bc55-285e51d39ecc": [
+            "588c408b-3f00-49df-9a4e-d1751579fd1f"
+        ],
+        "602cebe0-0410-4bb0-b6a0-0af7d10f28d6": [
+            "588c408b-3f00-49df-9a4e-d1751579fd1f"
+        ],
+        "5d31af76-57d3-4231-b545-20ac1c5660eb": [
+            "fc24aadd-964e-47ed-b9ed-8566511f7182"
+        ],
+        "b50eceda-93b0-474a-85a3-b06775630682": [
+            "fc24aadd-964e-47ed-b9ed-8566511f7182"
+        ],
+        "d5174323-e179-4cc8-b6e3-74e4deb4dc8e": [
+            "d2e45dde-94b3-4032-bfcd-e9f84e6a6675"
+        ],
+        "b2e092e2-61df-4f1d-95cb-8a4d749bfabc": [
+            "d2e45dde-94b3-4032-bfcd-e9f84e6a6675"
+        ],
+        "340d663a-9053-4cc6-8b68-48980fc2755b": [
+            "8591efcb-e495-458b-b496-134aeeb322a6"
+        ],
+        "6861a266-3074-431c-bb67-815c01f4456c": [
+            "8591efcb-e495-458b-b496-134aeeb322a6"
+        ],
+        "498dff05-dc3e-4ff1-86c3-4895e4ff5cc3": [
+            "e1c04ab3-434f-4b08-8a3b-88928cf32d91"
+        ],
+        "f59ffac4-c9b8-4b32-a253-8483a59e1cc8": [
+            "e1c04ab3-434f-4b08-8a3b-88928cf32d91"
+        ],
+        "75c3e6ec-d90f-4276-98fd-a0e3d325dfde": [
+            "38b2c23b-c8f7-4fe3-bca8-96323cf43b2a"
+        ],
+        "cd34181a-957a-4c58-bb12-a6f8414e865b": [
+            "38b2c23b-c8f7-4fe3-bca8-96323cf43b2a"
+        ],
+        "7cc71404-f325-408f-bf55-102d9a69528a": [
+            "c7e1cf43-2b4b-4708-83d6-450be943b55f"
+        ],
+        "65ae22ad-b059-42d7-a583-ebe221b0920f": [
+            "c7e1cf43-2b4b-4708-83d6-450be943b55f"
+        ],
+        "4a730f65-879c-47fe-b013-de234fa83fd8": [
+            "5b26654a-8fac-4acf-94f9-1165b3465084"
+        ],
+        "d7b3e92e-6172-492b-8a1f-b67f18ce2ba5": [
+            "5b26654a-8fac-4acf-94f9-1165b3465084"
+        ],
+        "195ab5e3-68fc-435b-a857-dfcbac6c9627": [
+            "e3e06218-499d-477a-aa53-25736450bf3f"
+        ],
+        "68b3efee-53ca-4ebd-9734-853be82b1f01": [
+            "e3e06218-499d-477a-aa53-25736450bf3f"
+        ],
+        "f9ff6cad-f31b-440f-b646-9324533b9b4e": [
+            "e1d72bb2-b0d4-4c27-8f7e-15aa92c8270f"
+        ],
+        "b97924a9-fc10-4da5-bf34-a49096b4cead": [
+            "e1d72bb2-b0d4-4c27-8f7e-15aa92c8270f"
+        ],
+        "80799521-39d1-4d22-b199-6051da038208": [
+            "66131053-14c8-4542-912a-5030721f95d2"
+        ],
+        "026bf866-d05f-43f1-bb59-4af03570f420": [
+            "66131053-14c8-4542-912a-5030721f95d2"
+        ],
+        "03221427-bd5e-4164-ab70-62e6c1eabba8": [
+            "a0195010-68aa-461c-8bf8-e73076235dbf"
+        ],
+        "0c612673-63ea-46be-94b6-52274c01f74a": [
+            "a0195010-68aa-461c-8bf8-e73076235dbf"
+        ],
+        "8d5b479a-c1ce-4845-8005-fb6aa37a56a2": [
+            "cad8240e-d29e-4f1a-bf01-cdfef38a13d7"
+        ],
+        "8047b948-83ce-4651-a5b3-eb4afd05623f": [
+            "cad8240e-d29e-4f1a-bf01-cdfef38a13d7"
+        ],
+        "6e8ce93f-b856-4771-a9ff-eda8e72b4cde": [
+            "2172e8c4-e97d-446a-a805-5d93c4ab3411"
+        ],
+        "7aa72dc3-2110-49dc-ba9d-54ca45801703": [
+            "2172e8c4-e97d-446a-a805-5d93c4ab3411"
+        ],
+        "36cc523a-c83e-4841-b4f3-0a4c4bcaf955": [
+            "18746505-305a-4cd4-b1d7-ddd8d647e551"
+        ],
+        "3ff69b7c-ebc9-4ade-88c3-9210689b9f75": [
+            "18746505-305a-4cd4-b1d7-ddd8d647e551"
+        ],
+        "28a247cc-4a28-47b2-bb01-8ff425615693": [
+            "014ad389-6c9a-4710-95f1-bcca70d9ffbb"
+        ],
+        "a09f7978-c3cb-4e20-b9bf-b9d095d6d8a5": [
+            "014ad389-6c9a-4710-95f1-bcca70d9ffbb"
+        ],
+        "f8f5f577-045b-4393-8b81-9190472b228b": [
+            "8001656e-e3ef-4577-8e4e-10452f179fa5"
+        ],
+        "1bfe456d-e2ff-4e8f-8608-ba63db7d5429": [
+            "8001656e-e3ef-4577-8e4e-10452f179fa5"
+        ],
+        "31042690-bebd-4910-a805-dbc2eda64be5": [
+            "e30e4911-7267-43fa-a81d-1a5ccb9b673a"
+        ],
+        "e955da12-a23c-4a27-aa60-610d02846bd7": [
+            "e30e4911-7267-43fa-a81d-1a5ccb9b673a"
+        ],
+        "3d56a4da-3827-4bf2-9669-1b1ca5a466a2": [
+            "49043927-7b15-4856-b9dd-dc88597e3baf"
+        ],
+        "4bb0d113-202c-4bac-b3f1-c443cc1da810": [
+            "49043927-7b15-4856-b9dd-dc88597e3baf"
+        ],
+        "c89d5115-1300-4437-92a4-0fdc24fa7857": [
+            "4efb9066-51b4-45f9-b75c-9c0f27bf0dd0"
+        ],
+        "6deb89fc-2c50-4169-8954-2a9e2fdf91d6": [
+            "4efb9066-51b4-45f9-b75c-9c0f27bf0dd0"
+        ],
+        "7b18a33c-857d-46d2-aa44-b94eb627b146": [
+            "68fd9924-ad2c-4cfa-9ab5-ddf24cf7c8a3"
+        ],
+        "a840758f-f904-478b-bb74-117e6a07f2dc": [
+            "68fd9924-ad2c-4cfa-9ab5-ddf24cf7c8a3"
+        ],
+        "40396ecd-f7b1-440e-a7f4-983f28fdf351": [
+            "4a882056-e210-4ad6-97ff-5002f57bace2"
+        ],
+        "86aa7add-6e2e-4dbf-9f2f-79f1c2f5e174": [
+            "4a882056-e210-4ad6-97ff-5002f57bace2"
+        ],
+        "4350321c-48b4-4402-a0b1-697f7ebb72e3": [
+            "f44c9d6e-65c6-4b0c-99ce-1600bf115b82"
+        ],
+        "9874c6c9-dcdd-46d1-a4ce-6cd47d065998": [
+            "f44c9d6e-65c6-4b0c-99ce-1600bf115b82"
+        ],
+        "a490ae5e-22e2-450b-a3ce-a831b56cbe14": [
+            "b66eb2e9-1f75-4b87-8e70-8ede472b84c5"
+        ],
+        "3755a888-9171-4f0c-8899-db1bf0c7633a": [
+            "b66eb2e9-1f75-4b87-8e70-8ede472b84c5"
+        ],
+        "95d461f4-642d-4949-8985-51582fa797ac": [
+            "acd5910a-63ae-49ab-a9e4-2a062a983092"
+        ],
+        "df72b5dd-549f-4553-ac46-e990a2cd514f": [
+            "acd5910a-63ae-49ab-a9e4-2a062a983092"
+        ],
+        "8c389bdc-45fc-49c2-8df8-8c3eea29cabf": [
+            "242e76d7-9589-4703-9338-7339c78665d7"
+        ],
+        "19671ea2-1292-4266-bcd1-cdbd5952ac93": [
+            "242e76d7-9589-4703-9338-7339c78665d7"
+        ],
+        "4ec32dea-6c55-4161-908d-b6a2de4ec12a": [
+            "0f27cb0a-367d-4389-990a-baae7155ee79"
+        ],
+        "0c0207d4-2ee8-4bd3-923c-fec311f7963d": [
+            "0f27cb0a-367d-4389-990a-baae7155ee79"
+        ],
+        "8bc452e9-3d7a-42c9-90e4-b90a0d52964c": [
+            "5b39fe8c-c47b-4505-b8b1-f41d9bdf8e6f"
+        ],
+        "5458feaa-326f-427f-9c1a-6f74cdc84f8e": [
+            "5b39fe8c-c47b-4505-b8b1-f41d9bdf8e6f"
+        ],
+        "c3612cda-80a7-4529-9758-fc40d56af7d4": [
+            "83ab145e-0200-4cd0-a72b-64d280a26df7"
+        ],
+        "792a3986-6986-4e1f-9d33-8c95a8e0a46f": [
+            "83ab145e-0200-4cd0-a72b-64d280a26df7"
+        ],
+        "ddeb9b18-c0c4-41e7-b22a-02360987702e": [
+            "c9a3fc34-49ec-4aea-a9d0-0f03a7f3b152"
+        ],
+        "507e1f5f-3e7e-4167-b4d1-7175c52dbecc": [
+            "c9a3fc34-49ec-4aea-a9d0-0f03a7f3b152"
+        ],
+        "b8e4c84a-0ddd-4a37-80bd-45bb2961eab3": [
+            "dd09b2a9-ff53-43ae-8081-f27a240be193"
+        ],
+        "59db235b-e013-46d0-9ab3-0619f630aabf": [
+            "dd09b2a9-ff53-43ae-8081-f27a240be193"
+        ],
+        "c4321fc2-8e0b-43a9-8535-3ca204398639": [
+            "0387bb03-f1c0-417a-aa0a-1e510ae6a20a"
+        ],
+        "205cca26-627a-4765-b3f1-39cc6a3eb1cb": [
+            "0387bb03-f1c0-417a-aa0a-1e510ae6a20a"
+        ],
+        "93be6270-78bf-4890-af78-f8f2b80a6736": [
+            "97e38e3a-4c6b-4da0-bd08-59d8cbaeb1f1"
+        ],
+        "28fd838d-46ac-4a2c-a157-6445528538cd": [
+            "97e38e3a-4c6b-4da0-bd08-59d8cbaeb1f1"
+        ],
+        "44d36697-87ec-4a4e-85fc-3436a0f670a5": [
+            "30231e45-9798-411a-bfd4-f51baadf7626"
+        ],
+        "67dba0a4-5cbd-41db-96b4-5f0aa074a04f": [
+            "30231e45-9798-411a-bfd4-f51baadf7626"
+        ],
+        "44d8b981-a55a-4444-8626-c804f286d6c6": [
+            "eec7dd90-3edb-439d-b7f6-14c92579f23e"
+        ],
+        "0896edb6-0fc9-4958-9992-5411abd302d0": [
+            "eec7dd90-3edb-439d-b7f6-14c92579f23e"
+        ],
+        "89c4fc8a-b946-4ed9-879a-c2a8ce0d8a9a": [
+            "162b4ed5-1b4d-4713-ab49-17baba307a65"
+        ],
+        "c92ffecd-680a-48fe-b5f4-d1247c468c7a": [
+            "162b4ed5-1b4d-4713-ab49-17baba307a65"
+        ],
+        "b4474620-af6b-4410-8a1a-18771ef96e9c": [
+            "0c4b3daa-0549-4cac-85b0-a9d2d26335e5"
+        ],
+        "08dfb6a9-3e89-4d5b-8c14-0ac256865aa5": [
+            "0c4b3daa-0549-4cac-85b0-a9d2d26335e5"
+        ],
+        "0f854a36-68c2-402a-baf5-697be7002b58": [
+            "ef1c383a-1cbf-4d95-9019-ad616d1fa29b"
+        ],
+        "a234d9d1-00a4-4373-9b03-81e04aa01edd": [
+            "ef1c383a-1cbf-4d95-9019-ad616d1fa29b"
+        ],
+        "8dd27116-eb1f-4920-b701-b7c130ed4143": [
+            "b720068d-3e0b-49c5-b01d-d8d9edadf84d"
+        ],
+        "9bc18f4e-0d87-4d5c-9962-33de8740b8b0": [
+            "b720068d-3e0b-49c5-b01d-d8d9edadf84d"
+        ],
+        "dccf1d8c-6f7b-426c-9836-86b28962f6f3": [
+            "ab40c2b2-a89c-4178-806f-eaaffc9c27a5"
+        ],
+        "fb23c730-73d0-4bc6-854d-598fc84d37fd": [
+            "ab40c2b2-a89c-4178-806f-eaaffc9c27a5"
+        ],
+        "8a690a1a-756d-44f8-8b44-4f69e95bf129": [
+            "7cc16816-2555-401c-8307-5b912545ae3e"
+        ],
+        "2cc5da83-91bf-4093-8d77-6d5f1e2ff4d2": [
+            "7cc16816-2555-401c-8307-5b912545ae3e"
+        ],
+        "3b47706c-f15f-4fa4-a9a5-65df5ba0f3d2": [
+            "64f37f0f-cc76-4007-b522-034494d7b0f1"
+        ],
+        "85e4c8f6-bf2e-4ec4-9480-808cf8ed4ff1": [
+            "64f37f0f-cc76-4007-b522-034494d7b0f1"
+        ],
+        "fb37616b-9b37-4d7a-bbb0-4e2fcc2b856b": [
+            "68161bd5-ed74-4f13-9e15-03aa032ae861"
+        ],
+        "362e97cf-e6e4-4cfc-a2a0-5deb8e4d7c45": [
+            "68161bd5-ed74-4f13-9e15-03aa032ae861"
+        ],
+        "6a56c56b-0a4b-48ac-8259-055a322b8859": [
+            "3e437c8b-8959-4b9c-a685-7e2d8de90e3d"
+        ],
+        "f8ad52e0-ddcc-4705-a51c-4ee2e49e5f93": [
+            "3e437c8b-8959-4b9c-a685-7e2d8de90e3d"
+        ],
+        "0cb7cc21-aec7-4fe2-92c7-96f883b97f77": [
+            "bc22dd6a-5704-4c24-93fa-6e6795e6d823"
+        ],
+        "1bf605ba-4a85-4e77-8def-eec31b9e59ac": [
+            "bc22dd6a-5704-4c24-93fa-6e6795e6d823"
+        ],
+        "449dbc5c-9751-4693-a83f-91047d291c84": [
+            "f91e7b09-ce24-454f-9acc-c0e80b4e83c1"
+        ],
+        "6c3f688a-0183-4355-9e8b-5be394b81ce6": [
+            "f91e7b09-ce24-454f-9acc-c0e80b4e83c1"
+        ],
+        "48e74692-c165-448e-88cd-07f9a12919f3": [
+            "cad512de-977c-465a-94b0-929c38a67363"
+        ],
+        "1fbdaaba-4788-42b7-a6f8-3a7c9233ca34": [
+            "cad512de-977c-465a-94b0-929c38a67363"
+        ],
+        "36b282ae-f2ac-444e-ae61-9419908ffb26": [
+            "2f048e72-21ed-4631-af81-6ff5f080b508"
+        ],
+        "87708bba-bbc5-456d-9425-bdaf7c70edf5": [
+            "2f048e72-21ed-4631-af81-6ff5f080b508"
+        ],
+        "20fc9de4-7a84-47b2-acac-b024a5aa1db6": [
+            "b15355a1-42d2-432b-9aea-74a3842c55da"
+        ],
+        "438370b5-d41e-4e92-a801-5ba0805771c3": [
+            "b15355a1-42d2-432b-9aea-74a3842c55da"
+        ],
+        "7412cbc5-585b-4392-8a2f-7b2940df6a05": [
+            "007b7772-d9af-4394-8fa3-928ce57157e4"
+        ],
+        "ac9362a5-f889-466f-82bf-88dc3bc19dee": [
+            "007b7772-d9af-4394-8fa3-928ce57157e4"
+        ],
+        "a772bd70-16b7-4cfa-b7b4-a92a538e4aa7": [
+            "875e6906-f774-41a3-af1c-8b60e8786085"
+        ],
+        "59837d49-91c6-4478-952f-35d852096fba": [
+            "875e6906-f774-41a3-af1c-8b60e8786085"
+        ],
+        "9b6ab374-3692-49cd-a3cd-53c5054e8aa2": [
+            "f09ecd82-bc72-43ba-bdb1-e982debdcb2f"
+        ],
+        "e04ab0f0-052a-43f6-93a5-e321e400ce8f": [
+            "f09ecd82-bc72-43ba-bdb1-e982debdcb2f"
+        ]
+    },
+    "mode": "text"
+}
