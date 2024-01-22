@@ -168,3 +168,5 @@ cython_debug/
 *.hdf5
 *.joblib
 *.safetensors
+*.bin
+config.json
