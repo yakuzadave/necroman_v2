@@ -1,0 +1,12 @@
+{
+  "pinned": [
+    "cannoli:run-cannoli-Cannoli College/Necromunda-Cannoli-Templates/createTerritory.cno.canvas",
+    "cannoli:run-cannoli-Cannoli College/Necromunda-Cannoli-Templates/formatTable.cno.canvas",
+    "cannoli:run-cannoli-Cannoli College/Necromunda-Cannoli-Templates/createEscherGang.cno.canvas",
+    "cannoli:run-cannoli-Cannoli College/Necromunda-Cannoli-Templates/createOrlockGang.cno.canvas",
+    "obsidian-textgenerator-plugin:insert-text-From-template",
+    "obsidian-textgenerator-plugin:open-playground",
+    "obsidian-textgenerator-plugin:text-extractor-tool",
+    "obsidian-textgenerator-plugin:generate-text-with-metadata"
+  ]
+}

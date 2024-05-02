@@ -1,0 +1,27 @@
+.whitespace {
+	margin-left: 8px;
+}
+
+.http-template-editor label {
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-right: 8px;
+}
+
+.http-template-editor input,
+.http-template-editor textarea {
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.http-template-group {
+	margin-bottom: 15px;
+}
+
+.http-template-description {
+	margin-top: -22px;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-left: 4px;
+}

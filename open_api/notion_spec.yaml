@@ -1,0 +1,119 @@
+openapi: 3.0.0
+info:
+  title: Notion API
+  description: Interact with Notion's API to query databases and retrieve detailed page information.
+  version: 1.0.0
+servers:
+  - url: https://api.notion.com/v1
+    description: Main Notion API server
+paths:
+  /databases/{database_id}/query:
+    post:
+      operationId: queryDatabase
+      summary: Query a database in Notion.
+      description: Queries a database with specified filters and sorting parameters.
+      parameters:
+        - name: database_id
+          in: path
+          required: true
+          description: The ID of the database to query.
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                filter:
+                  type: object
+                  properties:
+                    or:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          property:
+                            type: string
+                          multi_select:
+                            type: object
+                            properties:
+                              contains:
+                                type: string
+                sorts:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      property:
+                        type: string
+                      direction:
+                        type: string
+                        enum:
+                          - ascending
+                          - descending
+      responses:
+        "200":
+          description: Query results returned successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  object:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/Page"
+      security:
+        - NotionAPIKey: []
+components:
+  securitySchemes:
+    NotionAPIKey:
+      type: apiKey
+      in: header
+      name: Authorization
+  schemas:
+    Page:
+      type: object
+      properties:
+        object:
+          type: string
+        id:
+          type: string
+        created_time:
+          type: string
+          format: date-time
+        last_edited_time:
+          type: string
+          format: date-time
+        created_by:
+          $ref: "#/components/schemas/User"
+        last_edited_by:
+          $ref: "#/components/schemas/User"
+        cover:
+          type: object
+        icon:
+          type: object
+        parent:
+          type: object
+          properties:
+            type:
+              type: string
+            database_id:
+              type: string
+        archived:
+          type: boolean
+        properties:
+          type: object
+    User:
+      type: object
+      properties:
+        object:
+          type: string
+        id:
+          type: string
+security:
+  - NotionAPIKey: []

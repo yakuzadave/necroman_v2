@@ -1,0 +1,223 @@
+openapi: 3.0.0
+info:
+  title: Necro-vox API
+  description: API for accessing detailed information about various gangs, including House Delaque, from Necro-vox.
+  version: 1.0.0
+servers:
+  - url: https://necrovox.org/docs
+    description: Main API server for Necro-vox documentation
+paths:
+  /gangs/gang-lists/{houseName}:
+    get:
+      operationId: getHouseDetails
+      summary: Retrieve detailed HTML page about a specific house
+      parameters:
+        - name: houseName
+          in: path
+          required: true
+          description: The name of the house to retrieve details for
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified house
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/{houseName}/equipment-list:
+    get:
+      operationId: getHouseEquipmentList
+      summary: Retrieve detailed HTML page about a specific house's equipment list
+      parameters:
+        - name: houseName
+          in: path
+          required: true
+          description: The name of the house to retrieve equipment list for
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified house's equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/{houseName}/{contentType}:
+    get:
+      operationId: getHouseContentType
+      summary: Retrieve detailed HTML page about a specific content type for a house
+      parameters:
+        - name: houseName
+          in: path
+          required: true
+          description: The name of the house
+          schema:
+            type: string
+        - name: contentType
+          in: path
+          required: true
+          description: The type of content to retrieve (e.g., 'articles-of-faith', 'terrain')
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified content type for the house
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/{faction}:
+    get:
+      operationId: getFactionDetails
+      summary: Retrieve detailed HTML page about a specific faction
+      parameters:
+        - name: faction
+          in: path
+          required: true
+          description: The name of the faction to retrieve details for (e.g., 'venators', 'palanite-enforcers')
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified faction
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-lists/{faction}/equipment-list:
+    get:
+      operationId: getFactionEquipmentList
+      summary: Retrieve detailed HTML page about a specific faction's equipment list
+      parameters:
+        - name: faction
+          in: path
+          required: true
+          description: The name of the faction to retrieve equipment list for
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified faction's equipment list
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/{additionType}:
+    get:
+      operationId: getGangAdditionType
+      summary: Retrieve detailed HTML page about gang additions of a specific type
+      parameters:
+        - name: additionType
+          in: path
+          required: true
+          description: The type of gang addition to retrieve (e.g., 'exotic-beasts', 'hangers-on-and-brutes')
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified type of gang addition
+          content:
+            text/html:
+              schema:
+                type: string
+  /gangs/gang-additions/{additionType}/{specificType}:
+    get:
+      operationId: getSpecificGangAdditionType
+      summary: Retrieve detailed HTML page about a specific type within gang additions
+      parameters:
+        - name: additionType
+          in: path
+          required: true
+          description: The general type of gang addition (e.g., 'hangers-on-and-brutes')
+          schema:
+            type: string
+        - name: specificType
+          in: path
+          required: true
+          description: The specific type within the gang additions to retrieve (e.g., 'hangers-on', 'brutes')
+          schema:
+            type: string
+      responses:
+        '200':
+          description: HTML content about the specified specific type within gang additions
+          content:
+            text/html:
+              schema:
+                type: string
+components:
+  schemas:
+    HtmlContent:
+      type: string
+      description: An HTML content response.
+      example: "<html><body>This is a sample HTML response for a house detail.</body></html>"
+    EquipmentListResponse:
+      type: object
+      properties:
+        equipment:
+          type: array
+          items:
+            $ref: '#/components/schemas/EquipmentItem'
+      description: A JSON response containing a list of equipment items.
+    EquipmentItem:
+      type: object
+      properties:
+        name:
+          type: string
+          example: "Lasgun"
+        description:
+          type: string
+          example: "A basic energy-based projectile weapon."
+        rarity:
+          type: string
+          example: "Common"
+      description: Details about a single equipment item.
+  responses:
+    HtmlResponse:
+      description: HTML content about the requested entity.
+      content:
+        text/html:
+          schema:
+            $ref: '#/components/schemas/HtmlContent'
+    JsonResponse:
+      description: A JSON response containing structured data.
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/EquipmentListResponse'
+  parameters:
+    houseName:
+      name: houseName
+      in: path
+      required: true
+      description: The name of the house to retrieve details for
+      schema:
+        type: string
+    contentType:
+      name: contentType
+      in: path
+      required: true
+      description: The type of content to retrieve (e.g., 'articles-of-faith', 'terrain')
+      schema:
+        type: string
+    faction:
+      name: faction
+      in: path
+      required: true
+      description: The name of the faction to retrieve details for (e.g., 'venators', 'palanite-enforcers')
+      schema:
+        type: string
+    additionType:
+      name: additionType
+      in: path
+      required: true
+      description: The type of gang addition to retrieve (e.g., 'exotic-beasts', 'hangers-on-and-brutes')
+      schema:
+        type: string
+    specificType:
+      name: specificType
+      in: path
+      required: true
+      description: The specific type within the gang additions to retrieve (e.g., 'hangers-on', 'brutes')
+      schema:
+        type: string

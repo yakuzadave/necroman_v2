@@ -1,0 +1,294 @@
+openapi: 3.0.0
+info:
+  title: Notion API
+  description: Interact with Notion's API to query databases and retrieve detailed page information.
+  version: 1.0.0
+servers:
+  - url: https://api.notion.com/v1
+    description: Main Notion API server
+paths:
+  /blocks/{block_id}/children:
+    get:
+      operationId: getBlockChildren
+      summary: Retrieve children of a block.
+      description: Returns a paginated array of child block objects contained in the block using the ID specified.
+      parameters:
+        - name: block_id
+          in: path
+          required: true
+          description: Identifier for a block.
+          schema:
+            type: string
+        - name: start_cursor
+          in: query
+          required: false
+          description: If supplied, endpoint will return a page of results starting after the cursor provided.
+          schema:
+            type: string
+        - name: page_size
+          in: query
+          required: false
+          description: The number of items from the full list desired in the response
+          schema:
+            type: integer
+            format: int32
+            default: 100
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: An array of block children objects.
+          headers:
+            Notion-Version:
+              schema:
+                type: string
+              required: true
+              description: Version of the Notion API. Specified in the Notion-Version header.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  object:
+                    type: string
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/BlockChild'
+        '400':
+          description: Bad request, e.g., invalid block_id or parameters.
+
+  /search:
+    post:
+      operationId: searchContent
+      summary: Search Notion content by keywords.
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+                  description: Keywords to search for in Notion content.
+                filter:
+                  type: object
+                  properties:
+                    value:
+                      type: string
+                      description: The type of object to filter by (e.g., "page").
+                      enum: [page, database]
+                    property:
+                      type: string
+                      description: The property to filter by, fixed to "object".
+                sort:
+                  type: object
+                  properties:
+                    direction:
+                      type: string
+                      enum: [ascending, descending]
+                      description: Sort direction (ascending or descending).
+                    timestamp:
+                      type: string
+                      description: The timestamp to sort by (e.g., "last_edited_time").
+                start_cursor:
+                  type: string
+                  description: If supplied, endpoint will return a page of results starting after the cursor provided.
+                page_size:
+                  type: integer
+                  description: The number of items to return per page (max 5).
+      responses:
+        "200":
+          description: Search results matching the keywords and filters.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResponse'
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+
+  schemas:
+    SearchResponse:
+      type: object
+      properties:
+        object:
+          type: string
+        results:
+          type: array
+          items:
+            $ref: '#/components/schemas/Page'
+        next_cursor:
+          type: string
+        has_more:
+          type: boolean
+        developer_survey:
+          type: string
+        request_id:
+          type: string
+    Page:
+      type: object
+      properties:
+        object:
+          type: string
+        id:
+          type: string
+        created_time:
+          type: string
+          format: date-time
+        last_edited_time:
+          type: string
+          format: date-time
+        created_by:
+          $ref: '#/components/schemas/User'
+        last_edited_by:
+          $ref: '#/components/schemas/User'
+        cover:
+          type: object
+          nullable: true
+        icon:
+          type: object
+          nullable: true
+        parent:
+          type: object
+          properties:
+            type:
+              type: string
+            page_id:
+              type: string
+              nullable: true
+            database_id:
+              type: string
+              nullable: true
+        archived:
+          type: boolean
+        properties:
+          type: object
+          additionalProperties: true
+        url:
+          type: string
+        public_url:
+          type: string
+          nullable: true
+    BlockChild:
+      type: object
+      required:
+        - object
+        - id
+        - type
+        - created_time
+        - last_edited_time
+        - has_children
+        - archived
+      properties:
+        object:
+          type: string
+          enum:
+            - block
+        id:
+          type: string
+        parent:
+          type: object
+          required:
+            - type
+          properties:
+            type:
+              type: string
+              enum:
+                - page_id
+            page_id:
+              type: string
+        created_time:
+          type: string
+          format: date-time
+        last_edited_time:
+          type: string
+          format: date-time
+        created_by:
+          $ref: '#/components/schemas/User'
+        last_edited_by:
+          $ref: '#/components/schemas/User'
+        has_children:
+          type: boolean
+        archived:
+          type: boolean
+        type:
+          type: string
+        heading_1:
+          type: object
+          properties:
+            is_toggleable:
+              type: boolean
+            color:
+              type: string
+              enum:
+                - default
+                # Add other color options as necessary
+            text:
+              type: array
+              items:
+                $ref: '#/components/schemas/Text'
+        paragraph:
+          type: object
+          properties:
+            color:
+              type: string
+              enum:
+                - default
+                # Add other color options as necessary
+            text:
+              type: array
+              items:
+                $ref: '#/components/schemas/Text'
+        # Define other block types like to_do, bullet_list_item, etc. similarly
+    Text:
+      type: object
+      properties:
+        type:
+          type: string
+          enum:
+            - text
+        text:
+          type: object
+          properties:
+            content:
+              type: string
+        annotations:
+          $ref: '#/components/schemas/Annotations'
+        plain_text:
+          type: string
+        href:
+          type: string
+          nullable: true
+    Annotations:
+      type: object
+      properties:
+        bold:
+          type: boolean
+        italic:
+          type: boolean
+        strikethrough:
+          type: boolean
+        underline:
+          type: boolean
+        code:
+          type: boolean
+        color:
+          type: string
+          enum:
+            - default
+            # Add other color options as necessary
+    User:
+      type: object
+      properties:
+        object:
+          type: string
+        id:
+          type: string
+security:
+  - BearerAuth: []

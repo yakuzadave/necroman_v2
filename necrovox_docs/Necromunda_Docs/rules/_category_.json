@@ -1,0 +1,9 @@
+{
+  "label": "(Archive) Rules",
+  "position": 20,
+  "className": "menu-old-content",
+  "link": {
+    "type": "generated-index",
+    "description": "All the rules about how to play a match of Necromunda"
+  }
+}

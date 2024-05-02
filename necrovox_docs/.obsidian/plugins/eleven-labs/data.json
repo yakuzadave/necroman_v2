@@ -1,0 +1,17 @@
+{
+  "apiKey": "b04387d91486db3258262d9968fad35b",
+  "selectedVoiceId": "UDlHDw7SzYvTyRg6t9ro",
+  "selectedModelId": "eleven_turbo_v2",
+  "voiceSettings": {
+    "": {
+      "enabled": false,
+      "stability": 15,
+      "similarity_boost": 0
+    },
+    "UDlHDw7SzYvTyRg6t9ro": {
+      "enabled": false,
+      "stability": 0,
+      "similarity_boost": 0
+    }
+  }
+}

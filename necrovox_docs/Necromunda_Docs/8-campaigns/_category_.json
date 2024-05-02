@@ -1,0 +1,8 @@
+{
+  "label": "Campaigns",
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "description": "There are currently six types of campaigns. Each campaign is based around gangs fighting battles for the control of resources of some type, from Territories to Road Section to Sympathisers. Most battles in the campaign are fought for control of a one of these resources. The resource being fought over is the stake of a battle, and most battles have a resource at stake on the outcome. Instead of fighting over a resource, the stake may instead be Captives held by the opponent gang."
+  }
+}

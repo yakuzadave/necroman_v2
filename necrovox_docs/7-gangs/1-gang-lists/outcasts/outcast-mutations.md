@@ -1,0 +1,27 @@
+# Outcast Mutations
+
+_Source: Apocrypha Necromunda: Devils of Gunk Deep_
+
+_Exposure to the toxic depths of the underhive, or the radioactive badlands of the ash wastes, often warps the bodies of those that call them home. _
+
+Outcast Mutations can be acquired in one of two ways:
+
+- When adding an Underhive Outcasts Hive Scum to a gang led by a Mutant, they may have a single Outcast Mutation purchased at the credit cost indicated on the table below. An Underhive Outcasts Hive Scum may never have more than one Outcast Mutation.
+- Underhive Outcasts Leaders and Underhive Outcasts Champions with the Mutant Archetype treat Outcast Mutations as a Primary skill set, this means they can purchase them with XP and can choose one for free when added to the Gang Roster.
+
+## List of Outcast Mutations
+
+| &nbsp;&nbsp;D66&nbsp;&nbsp; | Outcast Mutation                                                                                                                                                                                                                                                                                                  | Credits |
+| :-------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----: |
+|      11-13      | **Void Soul:** The Mutant is immune to the effects of psychic powers – though the arbitrator may still rule that indirect damage from psychic powers, like a telekinetically thrown object, can still hurt them.                                                                                                  |   15    |
+|      14-16      | **Eye Stalks:** When the Mutant is in cover, ranged attacks against them suffer an additional -1 penalty. In addition, their vision arc is increased to 180°.                                                                                                                                                     |   20    |
+|      21-23      | **Extra Appendages:** The Mutant increases their Attacks characteristic by 1. In addition, they may use up to three weapons with the Sidearm or Melee trait at the same time.                                                                                                                                     |   20    |
+|      24-26      | **Horrific Appearance:** This fighter gains the Fearsome skill. Furthermore, enemy fighters that start their activation within 3" of the Mutant must make a Nerve test.                                                                                                                                           |   15    |
+|      31-33      | **Massive Claws:** The Mutant’s unarmed attacks are resolved at +1 Strength with an Armour Penetration of -1 and the Rending trait.                                                                                                                                                                               |   10    |
+|      34-36      | **Needle Spines:** Melee attacks against the Mutant are made at -1 to hit. In addition, once per battle, the Mutant may perform the Fire Spines (Basic)action:<br /> **Fire Spines (Basic):** All other fighters, both friend and foe, within 3" of this fighter suffer a S -, AP -, D1 hit with the Toxin trait. |   15    |
+|      41-43      | **Scaly Skin:** The Mutant has a natural 4+ armour save, which cannot be improved by armour.                                                                                                                                                                                                                      |   25    |
+|      44-46      | **Tentacles:** The Mutant may re-roll failed Initiative tests to see if they fall from ledges and other heights. In addition, their unarmed attacks gain the Parry trait.                                                                                                                                         |   10    |
+|      51-53      | **Toxic Blood:** When the Mutant suffers a Wound, immediately make an Initiative test for all other fighters within 1". Those that fail this test suffer a S -, AP -, D1 hit with the Toxin trait.                                                                                                                |   15    |
+|      54-56      | **Two Heads:** The Mutant does not suffer a penalty to hit when using the Twin Guns Blazing rule. In addition, their vision arc is increased to 180°.                                                                                                                                                             |   10    |
+|      61-63      | **Vast Bulk:** The Mutant increases their Wounds characteristic by 1.                                                                                                                                                                                                                                             |   10    |
+|      64-66      | **Wing Membranes:** The Mutant can leap distances up to their Movement characteristic without making an Initiative test and never takes damage or becomes prone as a result of falling.                                                                                                                           |   15    |

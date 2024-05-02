@@ -1,0 +1,53 @@
+{
+  "new_user": false,
+  "chat_folder": "smart chat",
+  "smart_notes_embed_model": "text-embedding-3-small",
+  "smart_blocks_embed_model": "text-embedding-3-small",
+  "smart_connections_folder": ".smart-connections",
+  "smart_connections_folder_last": ".smart-connections",
+  "system_prompts_folder": "smart prompts",
+  "smart_chat_folder": "smart-chats",
+  "smart_chat_folder_last": "smart-chats",
+  "local_embedding_max_tokens": "2048",
+  "embedding_file_per_note": true,
+  "chat_model_platform_key": "openai",
+  "open_router": {},
+  "embed_input_min_chars": 50,
+  "multi_heading_blocks": true,
+  "api_key": "sk-proj-yLlzW7EU5kIcEltKKEd8T3BlbkFJ4ls7kiBjWHFsVj9Gid29",
+  "excluded_headings": "",
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "smart-chats",
+  "show_full_path": false,
+  "expanded_view": true,
+  "language": "en",
+  "log_render": false,
+  "log_render_files": false,
+  "recently_sent_retry_notice": false,
+  "version": "2.1.51",
+  "muted_notices": {
+    "done initial scan": true,
+    "Notice muted": true
+  },
+  "openai": {
+    "api_key": "sk-proj-yLlzW7EU5kIcEltKKEd8T3BlbkFJ4ls7kiBjWHFsVj9Gid29",
+    "model_name": "gpt-3.5-turbo"
+  },
+  "custom_local": {
+    "model_name": "llama3",
+    "protocol": "http",
+    "path": "/api/chat",
+    "hostname": "127.0.0.1",
+    "max_input_tokens": 4096,
+    "port": 11434,
+    "streaming": true
+  },
+  "custom_api": {
+    "model_name": "llama3",
+    "protocol": "http",
+    "hostname": "jupy2.ngrok.app",
+    "path": "/chat/completions",
+    "api_key": "",
+    "max_input_tokens": 4096
+  }
+}

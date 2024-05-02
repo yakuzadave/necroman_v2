@@ -1,0 +1,8 @@
+{
+  "label": "Miscellaneous Lore",
+  "position": 14,
+  "link": {
+    "type": "generated-index",
+    "description": "A compilation of lore scraps that are not easily accessible through normal means."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "llmProvider": "ollama",
+  "ollamaBaseUrl": "https://jupy2.ngrok.app",
+  "ollamaModel": "necromunda-arbitrator",
+  "openaiAPIKey": "sk-proj-yLlzW7EU5kIcEltKKEd8T3BlbkFJ4ls7kiBjWHFsVj9Gid29",
+  "costThreshold": 0.5,
+  "defaultModel": "gpt-3.5-turbo",
+  "defaultTemperature": 1,
+  "httpTemplates": [],
+  "includeFilenameAsHeader": true,
+  "includePropertiesInExtractedNotes": true,
+  "chatFormatString": "---\n# <u>{{role}}</u>\n\n{{content}}",
+  "enableAudioTriggeredCannolis": false,
+  "deleteAudioFilesAfterAudioTriggeredCannolis": false,
+  "autoScrollWithTokenStream": false,
+  "pLimit": 50,
+  "contentIsColorless": false
+}

@@ -1,0 +1,11 @@
+{
+  "defaultEndpoint": "",
+  "defaultModel": "gpt-3.5-turbo",
+  "defaultApiKey": "",
+  "defaultMaxOutgoingCharacters": 4096,
+  "defaultMaxNumTokens": 2048,
+  "debugToConsole": true,
+  "displayTokenUsageDesktop": true,
+  "displayTokenUsageMobile": false,
+  "defaultSystemMessage": "You are a helpful assistant."
+}

@@ -1,0 +1,9 @@
+---
+name: 
+gang1: 
+gang2: 
+additional-gangs: 
+win-conditions: 
+battlefield: 
+battlefield-details:
+---
