@@ -1,8 +1,8 @@
 # Ash Wastes Special Rules
 
-:::info
-You are viewing the archived rules from before the 2023 Core books. Use the menu to navigate to the current rules.
-:::
+
+> You are viewing the archived rules from before the 2023 Core books. Use the menu to navigate to the current rules.
+
 
 _As dangerous as the depths of the underhive can be, any hiver will tell you they are preferable to braving the wastes. Forgetting for a moment that there is no ceiling out there, it is an environment that can change as swiftly as the direction of the wind; one minute, yellow rolling skies promising safe(ish) travel, and the next, ash storms strong enough to hurl a dune crawler a hundred metres into the air. To live, fight and die in the wastes means doing so under a blanket of ever- changing ashen clouds and on ground that could open up and swallow you at any moment. Nonetheless, the wastes still draw countless gangs and guilders with the promise of wealth and lost tech._
 
@@ -23,7 +23,6 @@ After choosing a scenario, during the pre-battle sequence, players that decide t
 ## Battlefield Surface
 
 The battlefield surface is the ground level of the battlefield. Any changes to the surface do not apply to:
-
 - Terrain.
 - Elevated areas.
 - Roads.
@@ -58,13 +57,13 @@ _In the changeable conditions of the ash wastes, visibility is not always as goo
 - Affects where terrain can be placed when coming into view (Rolling Roads).
 - Any effect that ignores or modifies Pitch Black also affects Visibility.
 
-:::info
+
 
 There are two ways to determine the Regions and Season: a simplified - and more predictable - version, from Book of the Outlands, and a more advanced - and lethal - version from the Ash Wastes rulebook. To use the simplified version, simply roll a D3 on the simplified tables, and for the advanced, roll a D3 and then 2D6 on the advanced tables.
 
 Players and Arbitrators should feel free to use whichever set of rules they prefer.
 
-:::
+
 
 ## Regions
 

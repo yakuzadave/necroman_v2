@@ -1,12 +1,8 @@
----
-sidebar_position: 6
----
 
 # Scenario Special Rules
 
-:::info
+
 You are viewing the archived rules from before the 2023 Core books. Use the menu to navigate to the current rules.
-:::
 
 Some scenarios are subject to additional special rules.
 
