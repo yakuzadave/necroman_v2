@@ -1,14 +1,14 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
-  - Core Rulebook Scenario 2023
+  - scenario
+  - "2023"
+  - multi-player
+  - core-rulebook
+  - sector-mechanicus
+  - zone-mortalis
 description: In this scenario, gangs put forward their best fighters in order to try to win a large prize.
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 24. Pit Fight
 
@@ -16,9 +16,6 @@ _“Any of you craven scummers willing to take me on?”_
 \- Durgan Kill-fist, Champion of the Brokebone, Outcast Leader
 
 In this scenario, gangs put forward their best fighters in order to try to win a large prize.
-
-<Tabs>
-<TabItem value="2023" label="2023 Rulebook version" default>
 
 _Source: Necromunda 2023 Rulebook_
 

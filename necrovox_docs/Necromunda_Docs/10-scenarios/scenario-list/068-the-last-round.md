@@ -1,9 +1,10 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
-  - End Game
+  - scenario
+  - endgame
+  - zone-mortalis
+  - sector-mechanicus
+scenario-id: 68
 ---
 
 # 68. The Last Round

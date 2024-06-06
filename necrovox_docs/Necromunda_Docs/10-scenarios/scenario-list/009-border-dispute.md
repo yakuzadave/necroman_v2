@@ -1,12 +1,12 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Core Rulebook Scenario 2023
+  - "2023"
+  - sector-mechanicus
+  - core-rulebook
+  - scenarios
 description: In this scenario, each gang is seeking to secure their Turf and drive off the other gang – and the best way to do this is to defile the other gang’s relic.
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 9. Border Dispute
 
@@ -15,8 +15,6 @@ _“Back off ya mangy dogs – this be our turf now!”_
 
 In this scenario, each gang is seeking to secure their Turf and drive off the other gang – and the best way to do this is to defile the other gang’s relic.
 
-<Tabs>
-<TabItem value="2023" label="2023 Rulebook version" default>
 
 _Source: Necromunda 2023 Rulebook_
 

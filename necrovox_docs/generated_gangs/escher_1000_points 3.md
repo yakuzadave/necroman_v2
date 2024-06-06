@@ -117,17 +117,21 @@ name: Wild Hearts
 - **Type:** Juve
 - **Subtype:** Gang Fighter
 - **Faction:** House of Escher
-- **M**: 5"
-- **WS**: 5+
-- **BS**: 5+
-- **S**: 3
-- **T**: 3
-- **W**: 1
-- **I**: 4+
-- **A**: 1
-- **Cl**: 6+
-- **Wil**: 7+
-- **Int**: 9+
+
+| **Statistic** | **Value** |
+| --- | --- |
+| M (Move) | 5" |
+| WS (Weapon Skill) | 5+ |
+| BS (Ballistic Skill) | 5+ |
+| S (Strength) | 3 |
+| T (Toughness) | 3 |
+| W (Will Power) | 1 |
+| I (Initiative) | 4+ |
+| A (Attack) | 1 |
+| Cl (Combat Logic) | 6+ |
+| Int (Intelligence) | 9+ |
+
+Let me know if you need anything else!
 
 **Equipment:**
 - Basic Lasgun (5 credits)

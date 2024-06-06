@@ -75,7 +75,7 @@
     "templates/dice_rolls": true
   },
   "replaceDiceModInLivePreview": true,
-  "version": "11.0.1",
+  "version": "11.0.4",
   "viewResults": [
     {
       "result": 3,

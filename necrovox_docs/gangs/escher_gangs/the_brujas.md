@@ -5,7 +5,7 @@ territories:
 gang-member-count: "6"
 gang-members: 
 linked-pages:
-  - "[[7-gangs/1-gang-lists/house-escher/house-escher|house-escher]]"
+  - "[[gang-docs/gang-lists/house-escher/house-escher|house-escher]]"
   - "[[escher_ganger_template]]"
 ---
 # The Brujas

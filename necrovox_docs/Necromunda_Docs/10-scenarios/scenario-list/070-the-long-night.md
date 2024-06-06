@@ -1,9 +1,10 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
-  - End Game
+  - scenario
+  - sector-mechanicus
+  - zone-mortalis
+  - endgame
+scenario-id: 70
 ---
 
 # 70. The Long Night

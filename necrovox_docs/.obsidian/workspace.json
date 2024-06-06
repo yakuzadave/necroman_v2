@@ -13,28 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/blast_rifle.md",
+                "file": "gang-docs/gang-lists/house-goliath/house-goliath.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "97c5ab3c87ee93b5",
+            "id": "26276367ccc2c7ff",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Cannoli College/Necromunda-Cannoli-Templates/summary.cno.canvas",
-                "viewState": {
-                  "x": -0.9869565057620093,
-                  "y": 198.61553478510103,
-                  "zoom": -0.6909079559684412
-                }
+                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -63,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:2023",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +91,6 @@
       {
         "id": "b0e951dadddac6a1",
         "type": "tabs",
-        "dimension": 38.879159369527144,
         "children": [
           {
             "id": "3b2b7ea637908596",
@@ -101,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/blast_rifle.md",
+                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/blast_rifle.md",
+                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/blast_rifle.md"
+                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md"
               }
             }
           },
@@ -172,24 +169,17 @@
               "type": "initiative-tracker-view",
               "state": {}
             }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "804cdb5e3b585167",
-        "type": "tabs",
-        "dimension": 61.12084063047285,
-        "children": [
+          },
           {
-            "id": "3086a5fc2d61fda0",
+            "id": "aec4452388d9e05f",
             "type": "leaf",
             "state": {
               "type": "DICE_ROLLER_VIEW",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -205,57 +195,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "cannoli:Start/stop cannoli": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "templater-obsidian:Templater": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "zk-prefixer:Create new unique note": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "initiative-tracker:Initiative Tracker Encounter Builder": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "cannoli:Start/stop cannoli": false
     }
   },
-  "active": "ebdf2ca4d093fb24",
+  "active": "26276367ccc2c7ff",
   "lastOpenFiles": [
-    "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/blast_carbine.md",
-    "formatted_rules/weapons/ranged_weapons/projectile/long_rifles/kroot_long_rifle.md",
-    "formatted_rules/weapons/ranged_weapons/projectile/exclusive/autogun_exclusive_rad.md",
-    "generated_locations/location_gen 12.md",
-    "textgenerator/templates/necromundaGenTemplates/territories/createTerritory.md",
-    "Cannoli College/Necromunda-Cannoli-Templates/summary.cno.canvas",
-    "Necromunda_Docs/8-campaigns/ash-wastes-campaign/ash-wastes-campaign.md",
-    "gangs/escher_gangs/poison_flowers/Escher - The Architect.md",
-    "gangs/escher_gangs/Escher Gang - The Shadow Weavers.md",
-    "7-gangs/1-gang-lists/house-escher/house-escher.md",
-    "Ash_Wastes.md",
-    "Cannoli College/Necromunda-Cannoli-Templates/formatTable.cno.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/linkTerritory.cno.canvas",
-    "generated_locations/location_gen 1.md",
+    "formatted_rules/general/wepon_traits_full/crew_operated.md",
     "generated_locations/Abandoned Factory.md",
+    "generated_locations/Rusted Spire.md",
+    "generated_locations/The Promethium Cache.md",
+    "generated_locations/Ravenhurst Ruins.md",
+    "docs/founding-a-gang/core-gang-creation.md",
+    "Cannoli College/Necromunda-Cannoli-Templates/createNomadGang.cno.canvas",
+    "textgenerator/templates/Experimental/conceptLinker.md",
+    "generated_locations/The Abyssal Depths.md",
+    "gang-docs/gang-lists/house-goliath/house-goliath.md",
+    "generated_gangs/orlock_1000_points 24.md",
+    "equipment/grenades/emp_grenade.md",
+    "docs/the-rules/wyrd-powers-mind-control.md",
+    "docs/the-rules/wyrd-powers.md",
+    "Cannoli College/Necromunda-Cannoli-Templates/createEscherGang.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/createEscherGang.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/linkTerritory.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/summary.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/formatTable.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/createTerritory2.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/createGang2.canvas",
+    "generated_gangs/escher_1000_points 3.md",
+    "generated_gangs/escher_1000_points.md",
+    "Cannoli College/Necromunda-Cannoli-Templates/createTerritory.cno.canvas",
+    "Necromunda_Docs/10-scenarios/scenario-list/005-sneak.md",
+    "generated_locations/location_gen.md",
+    "generated_locations/Scrapheap Market.md",
+    "generated_locations/location_gen 10.md",
+    "generated_locations/location_gen 7.md",
+    "generated_locations/location_gen 8.md",
+    "generated_locations/Blackout's Bounty.md",
+    "generated_locations/Cinderfall.md",
+    "generated_locations/location_gen 15.md",
+    "generated_locations/Narco Den.md",
+    "generated_locations/Rusted Reliquary.md",
+    "ElevenLabs/Audio/2024-05-24_14-03-59_David - deep.mp3",
+    "gang-docs/gang-additions/2-hangers-on-and-brutes/ambot.jpg",
+    "gang-docs/gang-additions/2-hangers-on-and-brutes/agitator.webp",
     "Cannoli College/2. Special arrows/3. Choice arrows.canvas",
     "textgenerator/templates/necromundaGenTemplates/territories",
-    "textgenerator/templates/necromundaGenTemplates/gangers/escher_ganger_template.md",
-    "generated_locations/location_gen 23.md",
-    "textgenerator/templates/necromundaGenTemplates/createTerr.md",
-    "generated_locations/location_gen 11.md",
-    "generated_locations/location_gen 4.md",
-    "generated_locations/location_gen 18.md",
-    "generated_locations/location_gen 16.md",
-    "generated_locations/location_gen 15.md",
-    "generated_locations/location_gen 14.md",
-    "generated_locations/location_gen 13.md",
-    "generated_locations/Old Ruins.md",
-    "generated_locations/location_gen 5.md",
-    "generated_locations/location_gen 20.md",
-    "generated_locations/location_gen 19.md",
-    "Cannoli College/1. Basics/4. System messages.canvas",
-    "Cannoli College/1. Basics/3. Branching.canvas",
-    "Cannoli College/1. Basics/2. Blank arrows.canvas",
-    "Cannoli College/3. Special nodes/3. Formatter nodes.canvas",
-    "Cannoli College/5. Groups/3. Loop group features.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/createTerritory.cno.canvas",
     "ElevenLabs/Audio/2024-04-30_16-33-10_David - deep.mp3",
     "ElevenLabs/Audio/2024-04-30_16-30-52_David - deep.mp3",
     "gangs/escher_gangs/poison_flowers",
@@ -264,9 +257,7 @@
     "formatted_rules/gang-rules",
     "formatted_rules/weapons/ranged_weapons/projectile/exclusive",
     "formatted_rules/weapons/ranged_weapons/projectile/knives",
-    "formatted_rules/weapons/ranged_weapons/projectile/crossbows",
-    "7-gangs/2-gang-additions/4-vehicles/ironcrawler.webp",
-    "7-gangs/2-gang-additions/2-hangers-on-and-brutes/agitator.webp",
+    "gang-docs/gang-additions/4-vehicles/ironcrawler.webp",
     "Necromunda_Docs/2-weapons-of-gang-war/blast-markers.jpg"
   ]
 }

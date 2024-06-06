@@ -1,8 +1,9 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
+  - scenario
+  - sector-mechanicus
+  - multi-player
+  - zone-mortalis
 ---
 
 # 23. Gang Moot

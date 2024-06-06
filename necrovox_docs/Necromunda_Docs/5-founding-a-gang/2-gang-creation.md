@@ -140,7 +140,7 @@ During a campaign, gangs may gain new equipment, either by purchasing it from ei
 - No fighter or Crew may discard a weapon. The gang fighters of Necromunda become attached to their weapons of choice and would rather hoard weapons than discard them.
 - No fighter may discard Wargear that grants the Mounted condition. Out in the ash wastes having access to transport means the difference between life and death and no fighter would discard theirs.
 - Fighters and Crew with the Gang Fighter (X) special rule that do not also have the Tools of the Trade special rule cannot be given a new weapon if it would take them above the limit of weapons allowed (three for fighters and two for Crew).
-- Fighters and Crew with the Tools of the Trade special rule can be given more than three weapons as they can have multiple Fighter cards, each representing a different ‘equipment set’, see [Equipment Sets](/docs/founding-a-gang/gang-creation#equipment-sets).
+- Fighters and Crew with the Tools of the Trade special rule can be given more than three weapons as they can have multiple Fighter cards, each representing a different ‘equipment set’, see [Equipment Sets](core-gang-creation.md#equipment-sets).
 
 ## Equipping A Vehicle
 

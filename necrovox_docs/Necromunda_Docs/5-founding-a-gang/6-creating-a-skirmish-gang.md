@@ -20,7 +20,7 @@ As in a campaign, a blank Fighter card or Vehicle card
 must be filled in for each member of the gang and
 for any Hangers-on, Brutes and Hired Guns, and all
 fighters, vehicles, Hired Guns, Brutes and Hangers-on
-must be represented by an appropriate model. Finally, all of the normal rules regarding gang composition must be followed, as described in [Gang Composition](/docs/founding-a-gang/gang-creation#gang-composition).
+must be represented by an appropriate model. Finally, all of the normal rules regarding gang composition must be followed, as described in [Gang Composition](core-gang-creation.md#gang-composition).
 
 Credits not spent when a Skirmish gang is founded are
 not added to a gang’s Stash, they are simply lost and

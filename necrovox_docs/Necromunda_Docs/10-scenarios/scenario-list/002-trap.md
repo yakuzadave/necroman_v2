@@ -1,13 +1,11 @@
 ---
 tags:
-  - Zone Mortalis
-  - Sector Mechanicus
-  - Core Rulebook Scenario 2023
+  - zone-mortalis
+  - sector-mechanicus
+  - scenarios
+  - core-rulebook
 description: In this scenario, one gang has ambushed another and is attempting to take out as many of the defenders as possible; the defenders are trying to return the favour.
 ---
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 2. The Trap
 
@@ -16,8 +14,6 @@ _“I don’t give a damn what ya think ya heard, ain’t no one foolish enough 
 
 In this scenario, one gang has ambushed another and is attempting to take out as many of the defenders as possible; the defenders are trying to return the favour.
 
-<Tabs>
-<TabItem value="2023" label="2023 Rulebook version" default>
 
 _Source: Necromunda 2023 Rulebook_
 
@@ -127,33 +123,30 @@ for each fighter when they are activated. If the test
 is failed, the fighter can only make one action in this
 round, instead of two.
 
-</TabItem>
-
-<TabItem value="2018" label="2018 Rulebook version">
 
 _Source: Necromunda 2018 Rulebook_  
 **Designed for: Zone Mortalis**
 
 _Although gangs usually prefer a fair fight, there are times when an enemy just needs takingdown…_
 
-<h2>Attacker & Defender</h2>
+## Attacker & Defender
 
 The gang who chose this scenario is the attacker, the other is the defender. Otherwise, randomize one gang to choose who to be attacker and defender.
 
-<h2>Battlefield</h2>
+## Battlefield
 
 The defender places the first tile. This tile marks the centre of the battlefield. Then take turns placing 4 more tiles, 2 each, adjacent to the first tile, forming a cross. The defender may place all the barricades.
 
-<h2>Crews</h2>
+## Crews
 
 - Custom (10)
 
-<h2>Tactics Cards</h2>
+## Tactics Cards
 
 - Custom (2).
 - Underdog (starting crew cost): +1 random per 100 credits.
 
-<h2>Deployment</h2>
+## Deployment
 
 The defender divides the crew into 2 or more groups. The defender then chooses one group and set up a fighter from that group in the centre of the central tile, then sets up the rest of the fighters in that group within 2” of the first fighter.
 
@@ -161,13 +154,13 @@ Then the attacker sets up their entire crew within 6” of the edge of the outer
 
 Finally, the defender set up the rest of their crew. Roll a D6 for each group. On a 6, they may be set up anywhere on the battlefield, at least 2” from an enemy fighter. Otherwise they must set up within 2” of the fighters already deployed in the central tile.
 
-<h2>Surprise Attack</h2>
+## Surprise Attack
 
 The defender rolls a D6, adding 1 to the result for each fighter they were able to set up outside their deployment zone. On a 7+, the defender automatically takes Priority in the first round. Otherwise, the attacker takes Priority.
 
 During the first round, make a Cool test for each fighter when they are activated. If failed, the fighter can only make one action this round instead of two.
 
-<h2>Objectives</h2>
+## Objectives
 
 Take out as many of the enemy as possible! Each gang scores points for each enemy fighter that goes Out of Action or flees:
 
@@ -181,15 +174,15 @@ The points rarely makes a difference. It’s mainly about being the last gang st
 
 :::
 
-<h2>Ending the Battle</h2>
+## Ending the Battle
 
 The battle ends when only one gang has fighters remaining (at the end of a round).
 
-<h2>Victory</h2>
+## Victory
 
 The gang that scored the most points is the winner. Otherwise it is a draw.
 
-<h2>Rewards</h2>
+## Rewards
 
 #### Credits
 
@@ -216,6 +209,3 @@ Standard rewards:
 - +2 to the winner.
 - +1 to both gangs if this was the first battle against each other.
 - -1 to any gang that bottled out.
-
-</TabItem>
-</Tabs>

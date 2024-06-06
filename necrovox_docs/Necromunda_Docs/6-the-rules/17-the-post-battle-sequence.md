@@ -426,7 +426,7 @@ weapon or Wargear that grants the [Mounted condition](/docs/general-principles/c
 once added to their Fighter cards. Remember as well that fighters with the Tools
 of the Trade special rule can have multiple Fighter
 cards, each representing a different set of equipment,
-as described on [Equipment Sets](/docs/founding-a-gang/gang-creation#equipment-sets).
+as described on [Equipment Sets](core-gang-creation.md#equipment-sets).
 
 ### E. Purchase Advancements
 

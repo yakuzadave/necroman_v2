@@ -1,9 +1,10 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
-  - End Game
+  - scenario
+  - sector-mechanicus
+  - zone-mortalis
+  - endgame
+  - multi-player
 ---
 
 # 32. Blaze of Glory: Escape The Hive

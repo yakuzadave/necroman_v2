@@ -17,8 +17,7 @@ _“Don’t be looking to start something, just crawl back to your hole in the s
 
 In this scenario, two gangs try to scare each other off.
 
-<Tabs>
-<TabItem value="2023" label="2023 Rulebook version" default>
+
 
 _Source: Necromunda 2023 Rulebook_
 
@@ -155,19 +154,19 @@ Bounty Hunters.
 
 _Source: Necromunda 2018 Rulebook_
 
-<h2>Battlefield</h2>
+## Battlefield</h2>
 
 The battlefield for this scenario represents a long tunnel, settlement main street or narrow gantry. For Zone Mortalis, use 3 tiles to create a straight corridor, with a clear line of sight from one side to the other. For Sector Mechanicus, the table size should be roughly 36”x12” with no terrain that blocks line of sight from one short end to the other.
 
-<h2>Crews</h2>
+## Crews</h2>
 
 - Random (D3+1).
 
-<h2>Tactics Cards</h2>
+## Tactics Cards</h2>
 
 - None.
 
-<h2>Deployment</h2>
+## Deployment</h2>
 
 Roll-off to see who deploys the crew first:
 
@@ -176,7 +175,7 @@ Roll-off to see who deploys the crew first:
 - Within 1” of at least one other friendly fighter
   Both crews should have line of sight to each other.
 
-<h2>Special Rule: Quick Draw</h2>
+## Special Rule: Quick Draw</h2>
 
 When a fighter activates, make a Cool test for them - as soon as one crew has failed a total of 6 Cool tests, they go for their guns!
 
@@ -198,15 +197,15 @@ For fighters activating simultaneously (tied go at the same time), work out any 
 
 Once the quick draw has been worked out, the following rounds are played as normal.
 
-<h2>Ending the Battle</h2>
+## Ending the Battle</h2>
 
 The battle ends when only one gang has fighters remaining.
 
-<h2>Victory</h2>
+## Victory</h2>
 
 The winner is the last gang with fighters on the battlefield.
 
-<h2>Rewards</h2>
+## Rewards</h2>
 
 #### Credits
 

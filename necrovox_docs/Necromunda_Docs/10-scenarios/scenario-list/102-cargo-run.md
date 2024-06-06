@@ -128,34 +128,34 @@ the route, the higher the bonus.
 
 _Source: Ash Wastes Rulebook_
 
-<h2>Attacker & Defender</h2>
+## Attacker & Defender</h2>
 
 The gang who chose this scenario is the attacker, the other is the defender. Otherwise, randomize one gang to choose who to be attacker and defender.
 
-<h2>Battlefield</h2>
+## Battlefield</h2>
 
 Standard (Ash Wastes):
 
 - Rolling Roads.
 - Recommended size: 6'x4'.
 
-<h2>Crews</h2>
+## Crews</h2>
 
 Custom (10). Vehicles can be included.
 
-<h2>Tactics Cards</h2>
+## Tactics Cards</h2>
 
 - Custom (2).
 - **Underdog** (starting crew cost): +1 random per 100 credits.
 
-<h2>Deployment</h2>
+## Deployment</h2>
 
 Take turns placing models (highest gang rating starts):
 
 - Within 12" of the Trailing Edge.
 - More than 1" from enemies.
 
-<h2>Dangerous Roads</h2>
+## Dangerous Roads</h2>
 
 At the start of round 2 (and each subsequent round):
 
@@ -173,18 +173,18 @@ The defender must choose a route. This will affect the modifier to reach the des
 | +2       | **Cliff sides & an ash crust:** Models moving off the sides are immediately taken Out of Action (suffering a Lasting Injury/Damage roll as normal). In addition, models moving less than 8" during an activation goes Out of Action suffering a Lasting Injury/Damage roll as normal (falls through the ash crust).                                     |
 | +3       | The battlefield has **impassible sides** (treat as a collision with impassible terrain if hit) and is **on fire**. At the start of their activation, all models must test to see if they catch fire just as if they had been hit by a weapon with a Blaze trait. In addition, vehicles must make a Loss of Control test at the end of their activation. |
 
-<h2>Ending the Battle</h2>
+## Ending the Battle</h2>
 
 The battle ends if any of the following are true:
 
 - Defenders reach the destination.
 - The vehicle carrying the cargo is destroyed.
 
-<h2>Victory</h2>
+## Victory</h2>
 
 If the attacker destroyed the vehicle carrying the cargo, the attacker wins. Otherwise the defender wins.
 
-<h2>Rewards</h2>
+## Rewards</h2>
 
 #### Credits
 

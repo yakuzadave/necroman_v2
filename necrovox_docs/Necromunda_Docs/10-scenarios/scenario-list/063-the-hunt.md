@@ -1,8 +1,9 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Solo
+  - solo
+  - sector-mechanicus
+  - zone-mortalis
+scenario-id: 63
 ---
 
 # 63. The Hunt

@@ -1,15 +1,15 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Ash Wastes
-  - Home Turf Advantage
-  - Core Rulebook Scenario 2023
+  - "2023"
+  - sector-mechanicus
+  - zone-mortalis
+  - ash-wastes
+  - home-advantage
+  - core-rulebook
+  - scenarios
 description: In this scenario, a gang tries to rescue a previously captured fighter from the clutches of their enemy.
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 # 11. Rescue Mission
 
@@ -18,8 +18,6 @@ _“Did I ever tell you about the time I escaped from the Bittersweet Blades usi
 
 In this scenario, a gang tries to rescue a previously captured fighter from the clutches of their enemy.
 
-<Tabs>
-<TabItem value="2023" label="2023 Rulebook version" default>
 
 _Source: Necromunda 2023 Rulebook_
 
@@ -160,34 +158,32 @@ If the defender voluntarily Bottles out and flees the
 battlefield, their opponent automatically wins the
 scenario and the Captives are freed.
 
-</TabItem>
 
-<TabItem value="2018" label="2018 Rulebook version">
 
 _Source: Necromunda 2018 Rulebook_
 
 _With one of their number in the hands of their rivals, a gang launches a daring rescue._
 
-<h2>Attacker & Defender</h2>
+## Attacker & Defender
 
 The gang who chose this scenario is the attacker, the other is the defender. Otherwise, randomize one gang to choose who to be attacker and defender.
 
-<h2>The Captives</h2>
+## The Captives
 
 In a campaign, this scenario can only be chosen if any of the attacker’s fighters have been captured by the defender. These fighters are the Captives. Otherwise the attacker picks one fighter as the Captive.
 
-<h2>Battlefield</h2>
+## Battlefield
 
 Standard. Any type (2D, 3D, Ash Wastes).
 
-<h2>Crews</h2>
+## Crews
 
 - **Attacker:** Custom. (Ash Wastes: can include vehicles).
 - **Defender:** Custom (5 Sentries) + Reinforcements (Ash Wastes: Reinforcements can include vehicles).
 
 If a sentry has multiple equipment sets, randomize which one is used.
 
-<h2>Home Turf Advantage</h2>
+## Home Turf Advantage
 
 Defender:
 
@@ -195,18 +191,18 @@ Defender:
 - **Rally tests:** +1.
 - **Hangers-on:** Included in the crew on a 4+ (roll individually).
 
-<h2>Tactics Cards</h2>
+## Tactics Cards
 
 - Attacker: Custom (3).
 - Defender: Random (2) (only usable after the alarm is raised).
 - Underdog (starting crew cost): +1 random per 100 credits.
 
-<h2>Deployment</h2>
+## Deployment
 
 1. Defender: Set up the Captive(s) & sentries anywhere.
 2. Attacker: Entire crew within 2" of any battlefield edges (free to use all edges).
 
-<h2>Reinforcements</h2>
+## Reinforcements
 
 - Defender: D6.
 - Each End phase (starting on the round the alarm is raised).
@@ -233,25 +229,25 @@ In each End phase, any Captive can attempt to escape. Roll 2D6 + Strength (indiv
 
 Freed Captives become Ready at the start of the following round and activate as normal. It is assumed that the rescuers return all equipment to them, or collect it from nearby.
 
-<h2>Taking Flight</h2>
+## Taking Flight
 
 Attackers within 1” of a battlefield edge at the start of the End phase can take flight (including Seriously Injured & Stationary). They count as being Out of Action for the purpose of Bottle tests.
 
-<h2>Fleeing the Battlefield</h2>
+## Fleeing the Battlefield
 
 If the defender voluntarily bottles out and flees the battlefield, the attacker automatically wins and all Captives are freed.
 
-<h2>Ending the Battle</h2>
+## Ending the Battle
 
 The battle ends when only one gang has fighters remaining (at the end of a round).
 
-<h2>Victory</h2>
+## Victory
 
 - Attacker: All Captives are freed and took flight.
 - Defender: No Captives took flight.
 - Otherwise it is a draw.
 
-<h2>Rewards</h2>
+## Rewards
 
 #### Experience
 
@@ -275,13 +271,9 @@ Standard rewards:
 - -1 to the defender per freed Captive.
 - -1 to any gang that bottled out.
 
-:::danger House Rule (Necrodamus, A&A)
-
+House Rule (Necrodamus, A&A)
 ### Infiltrate
 
 **Problem:** Infiltrate can be imbalanced or break this scenario.
 **Solution:** If at least one player wants, Infiltrate can't be used in this scenario. Instead, Infiltrating fighters can make 1 or 2 move actions before the first round.
-:::
 
-</TabItem>
-</Tabs>

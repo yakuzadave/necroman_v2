@@ -41,6 +41,8 @@
     "equipment": "multitext",
     "xp": "number",
     "advancements": "number",
-    "illegal": "checkbox"
+    "illegal": "checkbox",
+    "scenario-id": "number",
+    "excalidraw-embeddable-theme": "text"
   }
 }

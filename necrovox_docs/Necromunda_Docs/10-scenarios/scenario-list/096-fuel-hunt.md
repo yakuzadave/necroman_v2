@@ -108,24 +108,24 @@ opponent automatically wins the scenario.
 
 _Source: Ash Wastes Rulebook_
 
-<h2>Battlefield</h2>
+## Battlefield</h2>
 
 Standard (Ash Wastes). Size approximately 3'x3' to 4'x4'.
 
-<h2>Crews</h2>
+## Crews</h2>
 
 - Custom (D3+7). Can include vehicles.
 
-<h2>Tactics Cards</h2>
+## Tactics Cards</h2>
 
 - Custom (2).
 - **Underdog** (starting crew cost): +1 random per 100 credits.
 
-<h2>Deployment</h2>
+## Deployment</h2>
 
 Standard.
 
-<h2>Looting The Battlefield</h2>
+## Looting The Battlefield</h2>
 
 _Gangs are hunting for fuel caches and investigating anything they find to see if it contains fuel._
 
@@ -152,18 +152,18 @@ _Vehicles are running on vapours._
 
 When activating vehicles, roll a 2+ or become Stationary.
 
-<h2>Ending the Battle</h2>
+## Ending the Battle</h2>
 
 The battle ends if any of the following are true:
 
 - Max one gang has models remaining on the battlefield.
 - No more fuel caches on the battlefield.
 
-<h2>Victory</h2>
+## Victory</h2>
 
 The gang that gathered most points.
 
-<h2>Rewards</h2>
+## Rewards</h2>
 
 #### Credits
 

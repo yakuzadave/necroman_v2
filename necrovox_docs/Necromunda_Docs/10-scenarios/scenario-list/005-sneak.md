@@ -1,12 +1,13 @@
 ---
 tags:
-  - Zone Mortalis
-  - Home Turf Advantage
+  - zone-mortalis
+  - sector-mechanicus
+  - home-advantage
 ---
 
 # 5. Sneak Attack
 
-_A gang that really wants to make itself known may raid deep into an enemy territory, hoping to steal goodsand defile something sacred._
+_A gang that really wants to make itself known may raid deep into an enemy territory, hoping to steal goods and defile something sacred._
 
 _Source: Necromunda 2018 Rulebook_  
 **Designed for: Zone Mortalis**

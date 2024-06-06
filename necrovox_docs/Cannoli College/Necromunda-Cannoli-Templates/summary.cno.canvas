@@ -1,1 +1,9 @@
-{"nodes":[{"id":"8a1e98d7c3178e33","type":"text","text":"Create a summary for the following without losing details and while also maintaining the context of Necromunda:\n{{SELECTION}}","x":-125,"y":-240,"width":250,"height":120,"color":"4"},{"id":"cf7e6b29c5d9570f","type":"text","text":"{{SELECTION}}","x":-125,"y":-20,"width":585,"height":1340,"color":"6"}],"edges":[{"id":"fafec9542c6f4ce9","fromNode":"8a1e98d7c3178e33","fromSide":"bottom","toNode":"cf7e6b29c5d9570f","toSide":"top"}]}
+{
+	"nodes":[
+		{"id":"8a1e98d7c3178e33","type":"text","text":"Create a summary for the following without losing details and while also maintaining the context of Necromunda:\n{{SELECTION}}","x":-125,"y":-240,"width":293,"height":160,"color":"4"},
+		{"id":"cf7e6b29c5d9570f","type":"text","text":"{{SELECTION}}","x":-125,"y":-20,"width":585,"height":1340,"color":"6"}
+	],
+	"edges":[
+		{"id":"fafec9542c6f4ce9","fromNode":"8a1e98d7c3178e33","fromSide":"bottom","toNode":"cf7e6b29c5d9570f","toSide":"top"}
+	]
+}

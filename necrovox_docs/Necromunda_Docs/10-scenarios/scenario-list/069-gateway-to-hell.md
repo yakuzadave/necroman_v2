@@ -1,9 +1,11 @@
 ---
 tags:
-  - Sector Mechanicus
-  - Zone Mortalis
-  - Multi-player scenario
-  - End Game
+  - scenario
+  - endgame
+  - sector-mechanicus
+  - zone-mortalis
+  - Multi-player
+scenario-id: 69
 ---
 
 # 69. Gateway to Hell

@@ -461,7 +461,7 @@ very significant.
 
 A semi-perpetual campaign is a method based upon the idea of splinter gangs. After a campaign has ended, victors have been determined, Triumphs have been
 awarded and things have settled down, players create new gangs as described
-in [Gang Creation](/docs/founding-a-gang/gang-creation). Any player that was awarded a Triumph at the end of the previous
+in [Gang Creation](core-gang-creation.md). Any player that was awarded a Triumph at the end of the previous
 campaign and includes any fighters or Crew from their original gang receives
 additional benefits based on the Triumphs they were awarded, as described in
 the table below:

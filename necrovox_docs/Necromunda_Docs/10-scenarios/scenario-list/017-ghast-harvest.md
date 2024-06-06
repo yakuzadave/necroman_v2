@@ -178,29 +178,29 @@ Attack rules.
 _Source: Necromunda 2018 Rulebook_  
 _Gangs scour the Underhive for raw ghast._
 
-<h2>Battlefield</h2>
+## Battlefield</h2>
 
 Standard.
 
-<h2>Crews</h2>
+## Crews</h2>
 
 - Custom (D3+4).
 
-<h2>Tactics Cards</h2>
+## Tactics Cards</h2>
 
 - Random (2).
 
 Cards can only be played on a 4+. If failed, it has no effect and is discarded. Draw another random card to replace it.
 
-<h2>Deployment</h2>
+## Deployment</h2>
 
 Standard.
 
-<h2>Objectives</h2>
+## Objectives</h2>
 
 Gather as much unrefined ghast as possible, and take out any enemy fighters that get in their way.
 
-<h2>Special Rule: Harvesting Ghast</h2>
+## Special Rule: Harvesting Ghast</h2>
 
 After setting up the battlefield, starting with the player with priority, take turns placing 4 ghast deposits.
 
@@ -230,19 +230,19 @@ Random psychic power (from this list or any universal discipline):
 5. Terrify (Double)
 6. Quickening (Basic), Continuous Effect
 
-<h2>Fleeing the Battlefield</h2>
+## Fleeing the Battlefield</h2>
 
 If a gang voluntarily bottles out and flees the battlefield, their opponent automatically wins the scenario. If the attacker wins this way, place D3 extra ghast tokens on each fighter in the crew not Prone and Seriously Injured or Out of Action at the end of the battle (there is no risk of being affected by the unrefined ghast).
 
-<h2>Ending the Battle</h2>
+## Ending the Battle</h2>
 
 The battle ends when only one gang has fighters remaining.
 
-<h2>Victory</h2>
+## Victory</h2>
 
 The gang with the most ghast tokens at the end of the battle is the winner - otherwise it is a draw.
 
-<h2>Rewards</h2>
+## Rewards</h2>
 
 #### Credits
 

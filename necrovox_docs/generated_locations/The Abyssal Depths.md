@@ -6,7 +6,7 @@
 ## Description
 * *The Abyssal Depths** *
 Location Type: Territory
-Income: `dice: 1d6`
+Income: `dice: 2d6`
 The Abyssal Depths are a treacherous and unforgiving territory, characterized by narrow tunnels, toxic waste, and unpredictable gas pockets. This territory is perfect for gangs that thrive in chaos and uncertainty.
 
 As you venture into The Abyssal Depths, the air grows thick with noxious fumes and the sound of dripping water echoes through the tunnels. The walls are slick with oil and grime, making every step a precarious balance between slipping and falling or getting stuck in the narrow passages. The darkness is only illuminated by the faint glow of luminescent fungi growing on the walls, casting an eerie light on the desolate landscape.
