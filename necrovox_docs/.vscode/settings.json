@@ -1,0 +1,9 @@
+{
+    "obsidian-md-vsc.defaultVault": "necrovox_docs",
+    "obsidian-md-vsc.defaultVaultPath": "D:\\I_Drive_Backup\\Projects\\necroman_v2\\necrovox_docs",
+    "obsidian-md-vsc.defaultNote": "Ash_Wastes",
+    "frontMatter.framework.id": "hugo",
+    "frontMatter.content.publicFolder": "static",
+    "frontMatter.preview.host": "http://localhost:1313",
+    "frontMatter.git.enabled": true
+}

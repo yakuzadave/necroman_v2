@@ -1,3 +1,13 @@
+---
+title: Weapons of Gang War
+description: Covering the basics of Necromunda Gang weapons
+date: 2024-06-06T16:34:57.000Z
+tags:
+    - core-rules
+    - gangs
+categories:
+    - core-rules
+---
 # Weapons of (Gang) War
 
 _Source: Necromunda Core Rulebook (2023)_

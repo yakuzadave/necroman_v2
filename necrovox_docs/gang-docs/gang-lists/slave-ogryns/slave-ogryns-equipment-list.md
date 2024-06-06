@@ -1,6 +1,13 @@
 ---
-sidebar_position: 2
+title: Slave Ogryns Equipment List
+description: Slave Ogryns Equipment List for Necromunda
+keywords:
+    - gangs
+    - ogryns
+    - equipment
+slug: slave-ogryns-equipment-list
 ---
+
 
 # Slave Ogryns Equipment List
 

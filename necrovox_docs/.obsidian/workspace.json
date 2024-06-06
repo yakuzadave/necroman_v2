@@ -207,8 +207,10 @@
       "cannoli:Start/stop cannoli": false
     }
   },
-  "active": "26276367ccc2c7ff",
+  "active": "137786985d739b83",
   "lastOpenFiles": [
+    "Necromunda_Docs/2024-06-06-generated-gangs.md",
+    "frontmatter.json",
     "formatted_rules/general/wepon_traits_full/crew_operated.md",
     "generated_locations/Abandoned Factory.md",
     "generated_locations/Rusted Spire.md",
@@ -243,7 +245,6 @@
     "generated_locations/Cinderfall.md",
     "generated_locations/location_gen 15.md",
     "generated_locations/Narco Den.md",
-    "generated_locations/Rusted Reliquary.md",
     "ElevenLabs/Audio/2024-05-24_14-03-59_David - deep.mp3",
     "gang-docs/gang-additions/2-hangers-on-and-brutes/ambot.jpg",
     "gang-docs/gang-additions/2-hangers-on-and-brutes/agitator.webp",
@@ -256,7 +257,6 @@
     "formatted_rules/scenarios",
     "formatted_rules/gang-rules",
     "formatted_rules/weapons/ranged_weapons/projectile/exclusive",
-    "formatted_rules/weapons/ranged_weapons/projectile/knives",
     "gang-docs/gang-additions/4-vehicles/ironcrawler.webp",
     "Necromunda_Docs/2-weapons-of-gang-war/blast-markers.jpg"
   ]
