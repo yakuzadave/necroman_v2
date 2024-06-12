@@ -25,14 +25,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
+                "file": "gangs/chaos_gangs/the_changed/the_changed_gang_info.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "cbdb3e85331a963b",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory.cno.canvas",
+                "viewState": {
+                  "x": -830,
+                  "y": -10.000000000000455,
+                  "zoom": -3.177791972648108
+                }
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
+                "file": "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory.cno.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md",
+                "file": "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory.cno.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "formatted_rules/general/wepon_traits_full/rapid_fire.md"
+                "file": "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory.cno.canvas"
               }
             }
           },
@@ -207,56 +222,55 @@
       "cannoli:Start/stop cannoli": false
     }
   },
-  "active": "137786985d739b83",
+  "active": "cbdb3e85331a963b",
   "lastOpenFiles": [
-    "Necromunda_Docs/2024-06-06-generated-gangs.md",
-    "frontmatter.json",
-    "formatted_rules/general/wepon_traits_full/crew_operated.md",
-    "generated_locations/Abandoned Factory.md",
-    "generated_locations/Rusted Spire.md",
-    "generated_locations/The Promethium Cache.md",
-    "generated_locations/Ravenhurst Ruins.md",
+    "Cannoli College/Necromunda-Cannoli-Templates/Util/summary.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/Util",
+    "Cannoli College/Necromunda-Cannoli-Templates/Territories",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs/Gangers",
+    "Cannoli College/Necromunda-Cannoli-Templates/Util/linkTerritory.cno.canvas",
     "docs/founding-a-gang/core-gang-creation.md",
-    "Cannoli College/Necromunda-Cannoli-Templates/createNomadGang.cno.canvas",
-    "textgenerator/templates/Experimental/conceptLinker.md",
-    "generated_locations/The Abyssal Depths.md",
-    "gang-docs/gang-lists/house-goliath/house-goliath.md",
-    "generated_gangs/orlock_1000_points 24.md",
-    "equipment/grenades/emp_grenade.md",
+    "Ash_Wastes.md",
+    "gangs/chaos_gangs/the_changed/corvus.md",
+    "Blaze condition.md",
+    "gangs/chaos_gangs/the_changed/fenris.md",
+    "gangs/chaos_gangs/khakri.md",
+    "gangs/chaos_gangs/the_changed/marduk_chaos.md",
+    "gangs/gene_stealer_gangs/blood_brothers/narco_scum_1.md",
+    "gangs/gene_stealer_gangs/blood_brothers/narco_scum_2.md",
+    "textgenerator/templates/necromundaGenTemplates/gangers/orlock_ganger.md",
+    "Technologies Bazaar.md",
+    "gangs/chaos_gangs/the_changed/sha_hadur.md",
+    "gangs/chaos_gangs/the_changed/devriss.md",
+    "textgenerator/templates/necromundaGenTemplates/gangSummary.md",
+    "templates/base_templates/ranged_weapon_template.md",
+    "formatted_rules/general/wepon_traits_full/exclusive.md",
+    "docs/the-rules/shooting.md",
     "docs/the-rules/wyrd-powers-mind-control.md",
-    "docs/the-rules/wyrd-powers.md",
-    "Cannoli College/Necromunda-Cannoli-Templates/createEscherGang.cno.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/createEscherGang.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/linkTerritory.cno.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/summary.cno.canvas",
+    "formatted_rules/general/wepon_traits_full/backstab.md",
+    "gangs/chaos_gangs/the_changed/the_changed_gang_info.md",
+    "gangs/chaos_gangs/the_changed/ferrik.md",
+    "gangs/chaos_gangs/the_changed/zuka_chaos.md",
+    "gangs/gene_stealer_gangs/blood_brothers/zuka.md",
+    "gangs/chaos_gangs/the_changed",
+    "gangs/chaos_gangs",
+    "gangs/gene_stealer_gangs/blood_brothers/blood_brothers_gang_details.md",
+    "gangs/gene_stealer_gangs/blood_brothers/narco_scum1.md",
+    "gangs/van_saar_gangs/4th_state",
+    "gangs/van_saar_gangs",
+    "gangs/gene_stealer_gangs/blood_brothers",
+    "gangs/gene_stealer_gangs",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs/createNomadGang.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs/createEscherGang.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs/createEscherGang.canvas",
     "Cannoli College/Necromunda-Cannoli-Templates/formatTable.cno.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/createTerritory2.cno.canvas",
-    "Cannoli College/Necromunda-Cannoli-Templates/createGang2.canvas",
-    "generated_gangs/escher_1000_points 3.md",
-    "generated_gangs/escher_1000_points.md",
-    "Cannoli College/Necromunda-Cannoli-Templates/createTerritory.cno.canvas",
-    "Necromunda_Docs/10-scenarios/scenario-list/005-sneak.md",
-    "generated_locations/location_gen.md",
-    "generated_locations/Scrapheap Market.md",
-    "generated_locations/location_gen 10.md",
-    "generated_locations/location_gen 7.md",
-    "generated_locations/location_gen 8.md",
-    "generated_locations/Blackout's Bounty.md",
-    "generated_locations/Cinderfall.md",
-    "generated_locations/location_gen 15.md",
-    "generated_locations/Narco Den.md",
-    "ElevenLabs/Audio/2024-05-24_14-03-59_David - deep.mp3",
+    "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory2.cno.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/Gangs/createGang2.canvas",
+    "Cannoli College/Necromunda-Cannoli-Templates/Territories/createTerritory.cno.canvas",
     "gang-docs/gang-additions/2-hangers-on-and-brutes/ambot.jpg",
     "gang-docs/gang-additions/2-hangers-on-and-brutes/agitator.webp",
     "Cannoli College/2. Special arrows/3. Choice arrows.canvas",
-    "textgenerator/templates/necromundaGenTemplates/territories",
-    "ElevenLabs/Audio/2024-04-30_16-33-10_David - deep.mp3",
-    "ElevenLabs/Audio/2024-04-30_16-30-52_David - deep.mp3",
-    "gangs/escher_gangs/poison_flowers",
-    "docs/founding-a-gang",
-    "formatted_rules/scenarios",
-    "formatted_rules/gang-rules",
-    "formatted_rules/weapons/ranged_weapons/projectile/exclusive",
     "gang-docs/gang-additions/4-vehicles/ironcrawler.webp",
     "Necromunda_Docs/2-weapons-of-gang-war/blast-markers.jpg"
   ]

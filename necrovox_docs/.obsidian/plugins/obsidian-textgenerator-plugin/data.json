@@ -83,7 +83,12 @@
     "ImageExtractor": true
   },
   "displayErrorInEditor": false,
-  "LLMProviderProfiles": {},
+  "LLMProviderProfiles": {
+    "Ollama (Langchain) 1": {
+      "extends": "Ollama (Langchain)",
+      "name": "Ollama 1"
+    }
+  },
   "LLMProviderOptions": {
     "whisper": {
       "base_path": "https://api.openai.com/v1",
@@ -93,6 +98,10 @@
       "basePath": "https://api.openai.com/v1"
     },
     "Ollama (Langchain)": {
+      "basePath": "https://jupy2.ngrok.app",
+      "model": "necromunda-arbitrator"
+    },
+    "Ollama (Langchain) 1": {
       "basePath": "https://jupy2.ngrok.app",
       "model": "necromunda-arbitrator"
     }

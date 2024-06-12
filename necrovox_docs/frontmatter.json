@@ -46,18 +46,5 @@
       ]
     }
   ],
-  "frontMatter.content.pageFolders": [
-    {
-      "title": "gang-docs",
-      "path": "[[workspace]]/gang-docs"
-    },
-    {
-      "title": "Necromunda_Docs",
-      "path": "[[workspace]]/Necromunda_Docs"
-    },
-    {
-      "title": "formatted_rules",
-      "path": "[[workspace]]/formatted_rules"
-    }
-  ]
+  "frontMatter.content.pageFolders": []
 }
